@@ -45,7 +45,7 @@
                                 <div class="product-search-ajax">
                                     <div class="items-search-ajax">
                                         <div class="img-search-ajax">
-                                            <img class="pt-1 mr-2" src="../../public/images/honey-compressor.jpg" alt="">
+                                            <img class="pt-1 mr-2" src="../assets/honey-compressor.jpg" alt="">
                                         </div>
                                         <div class="title-search-ajax">
                                             <p>عسل بهارنارنج ده کیلویی</p>
@@ -53,7 +53,7 @@
                                     </div>
                                     <div class="items-search-ajax">
                                         <div class="img-search-ajax">
-                                            <img class="pt-1 mr-2" :src="require('../../public/images/honey-compressor.jpg')" alt="">
+                                            <img class="pt-1 mr-2" src="../assets/honey-compressor.jpg" alt="">
                                         </div>
                                         <div class="title-search-ajax">
                                             <p>عسل بهارنارنج ده کیلویی</p>
