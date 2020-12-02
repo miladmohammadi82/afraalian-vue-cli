@@ -1,5 +1,5 @@
 <template>
-    <fixed-header :threshold="100">
+   
         <header class="header">
         <div class="container-grid">
             <nav class="main-nav">
@@ -79,12 +79,10 @@
 
         </div>
         </header>
-    </fixed-header>
   
 </template>
 
 <script>
-import FixedHeader from 'vue-fixed-header'
 export default {
     
     data(){
@@ -124,7 +122,6 @@ export default {
     },
 
     components: {
-        FixedHeader
     }
 
 }
