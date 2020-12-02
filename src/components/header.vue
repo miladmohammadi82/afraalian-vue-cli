@@ -178,7 +178,7 @@ export default {
 
 .main-nav ul li{
     padding-right: 14px;
-    margin: 0 0 0 4px;
+    margin: 0 0 0 12px;
 }
 
 .main-nav ul li a{
@@ -372,12 +372,13 @@ export default {
 }
 
 .main-nav ul.main-menu .nav-link a.a-nav-link::before{
-    content: "";
+        content: "";
     position: absolute;
-    right: 0;
+    right: 9px;
+    top: 28px;
     bottom: .5rem;
     background: #FF6D00;
-    width: 78%;
+    width: 86%;
     height: 2px;
     transform: scale(0);
     -webkit-transform: scale(0);
@@ -385,11 +386,11 @@ export default {
     -ms-transform: scale(0);
     -o-transform: scale(0);
     transform-origin: right;
-    transition: transform 500ms;
-    -webkit-transition: transform 500ms;
-    -moz-transition: transform 500ms;
-    -ms-transition: transform 500ms;
-    -o-transition: transform 500ms;
+    transition: transform 400ms;
+    -webkit-transition: transform 400ms;
+    -moz-transition: transform 400ms;
+    -ms-transition: transform 400ms;
+    -o-transition: transform 400ms;
 }
 
 .main-nav ul.main-menu .nav-link a:hover::before{
@@ -520,6 +521,19 @@ export default {
 }
 
 @media (max-width: 1050px){
+    .main-nav ul li:last-child{
+        display: block;
+    }
+}
+
+@media (max-width: 599px){
+    .main-nav ul li:last-child{
+        display: none
+    }
+}
+
+
+@media (max-width: 1050px){
     
     .menu-btn .menu-btn-burger{
         display: block;
@@ -587,7 +601,6 @@ export default {
     }
 
     .main-nav ul.main-menu li#register-btn-mobile{
-        display: none;
         text-align: left;
         justify-content: left;
         background: #FFAA00;
@@ -638,6 +651,8 @@ export default {
 .right-menu li:last-child{
         display: none;
     }
+    
+    
 }
 
 </style>
