@@ -71,7 +71,7 @@
                         <div class="conter-shopping-cart"><span>0</span></div>
                     </li>
                     <li>
-                        <button class="btn-register-system">ورود</button>
+                        <button class="btn-register-system" style="margin-left: 5px;">ورود</button>
                         <button class="btn-register-system">ثبت نام</button>
                     </li>
                 </ul>
@@ -414,6 +414,10 @@ export default {
     opacity: 1;
 }
 
+.right-menu div li button:first-child{
+    margin-right: 5px;
+}
+
 .searchbox{
     min-width: 17%;
     text-align: center;
@@ -515,5 +519,125 @@ export default {
     color: #fff;
 }
 
+@media (max-width: 1050px){
+    
+    .menu-btn .menu-btn-burger{
+        display: block;
+    }
+    .main-nav ul.main-menu{
+        display: block;
+        width: 50%;
+        background: #fff;
+        right: 0;
+        position: fixed;
+        height: calc(100% - 3rem);
+        top: 100px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0;
+        line-height: 60px;
+        z-index: 200;
+        overflow-x: hidden;
+        overflow-y: auto;
+        transform: translateX(607px);
+        transition: 1s;
+        border-left: 2px solid #FF6D00;
+        -webkit-transform: translateX(607px);
+        -moz-transform: translateX(607px);
+        -ms-transform: translateX(607px);
+        -o-transform: translateX(607px);
+        top: 70px;
+        opacity: 80%;
+    }
+
+    .main-nav ul.main-menu li.nav-link{
+        margin-right: 13px;
+        border-bottom: 1px solid #d2d2d2;
+    }
+
+    .nav-link:hover .dropdown {
+        transform: translate(0,0);
+        pointer-events: auto;
+        display: block;
+        padding-top: 0;
+        background: #FFAA00;
+        border-radius: 0;
+        width: 100%;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+        height: 155px;
+    }
+    
+    .dropdown ul{
+        background: #FFAA00;
+        box-shadow: 0 0 0 0;
+        border: none;
+    }
+
+    .main-nav ul.main-menu .nav-link a.a-nav-link::before{
+        display: none;
+    }
+
+    .main-nav ul.main-menu.show{
+        transform: translateX(10px);
+        transition: .5s;
+    }
+
+    .main-nav ul.main-menu li#register-btn-mobile{
+        display: none;
+        text-align: left;
+        justify-content: left;
+        background: #FFAA00;
+    }
+
+    .main-nav ul.main-menu li a{
+        font-size: 16px;
+        color: #262626;
+    }
+
+    .main-nav ul.main-menu li{
+        line-height: 20px;
+    }
+
+    .main-menu .search-mobile input{
+        display: block;
+        border: none;
+        background: #ffffff;
+        height: 40px;
+        min-width: 90%;
+        border-radius: 10px;
+    }
+
+    .dropdown{
+        position: inherit;
+        top: inherit;
+        left: inherit;
+        right: inherit;
+        pointer-events: auto;
+        width: 100%;
+        opacity: 1;
+        margin: 0;
+        display: none;
+        padding: 0;
+        background: #d56400;
+        height: 200px;
+        border-radius: 0 0 20px 20px;
+    }
+
+    .dropdown ul li{
+        padding-bottom: -50px;
+    }
+
+    .dropdown ul{
+        padding-bottom: 10px;
+    }
+
+.right-menu li:last-child{
+        display: none;
+    }
+}
 
 </style>
