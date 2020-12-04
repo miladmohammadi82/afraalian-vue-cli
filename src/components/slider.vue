@@ -5,9 +5,9 @@
                     <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                         <!-- Slides -->
-                        <div class="swiper-slide"><img src="./images/image-slider/banner1.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="./images/image-slider/banner2.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="./images/image-slider/banner3.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../assets/slider/banner1.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../assets/slider/banner2.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../assets/slider/banner3.jpg" alt=""></div>
                     <!-- Add Pagination -->
                     <div class="swiper-pagination "></div>
                     <!-- Add Arrows -->
