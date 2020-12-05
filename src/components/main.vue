@@ -59,15 +59,19 @@
          <!-- End servisess -->
 
 
+
+
          <section id="top-sale">
             <div class="container py-5">
                 <h4>
                     <span>محصولات ما</span>
                 </h4>
                 <!-- owl-carousel -->
-                    <div class="swiper-container pt-4">
-                      <div class="swiper-wrapper">
-                        <div class="swiper-slide">
+
+                    <swiper dir="rtl" class="container" :autoplay="{ delay: 2500, disableOnInteraction: false }" :slides-per-view="4" :space-between="30" :pagination="{ clickable: true, el: '.slider-pagination' }">
+
+                      
+                        <swiper-slide>
                             <div class="product">
                                 <a href="#"><img src="./images/product-img/download.jpg" alt=""
                                                  class="img-fluid"></a>
@@ -82,8 +86,10 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="swiper-slide">
+                        </swiper-slide>
+
+
+                        <swiper-slide>
                             <div class="product">
                                 <a href="#"><img src="./images/product-img/download.jpg" alt=""
                                                  class="img-fluid"></a>
@@ -98,8 +104,10 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="swiper-slide">
+                        </swiper-slide>
+
+
+                        <swiper-slide>
                             <div class="product">
                                 <a href="#"><img src="./images/product-img/download.jpg" alt=""
                                                  class="img-fluid"></a>
@@ -114,8 +122,10 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="swiper-slide">
+                        </swiper-slide>
+
+
+                        <swiper-slide>
                             <div class="product">
                                 <a href="#"><img src="./images/product-img/download.jpg" alt=""
                                                  class="img-fluid"></a>
@@ -130,8 +140,9 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="swiper-slide">
+                        </swiper-slide>
+                        
+                        <swiper-slide>
                             <div class="product">
                                 <a href="#"><img src="./images/product-img/download.jpg" alt=""
                                                  class="img-fluid"></a>
@@ -146,8 +157,9 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="swiper-slide">
+                        </swiper-slide>
+                        
+                        <swiper-slide>
                             <div class="product">
                                 <a href="#"><img src="./images/product-img/download.jpg" alt=""
                                                  class="img-fluid"></a>
@@ -162,10 +174,10 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                      </div>
+                        </swiper-slide>
+                      
                       <div class="swiper-pagination"></div>
-                    </div>
+                    </swiper>
                 <!-- owl-carousel -->
             </div>
         </section>
@@ -173,7 +185,11 @@
 </template>
 
 <script>
-
+    import { Swiper, SwiperSlide } from "swiper/vue";
+    import SwiperCore, { Autoplay, Pagination, A11y } from "swiper";
+    
+    import "swiper/swiper-bundle.css";
+    SwiperCore.use([Autoplay, Pagination, A11y]);
 export default{
     data(){
         return{
@@ -183,7 +199,12 @@ export default{
                 { slider: require('../assets/slider/banner3.jpg'), alt: "honey-banner3" },
             ]
         }
-    }
+    },
+
+    components: {
+        Swiper,
+        SwiperSlide,
+    },
 }
 </script>
 
