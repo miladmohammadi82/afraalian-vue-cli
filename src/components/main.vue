@@ -2,33 +2,35 @@
     <main class="main-site">
         <section class="banner-arias" id="banner-aria">
             <div class="container">
-
                 <div class="swiper-container p-0 m-0 container">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img class="w-100" src="../assets/slider/banner1.jpg" alt=""></div>
-                        <div class="swiper-slide"><img class="w-100" src="../assets/slider/banner2.jpg" alt=""></div>
-                        <div class="swiper-slide"><img class="w-100" src="../assets/slider/banner3.jpg" alt=""></div>
+                        <div class="swiper-slide" v-for="image in images" :key="image.id">
+                            <img class="w-100" :src="image.slider" :alt="images.alt">
+                        </div>
                     </div>
-                    
-                    
                     <div class="swiper-pagination swiper-pagination-white"></div>
-                    
-                    
                     <div class="swiper-button-next swiper-button-white"></div>
                     <div class="swiper-button-prev swiper-button-white"></div>
                 </div>
-
-
             </div>
         </section>
-    </main>
 
+        
+    </main>
 </template>
 
 <script>
 
 export default{
-    
+    data(){
+        return{
+            images: [
+                { slider: require('../assets/slider/banner1.jpg'), alt: "honey-banner1" },
+                { slider: require('../assets/slider/banner2.jpg'), alt: "honey-banner2" },
+                { slider: require('../assets/slider/banner3.jpg'), alt: "honey-banner3" },
+            ]
+        }
+    }
 }
 </script>
 
