@@ -15,7 +15,48 @@
             </div>
         </section>
 
-        
+        <!-- Start servisess -->
+         
+        <div class="container">
+            <div class="servisess">
+                <div class="items-servisess">
+                    <div class="servisess-item">
+                        <img width="100px" src="./images/servisess-img/free-send.svg" alt="">
+                        <p>ارسال رایگان به سراسر کشور</p>
+                        <br>
+                        <small>
+                            اگر از سایت فلان خرید کنید ما برای تمامی محصولات زنبور عسل ارسال رایگان را در نظر گرفته ایم
+                        </small>
+                    </div>
+                    <div class="servisess-item">
+                        <img width="100px" src="./images/servisess-img/rerurn-product.svg" alt="">
+                        <p>ضمانت بازگشت وجه</p>
+                        <br>
+                        <small>
+                            در صورت طبیعی نبودن محصول کل مبلغ پرداخت شده از شما را بهتا بر میگردانیم 
+                        </small>
+                    </div>
+                    <div class="servisess-item">
+                        <img width="100px" src="./images/servisess-img/support-24.svg" alt="">
+                        <p>پشتیبانی 24 ساعته</p>
+                        <br>
+                        <small>
+                            ما در 24 ساعت پاسخ گوی شما عزیزان هستیم 
+                        </small>
+                    </div>
+                    <div class="servisess-item">
+                        <img width="100px" src="./images/servisess-img/tarxk-time.svg" alt="">
+                        <p>ارسال سریع محصول</p>
+                        <br>
+                        <small>
+                            بعد از خرید محصول رو خیلی سریع تحویلتان میدهیم
+                        </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <!-- End servisess -->
     </main>
 </template>
 
