@@ -643,6 +643,21 @@ body {
     }
 }
 
+/* @media(max-width: 500px){
+    .header{
+        padding: 0;
+        margin: 0;
+    }
+}
+@media(max-width: 572px){
+    .swiper-container-android .swiper-slide, .swiper-wrapper {
+        padding: 0;
+        margin: 0;
+    }
+} */
+
+
+
 .v-window__prev{
     margin-right: 40px;
 }

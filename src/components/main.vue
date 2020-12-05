@@ -6,9 +6,9 @@
 
                 <div class="swiper-container p-0 m-0 container">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img class="w-100 img-slider container" src="../assets/slider/banner1.jpg" alt=""></div>
-                        <div class="swiper-slide"><img class="w-100 img-slider container" src="../assets/slider/banner2.jpg" alt=""></div>
-                        <div class="swiper-slide"><img class="w-100 img-slider container" src="../assets/slider/banner3.jpg" alt=""></div>
+                        <div class="swiper-slide"><img class="w-100" src="../assets/slider/banner1.jpg" alt=""></div>
+                        <div class="swiper-slide"><img class="w-100" src="../assets/slider/banner2.jpg" alt=""></div>
+                        <div class="swiper-slide"><img class="w-100" src="../assets/slider/banner3.jpg" alt=""></div>
                     </div>
                     <!-- Add Pagination -->
                     <div class="swiper-pagination swiper-pagination-white"></div>
@@ -42,6 +42,12 @@
     }
 
     @media(max-width: 500px){
-
+        .container, .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+            width: 93%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
     }
 </style>
