@@ -1,32 +1,47 @@
 <template>
-  <div class="main-site">
-      <section class="banner-arias" id="banner-aria">
+    <main class="main-site">
+        <section class="banner-arias" id="banner-aria">
             <div class="container">
-                <div class="swiper-container-img">
-                    <!-- Additional required wrapper -->
+                
+
+                <div class="swiper-container p-0 m-0 container">
                     <div class="swiper-wrapper">
-                        <!-- Slides -->
-                        <div class="swiper-slide"><img src="../assets/slider/banner1.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="../assets/slider/banner2.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="../assets/slider/banner3.jpg" alt=""></div>
+                        <div class="swiper-slide"><img class="w-100 img-slider container" src="../assets/slider/banner1.jpg" alt=""></div>
+                        <div class="swiper-slide"><img class="w-100 img-slider container" src="../assets/slider/banner2.jpg" alt=""></div>
+                        <div class="swiper-slide"><img class="w-100 img-slider container" src="../assets/slider/banner3.jpg" alt=""></div>
                     </div>
                     <!-- Add Pagination -->
-                    <div class="swiper-pagination "></div>
+                    <div class="swiper-pagination swiper-pagination-white"></div>
                     <!-- Add Arrows -->
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next swiper-button-white"></div>
+                    <div class="swiper-button-prev swiper-button-white"></div>
                 </div>
+
+
             </div>
         </section>
-  </div>
+    </main>
+
 </template>
 
-<script>
-export default {
 
-}
-</script>
+<style scoped>
+.swiper-container-img {
+    width: 100%;
+    height: 100%;
+  }
 
-<style>
+  .swiper-slide-img{
+    background-position: center;
+    background-size: cover;
+  }
 
+    .swiper-button-prev.swiper-button-white, .swiper-button-next.swiper-button-white {
+        --swiper-navigation-color: #ffffff;
+        color: #f1b605;
+    }
+
+    @media(max-width: 500px){
+
+    }
 </style>
