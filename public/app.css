@@ -642,22 +642,6 @@ body {
         display: none;
     }
 }
-
-/* @media(max-width: 500px){
-    .header{
-        padding: 0;
-        margin: 0;
-    }
-}
-@media(max-width: 572px){
-    .swiper-container-android .swiper-slide, .swiper-wrapper {
-        padding: 0;
-        margin: 0;
-    }
-} */
-
-
-
 .v-window__prev{
     margin-right: 40px;
 }
@@ -687,6 +671,7 @@ body {
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
+    width: 100px;
 }
 
 .servisess .items-servisess .servisess-item:hover img{
