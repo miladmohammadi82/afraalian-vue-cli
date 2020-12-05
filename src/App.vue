@@ -1,18 +1,16 @@
 <template>
   <header-section></header-section>
-  <slider-vue></slider-vue>
+  
 </template>
 
 <script>
-import headerSection from './components/header'
-import sliderVue from './components/slider.vue'
+import headerSection from './components/header';
 
 
 export default {
   name: 'App',
   components: {
     headerSection,
-    sliderVue
   }
 }
 </script>
