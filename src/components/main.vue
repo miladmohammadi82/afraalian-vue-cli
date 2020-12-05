@@ -2,7 +2,6 @@
     <main class="main-site">
         <section class="banner-arias" id="banner-aria">
             <div class="container">
-                
 
                 <div class="swiper-container p-0 m-0 container">
                     <div class="swiper-wrapper">
@@ -10,9 +9,11 @@
                         <div class="swiper-slide"><img class="w-100" src="../assets/slider/banner2.jpg" alt=""></div>
                         <div class="swiper-slide"><img class="w-100" src="../assets/slider/banner3.jpg" alt=""></div>
                     </div>
-                    <!-- Add Pagination -->
+                    
+                    
                     <div class="swiper-pagination swiper-pagination-white"></div>
-                    <!-- Add Arrows -->
+                    
+                    
                     <div class="swiper-button-next swiper-button-white"></div>
                     <div class="swiper-button-prev swiper-button-white"></div>
                 </div>
@@ -24,6 +25,12 @@
 
 </template>
 
+<script>
+
+export default{
+    
+}
+</script>
 
 <style scoped>
 .swiper-container-img {
