@@ -21,7 +21,7 @@
             <div class="servisess">
                 <div class="items-servisess">
                     <div class="servisess-item">
-                        <img width="100px" src="./images/servisess-img/free-send.svg" alt="">
+                        <img width="100px" src="../assets/image-servisess/free-send.svg" alt="">
                         <p>ارسال رایگان به سراسر کشور</p>
                         <br>
                         <small>
@@ -29,7 +29,7 @@
                         </small>
                     </div>
                     <div class="servisess-item">
-                        <img width="100px" src="./images/servisess-img/rerurn-product.svg" alt="">
+                        <img width="100px" src="../assets/image-servisess/rerurn-product.svg" alt="">
                         <p>ضمانت بازگشت وجه</p>
                         <br>
                         <small>
@@ -37,7 +37,7 @@
                         </small>
                     </div>
                     <div class="servisess-item">
-                        <img width="100px" src="./images/servisess-img/support-24.svg" alt="">
+                        <img width="100px" src="../assets/image-servisess/support-24.svg" alt="">
                         <p>پشتیبانی 24 ساعته</p>
                         <br>
                         <small>
@@ -45,7 +45,7 @@
                         </small>
                     </div>
                     <div class="servisess-item">
-                        <img width="100px" src="./images/servisess-img/tarxk-time.svg" alt="">
+                        <img width="100px" src="../assets/image-servisess/tarxk-time.svg" alt="">
                         <p>ارسال سریع محصول</p>
                         <br>
                         <small>
