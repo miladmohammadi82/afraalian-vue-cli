@@ -67,5 +67,13 @@ export default {
 </script>
 
 <style>
-  .back-to-top-fade-entet-active
+  .back-to-top-fade-enter, .back-to-top-fade-leave-active{
+    opacity: 0;
+  }
+
+  .vue-back-to-top{
+    position: fixed;
+    z-index: 1000;
+    cursor: pointer;
+  }
 </style>
