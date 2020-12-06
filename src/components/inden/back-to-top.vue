@@ -47,7 +47,7 @@ export default {
       let currentScroll = document.documentElement.scrollTop || document.body.scrollTop
       if (currentScroll > 0) {
         window.requestAnimationFrame(window.smoothscroll)
-        window.scrollTo(0, Math.floor(currentScroll - (currentScroll / 5)))
+        window.scrollTo(0, Math.floor(currentScroll - (currentScroll / 20)))
       }
     }
     window.addEventListener('scroll', this.catchScroll)
@@ -75,5 +75,13 @@ export default {
     position: fixed;
     z-index: 1000;
     cursor: pointer;
+  }
+
+  .vue-back-to-top .default{
+    width: 60px;
+    text-align: center;
+    line-height: 60px;
+    background: #eba100;
+    border-radius: 10px;
   }
 </style>
