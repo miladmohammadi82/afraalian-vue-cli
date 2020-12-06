@@ -322,4 +322,9 @@ export default{
         transition-property: transform;
         justify-content: center;
     }
+
+    .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 0 4px;
+        background: #bd8d00 !important;
+    }
 </style>
