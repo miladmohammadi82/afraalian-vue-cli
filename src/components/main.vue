@@ -312,7 +312,7 @@ export default{
     display: flex;
     justify-content: center;
     }
-    
+
     .swiper-slide {
         flex-shrink: 0;
         width: 100%;
