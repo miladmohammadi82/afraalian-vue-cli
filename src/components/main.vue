@@ -2,7 +2,7 @@
     <main class="main-site">
         <section class="banner-arias" id="banner-aria">
             <div class="container">
-                <div class="swiper-container p-0 m-0 container">
+                <div class="swiper-container img p-0 m-0 container">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide" v-for="image in images" :key="image.id">
                             <img class="w-100" :src="image.slider" :alt="images.alt">
@@ -67,117 +67,22 @@
                     <span>محصولات ما</span>
                 </h4>
                 <!-- owl-carousel -->
-
-                    <swiper dir="rtl" class="container" :autoplay="{ delay: 2500, disableOnInteraction: false }" :slides-per-view="4" :space-between="30" :pagination="{ clickable: true, el: '.slider-pagination' }">
-
-                      
-                        <swiper-slide>
-                            <div class="product">
-                                <a href="#"><img src="./images/product-img/download.jpg" alt=""
-                                                 class="img-fluid"></a>
-                                <div class="title-product mt-2">
-                                    <h6>عسل آویشن 5 کیلویی</h6>
-                                    <div class="price py-3">
-                                        <p>تومان</p>&nbsp;<span>110,000</span>
-                                    </div>
-                                    <div class="btn-shoping-card">
-                                        <button class="btn-register-system" style="width: 110px;"><i
-                                                class="far fa-plus"></i>&nbsp;&nbsp;<small>افزودن به سبد</small></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </swiper-slide>
-
-
-                        <swiper-slide>
-                            <div class="product">
-                                <a href="#"><img src="./images/product-img/download.jpg" alt=""
-                                                 class="img-fluid"></a>
-                                <div class="title-product mt-2">
-                                    <h6>عسل آویشن 5 کیلویی</h6>
-                                    <div class="price py-3">
-                                        <p>تومان</p>&nbsp;<span>110,000</span>
-                                    </div>
-                                    <div class="btn-shoping-card">
-                                        <button class="btn-register-system" style="width: 110px;"><i
-                                                class="far fa-plus"></i>&nbsp;&nbsp;<small>افزودن به سبد</small></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </swiper-slide>
-
-
-                        <swiper-slide>
-                            <div class="product">
-                                <a href="#"><img src="./images/product-img/download.jpg" alt=""
-                                                 class="img-fluid"></a>
-                                <div class="title-product mt-2">
-                                    <h6>عسل آویشن 5 کیلویی</h6>
-                                    <div class="price py-3">
-                                        <p>تومان</p>&nbsp;<span>110,000</span>
-                                    </div>
-                                    <div class="btn-shoping-card">
-                                        <button class="btn-register-system" style="width: 110px;"><i
-                                                class="far fa-plus"></i>&nbsp;&nbsp;<small>افزودن به سبد</small></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </swiper-slide>
-
-
-                        <swiper-slide>
-                            <div class="product">
-                                <a href="#"><img src="./images/product-img/download.jpg" alt=""
-                                                 class="img-fluid"></a>
-                                <div class="title-product mt-2">
-                                    <h6>عسل آویشن 5 کیلویی</h6>
-                                    <div class="price py-3">
-                                        <p>تومان</p>&nbsp;<span>110,000</span>
-                                    </div>
-                                    <div class="btn-shoping-card">
-                                        <button class="btn-register-system" style="width: 110px;"><i
-                                                class="far fa-plus"></i>&nbsp;&nbsp;<small>افزودن به سبد</small></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </swiper-slide>
-                        
-                        <swiper-slide>
-                            <div class="product">
-                                <a href="#"><img src="./images/product-img/download.jpg" alt=""
-                                                 class="img-fluid"></a>
-                                <div class="title-product mt-2">
-                                    <h6>عسل آویشن 5 کیلویی</h6>
-                                    <div class="price py-3">
-                                        <p>تومان</p>&nbsp;<span>110,000</span>
-                                    </div>
-                                    <div class="btn-shoping-card">
-                                        <button class="btn-register-system" style="width: 110px;"><i
-                                                class="far fa-plus"></i>&nbsp;&nbsp;<small>افزودن به سبد</small></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </swiper-slide>
-                        
-                        <swiper-slide>
-                            <div class="product">
-                                <a href="#"><img src="./images/product-img/download.jpg" alt=""
-                                                 class="img-fluid"></a>
-                                <div class="title-product mt-2">
-                                    <h6>عسل آویشن 5 کیلویی</h6>
-                                    <div class="price py-3">
-                                        <p>تومان</p>&nbsp;<span>110,000</span>
-                                    </div>
-                                    <div class="btn-shoping-card">
-                                        <button class="btn-register-system" style="width: 110px;"><i
-                                                class="far fa-plus"></i>&nbsp;&nbsp;<small>افزودن به سبد</small></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </swiper-slide>
-                      
-                      <div class="swiper-pagination"></div>
-                    </swiper>
+                <div class="swiper-container product-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">Slide 1</div>
+                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide">Slide 3</div>
+                        <div class="swiper-slide">Slide 4</div>
+                        <div class="swiper-slide">Slide 5</div>
+                        <div class="swiper-slide">Slide 6</div>
+                        <div class="swiper-slide">Slide 7</div>
+                        <div class="swiper-slide">Slide 8</div>
+                        <div class="swiper-slide">Slide 9</div>
+                        <div class="swiper-slide">Slide 10</div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>                  
                 <!-- owl-carousel -->
             </div>
         </section>
@@ -185,11 +90,7 @@
 </template>
 
 <script>
-    import { Swiper, SwiperSlide } from "swiper/vue";
-    import SwiperCore, { Autoplay, Pagination, A11y } from "swiper";
     
-    import "swiper/swiper-bundle.css";
-    SwiperCore.use([Autoplay, Pagination, A11y]);
 export default{
     data(){
         return{
@@ -201,10 +102,7 @@ export default{
         }
     },
 
-    components: {
-        Swiper,
-        SwiperSlide,
-    },
+    
 }
 </script>
 
@@ -232,5 +130,30 @@ export default{
             margin-right: auto;
             margin-left: auto;
         }
+    }
+
+    .swiper-container-pro {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide-pro {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
     }
 </style>
