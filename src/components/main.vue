@@ -325,6 +325,12 @@ export default{
 
     .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
         margin: 0 4px;
-        background: #bd8d00 !important;
+        background: #bd8d00;
+    }
+
+    .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {
+        bottom: -5px;
+        left: 0;
+        width: 100%;
     }
 </style>
