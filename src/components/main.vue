@@ -71,7 +71,7 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="product">
-                                <a href="#"><img src="./images/product-img/download.jpg" alt=""
+                                <a href="#"><img src="../assets/image-product/download.jpg" alt=""
                                                  class="img-fluid"></a>
                                 <div class="title-product mt-2">
                                     <h6>عسل آویشن 5 کیلویی</h6>
@@ -87,7 +87,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="product">
-                                <a href="#"><img src="./images/product-img/download.jpg" alt=""
+                                <a href="#"><img src="../assets/image-product/download.jpg" alt=""
                                                  class="img-fluid"></a>
                                 <div class="title-product mt-2">
                                     <h6>عسل آویشن 5 کیلویی</h6>
@@ -103,7 +103,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="product">
-                                <a href="#"><img src="./images/product-img/download.jpg" alt=""
+                                <a href="#"><img src="../assets/image-product/download.jpg" alt=""
                                                  class="img-fluid"></a>
                                 <div class="title-product mt-2">
                                     <h6>عسل آویشن 5 کیلویی</h6>
@@ -119,7 +119,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="product">
-                                <a href="#"><img src="./images/product-img/download.jpg" alt=""
+                                <a href="#"><img src="../assets/image-product/download.jpg" alt=""
                                                  class="img-fluid"></a>
                                 <div class="title-product mt-2">
                                     <h6>عسل آویشن 5 کیلویی</h6>
@@ -135,7 +135,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="product">
-                                <a href="#"><img src="./images/product-img/download.jpg" alt=""
+                                <a href="#"><img src="../assets/image-product/download.jpg" alt=""
                                                  class="img-fluid"></a>
                                 <div class="title-product mt-2">
                                     <h6>عسل آویشن 5 کیلویی</h6>
@@ -151,7 +151,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="product">
-                                <a href="#"><img src="./images/product-img/download.jpg" alt=""
+                                <a href="#"><img src="../assets/image-product/download.jpg" alt=""
                                                  class="img-fluid"></a>
                                 <div class="title-product mt-2">
                                     <h6>عسل آویشن 5 کیلویی</h6>
@@ -167,7 +167,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="product">
-                                <a href="#"><img src="./images/product-img/download.jpg" alt=""
+                                <a href="#"><img src="../assets/image-product/download.jpg" alt=""
                                                  class="img-fluid"></a>
                                 <div class="title-product mt-2">
                                     <h6>عسل آویشن 5 کیلویی</h6>
@@ -183,7 +183,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="product">
-                                <a href="#"><img src="./images/product-img/download.jpg" alt=""
+                                <a href="#"><img src="../assets/image-product/download.jpg" alt=""
                                                  class="img-fluid"></a>
                                 <div class="title-product mt-2">
                                     <h6>عسل آویشن 5 کیلویی</h6>
@@ -199,7 +199,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="product">
-                                <a href="#"><img src="./images/product-img/download.jpg" alt=""
+                                <a href="#"><img src="../assets/image-product/download.jpg" alt=""
                                                  class="img-fluid"></a>
                                 <div class="title-product mt-2">
                                     <h6>عسل آویشن 5 کیلویی</h6>
@@ -215,7 +215,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="product">
-                                <a href="#"><img src="./images/product-img/download.jpg" alt=""
+                                <a href="#"><img src="../assets/image-product/download.jpg" alt=""
                                                  class="img-fluid"></a>
                                 <div class="title-product mt-2">
                                     <h6>عسل آویشن 5 کیلویی</h6>
@@ -287,6 +287,10 @@ export default{
       height: 100%;
     }
 
+    .product-slider a img{
+        width: 200px;
+    }
+
     .product-slider {
       text-align: center;
       font-size: 18px;
@@ -305,5 +309,17 @@ export default{
       -ms-flex-align: center;
       -webkit-align-items: center;
       align-items: center;
+    display: flex;
+    justify-content: center;
+    }
+    
+    .swiper-slide {
+        flex-shrink: 0;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        transition-property: transform;
+        justify-content: center;
     }
 </style>
