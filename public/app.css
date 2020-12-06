@@ -1176,6 +1176,47 @@ body {
 
 /* End top button */
 
+/* tabs */
+
+
+.tabs{
+    padding: 31px 52px;
+}
+
+.tabs ul{
+    display: flex;
+    justify-content: center;
+}
+
+.tabs ul li{
+    padding: 0px 17px 0px 16px;
+    height: 50px;
+    background: #fff;
+    color: #262626;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.tabs ul li a{
+    font-size: 14px;
+}
+
+.active-tab{
+    border-bottom: 2px solid #d56400;
+}
+
+
+
+
+/* tabs */
+
+
+
+
+
+
 /*!
  * Font Awesome Pro 5.15.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license (Commercial License)

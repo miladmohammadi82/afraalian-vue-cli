@@ -4,13 +4,18 @@ import App from './App.vue';
 
 import 'bootstrap/dist/css/bootstrap.css';
 
+const app = createApp(App, {
+  
+});
 
-createApp(App).mount('#app');
+app.mount('#app');
 
 
 import 'swiper/swiper-bundle.css';
 // import Swiper JS
 import Swiper from 'swiper/bundle';
+
+
 
 
 

@@ -59,8 +59,7 @@
          <!-- End servisess -->
 
 
-
-
+        <!-- Start Slider product -->
          <section id="top-sale">
             <div class="container py-5">
                 <h4>
@@ -92,6 +91,143 @@
                 <!-- owl-carousel -->
             </div>
         </section>
+        <!-- End Slider product -->
+
+
+
+        <!-- Start tab product -->
+
+
+
+
+        <section class="tab-section">
+            <div class="tabs">
+                <ul>
+                    <li @click.prevent="activetab=1" :class="[ activetab === 1 ? 'active-tab' : '' ]"><a href="#">عسل آویشن</a></li>
+                    <li @click.prevent="activetab=2" :class="[ activetab === 2 ? 'active-tab' : '' ]"><a href="#">عسل بهار نارنج</a></li>
+                    <li @click.prevent="activetab=3" :class="[ activetab === 3 ? 'active-tab' : '' ]"><a href="#">عسل گون</a></li>
+                </ul>
+            </div>
+
+            <div class="contents container">
+                <div v-if="activetab === 1">
+                    <div class="items-product">
+                        <div class="product">
+                            <a href="#"><img src="../assets/image-product/download.jpg" alt=""
+                                                class="img-fluid w-100"></a>
+                            <div class="title-product mt-2">
+                                <h6>یطرزتشس</h6>
+                                <div class="price py-3">
+                                    <p>تومان</p>&nbsp;<span>110.000</span>
+                                </div>
+                                <div class="btn-shoping-card">
+                                    <button class="btn-register-system" style="width: 110px;"><i
+                                            class="far fa-plus"></i>&nbsp;&nbsp;<small>افزودن به سبد</small></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <a href="#"><img src="../assets/image-product/download.jpg" alt=""
+                                                class="img-fluid w-100"></a>
+                            <div class="title-product mt-2">
+                                <h6>یطرزتشس</h6>
+                                <div class="price py-3">
+                                    <p>تومان</p>&nbsp;<span>110.000</span>
+                                </div>
+                                <div class="btn-shoping-card">
+                                    <button class="btn-register-system" style="width: 110px;"><i
+                                            class="far fa-plus"></i>&nbsp;&nbsp;<small>افزودن به سبد</small></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <a href="#"><img src="../assets/image-product/download.jpg" alt=""
+                                                class="img-fluid w-100"></a>
+                            <div class="title-product mt-2">
+                                <h6>یطرزتشس</h6>
+                                <div class="price py-3">
+                                    <p>تومان</p>&nbsp;<span>110.000</span>
+                                </div>
+                                <div class="btn-shoping-card">
+                                    <button class="btn-register-system" style="width: 110px;"><i
+                                            class="far fa-plus"></i>&nbsp;&nbsp;<small>افزودن به سبد</small></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <a href="#"><img src="../assets/image-product/download.jpg" alt=""
+                                                class="img-fluid w-100"></a>
+                            <div class="title-product mt-2">
+                                <h6>یطرزتشس</h6>
+                                <div class="price py-3">
+                                    <p>تومان</p>&nbsp;<span>110.000</span>
+                                </div>
+                                <div class="btn-shoping-card">
+                                    <button class="btn-register-system" style="width: 110px;"><i
+                                            class="far fa-plus"></i>&nbsp;&nbsp;<small>افزودن به سبد</small></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <a href="#"><img src="../assets/image-product/download.jpg" alt=""
+                                                class="img-fluid w-100"></a>
+                            <div class="title-product mt-2">
+                                <h6>یطرزتشس</h6>
+                                <div class="price py-3">
+                                    <p>تومان</p>&nbsp;<span>110.000</span>
+                                </div>
+                                <div class="btn-shoping-card">
+                                    <button class="btn-register-system" style="width: 110px;"><i
+                                            class="far fa-plus"></i>&nbsp;&nbsp;<small>افزودن به سبد</small></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <a href="#"><img src="../assets/image-product/download.jpg" alt=""
+                                                class="img-fluid w-100"></a>
+                            <div class="title-product mt-2">
+                                <h6>یطرزتشس</h6>
+                                <div class="price py-3">
+                                    <p>تومان</p>&nbsp;<span>110.000</span>
+                                </div>
+                                <div class="btn-shoping-card">
+                                    <button class="btn-register-system" style="width: 110px;"><i
+                                            class="far fa-plus"></i>&nbsp;&nbsp;<small>افزودن به سبد</small></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <a href="#"><img src="../assets/image-product/download.jpg" alt=""
+                                                class="img-fluid w-100"></a>
+                            <div class="title-product mt-2">
+                                <h6>یطرزتشس</h6>
+                                <div class="price py-3">
+                                    <p>تومان</p>&nbsp;<span>110.000</span>
+                                </div>
+                                <div class="btn-shoping-card">
+                                    <button class="btn-register-system" style="width: 110px;"><i
+                                            class="far fa-plus"></i>&nbsp;&nbsp;<small>افزودن به سبد</small></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div v-if="activetab === 2">
+                    عسل بهار نارنج
+                </div>
+                <div v-if="activetab === 3">
+                    عسل گون
+                </div>
+    
+            </div>
+        </section>
+        
+
+
+
+
+        <!-- END tab product -->
+
     </main>
 </template>
 
@@ -100,6 +236,7 @@
 export default{
     data(){
         return{
+            activetab: 1,
             images: [
                 { slider: require('../assets/slider/banner1.jpg'), alt: "honey-banner1" },
                 { slider: require('../assets/slider/banner2.jpg'), alt: "honey-banner2" },
@@ -133,6 +270,8 @@ export default{
     background-position: center;
     background-size: cover;
   }
+
+    
 
     .swiper-button-prev.swiper-button-white, .swiper-button-next.swiper-button-white {
         --swiper-navigation-color: #ffffff;
