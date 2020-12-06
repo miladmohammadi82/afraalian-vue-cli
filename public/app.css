@@ -803,12 +803,7 @@ body {
     font-weight: bolder;
 }
 
-.items-about{
-    width: 100%;
-    height: auto;
-    padding: 0 0 40px 0;
-    background:url(../images/bg-about.jpg) center no-repeat fixed;
-}
+
 
 .items-about .dd{
     display: grid;
