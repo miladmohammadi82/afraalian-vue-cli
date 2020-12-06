@@ -520,11 +520,12 @@
         </div>
     </div>
     <!-- End Footer -->
+    <back-to-top></back-to-top>
     </main>
 </template>
 
 <script>
-    
+import BackToTop from './inden/back-to-top.vue'
 export default{
     data(){
         return{
@@ -558,6 +559,11 @@ export default{
             ]
         }
     },
+
+    components: {
+        BackToTop
+        
+    }
 
     
 }
