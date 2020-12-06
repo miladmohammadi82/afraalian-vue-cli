@@ -832,15 +832,16 @@ body {
 .items-about .item-about1{
     background: #fff;
     height: auto;
-    width: 98%;
-    padding: 31px 22px;
+    width: 87%;
+    padding: 27px 22px;
+    margin: 0 26px 0 0;
     box-shadow: 0px 0px 8px 0px #8a8a8a;
 }
 
 .items-about .item-about2{
     background: #fff;
     height: auto;
-    width: 100%;
+    width: 95%;
     box-shadow: 0px 0px 8px 0px #8a8a8a;
 }
 
