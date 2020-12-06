@@ -376,7 +376,7 @@
                 <div class="blogs-items">
                     <a href="">
                         <div class="blog-item">
-                            <img src="./images/blog-img/layares-of-atmosphere.jpg" alt="">
+                            <img src="../assets/layares-of-atmosphere.jpg" class="w-100" alt="">
                             <div class="title-blog-item p-3">
                                 <p>خسوف چیست ؟ | به زبان ساده و جامع</p>
                             </div>
@@ -386,7 +386,7 @@
 
                     <a href="">
                         <div class="blog-item">
-                            <img src="./images/blog-img/layares-of-atmosphere.jpg" alt="">
+                            <img src="../assets/layares-of-atmosphere.jpg" class="w-100" alt="">
                             <div class="title-blog-item p-3">
                                 <p>خسوف چیست ؟ | به زبان ساده و جامع</p>
                             </div>
@@ -396,7 +396,7 @@
 
                     <a href="">
                         <div class="blog-item">
-                            <img src="./images/blog-img/layares-of-atmosphere.jpg" alt="">
+                            <img src="../assets/layares-of-atmosphere.jpg" class="w-100" alt="">
                             <div class="title-blog-item p-3">
                                 <p>خسوف چیست ؟ | به زبان ساده و جامع</p>
                             </div>
@@ -406,7 +406,7 @@
 
                     <a href="">
                         <div class="blog-item">
-                            <img src="./images/blog-img/layares-of-atmosphere.jpg" alt="">
+                            <img src="../assets/layares-of-atmosphere.jpg" class="w-100" alt="">
                             <div class="title-blog-item p-3">
                                 <p>خسوف چیست ؟ | به زبان ساده و جامع</p>
                             </div>
@@ -416,7 +416,7 @@
 
                     <a href="">
                         <div class="blog-item">
-                            <img src="./images/blog-img/layares-of-atmosphere.jpg" alt="">
+                            <img src="../assets/layares-of-atmosphere.jpg" class="w-100" alt="">
                             <div class="title-blog-item p-3">
                                 <p>خسوف چیست ؟ | به زبان ساده و جامع</p>
                             </div>
@@ -426,7 +426,7 @@
 
                     <a href="">
                         <div class="blog-item">
-                            <img src="./images/blog-img/layares-of-atmosphere.jpg" alt="">
+                            <img src="../assets/layares-of-atmosphere.jpg" class="w-100" alt="">
                             <div class="title-blog-item p-3">
                                 <p>خسوف چیست ؟ | به زبان ساده و جامع</p>
                             </div>
@@ -436,7 +436,7 @@
 
                     <a href="">
                         <div class="blog-item">
-                            <img src="./images/blog-img/layares-of-atmosphere.jpg" alt="">
+                            <img src="../assets/layares-of-atmosphere.jpg" class="w-100" alt="">
                             <div class="title-blog-item p-3">
                                 <p>خسوف چیست ؟ | به زبان ساده و جامع</p>
                             </div>
@@ -446,7 +446,7 @@
 
                     <a href="">
                         <div class="blog-item">
-                            <img src="./images/blog-img/layares-of-atmosphere.jpg" alt="">
+                            <img src="../assets/layares-of-atmosphere.jpg" class="w-100" alt="">
                             <div class="title-blog-item p-3">
                                 <p>خسوف چیست ؟ | به زبان ساده و جامع</p>
                             </div>
