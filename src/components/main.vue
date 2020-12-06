@@ -362,9 +362,105 @@
                 
             </div>
         </section>
-
-
        <!-- END About section -->
+
+
+       <!-- Start section blog -->
+        <section class="blog">
+            <div class="container">
+                <div class="title-blogsection">
+                    <h1 class="text-center">آخرین مطالب</h1>
+                </div>
+
+
+                <div class="blogs-items">
+                    <a href="">
+                        <div class="blog-item">
+                            <img src="./images/blog-img/layares-of-atmosphere.jpg" alt="">
+                            <div class="title-blog-item p-3">
+                                <p>خسوف چیست ؟ | به زبان ساده و جامع</p>
+                            </div>
+                            <button class="w-100 btn-blog-item">ادامه مطلب</button>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="blog-item">
+                            <img src="./images/blog-img/layares-of-atmosphere.jpg" alt="">
+                            <div class="title-blog-item p-3">
+                                <p>خسوف چیست ؟ | به زبان ساده و جامع</p>
+                            </div>
+                            <button class="w-100 btn-blog-item">ادامه مطلب</button>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="blog-item">
+                            <img src="./images/blog-img/layares-of-atmosphere.jpg" alt="">
+                            <div class="title-blog-item p-3">
+                                <p>خسوف چیست ؟ | به زبان ساده و جامع</p>
+                            </div>
+                            <button class="w-100 btn-blog-item">ادامه مطلب</button>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="blog-item">
+                            <img src="./images/blog-img/layares-of-atmosphere.jpg" alt="">
+                            <div class="title-blog-item p-3">
+                                <p>خسوف چیست ؟ | به زبان ساده و جامع</p>
+                            </div>
+                            <button class="w-100 btn-blog-item">ادامه مطلب</button>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="blog-item">
+                            <img src="./images/blog-img/layares-of-atmosphere.jpg" alt="">
+                            <div class="title-blog-item p-3">
+                                <p>خسوف چیست ؟ | به زبان ساده و جامع</p>
+                            </div>
+                            <button class="w-100 btn-blog-item">ادامه مطلب</button>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="blog-item">
+                            <img src="./images/blog-img/layares-of-atmosphere.jpg" alt="">
+                            <div class="title-blog-item p-3">
+                                <p>خسوف چیست ؟ | به زبان ساده و جامع</p>
+                            </div>
+                            <button class="w-100 btn-blog-item">ادامه مطلب</button>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="blog-item">
+                            <img src="./images/blog-img/layares-of-atmosphere.jpg" alt="">
+                            <div class="title-blog-item p-3">
+                                <p>خسوف چیست ؟ | به زبان ساده و جامع</p>
+                            </div>
+                            <button class="w-100 btn-blog-item">ادامه مطلب</button>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="blog-item">
+                            <img src="./images/blog-img/layares-of-atmosphere.jpg" alt="">
+                            <div class="title-blog-item p-3">
+                                <p>خسوف چیست ؟ | به زبان ساده و جامع</p>
+                            </div>
+                            <button class="w-100 btn-blog-item">ادامه مطلب</button>
+                        </div>
+                    </a>
+                </div>
+                <div class="text-center">
+                    <button class="button-blog">مشاهده همه مطالب&nbsp;&nbsp;<i class="fa fa-chevron-left"></i></button>
+                </div>
+                
+            </div>
+        </section>
+        <!-- End section blog -->
     </main>
 </template>
 
@@ -482,6 +578,5 @@ export default{
         height: auto;
         padding: 0 0 40px 0;
         background:url(../assets/bg-about.jpg) center no-repeat fixed;
-        
     }
 </style>
