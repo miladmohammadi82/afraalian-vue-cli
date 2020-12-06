@@ -1197,6 +1197,7 @@ body {
     justify-content: center;
     text-align: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .tabs ul li a{
@@ -1207,8 +1208,14 @@ body {
     border-bottom: 2px solid #d56400;
 }
 
+.items-product{
+    display: flex;
+    flex-wrap: wrap;
+}
 
-
+.items-product .product{
+    margin: 24px 5px;
+}
 
 /* tabs */
 

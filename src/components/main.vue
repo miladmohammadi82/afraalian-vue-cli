@@ -213,10 +213,127 @@
                     </div>
                 </div>
                 <div v-if="activetab === 2">
-                    عسل بهار نارنج
+                    <div class="items-product">
+                        <div class="product">
+                            <a href="#"><img src="../assets/image-product/download.jpg" alt=""
+                                                class="img-fluid w-100"></a>
+                            <div class="title-product mt-2">
+                                <h6>یطرزتشس</h6>
+                                <div class="price py-3">
+                                    <p>تومان</p>&nbsp;<span>110.000</span>
+                                </div>
+                                <div class="btn-shoping-card">
+                                    <button class="btn-register-system" style="width: 110px;"><i
+                                            class="far fa-plus"></i>&nbsp;&nbsp;<small>افزودن به سبد</small></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <a href="#"><img src="../assets/image-product/download.jpg" alt=""
+                                                class="img-fluid w-100"></a>
+                            <div class="title-product mt-2">
+                                <h6>یطرزتشس</h6>
+                                <div class="price py-3">
+                                    <p>تومان</p>&nbsp;<span>110.000</span>
+                                </div>
+                                <div class="btn-shoping-card">
+                                    <button class="btn-register-system" style="width: 110px;"><i
+                                            class="far fa-plus"></i>&nbsp;&nbsp;<small>افزودن به سبد</small></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <a href="#"><img src="../assets/image-product/download.jpg" alt=""
+                                                class="img-fluid w-100"></a>
+                            <div class="title-product mt-2">
+                                <h6>یطرزتشس</h6>
+                                <div class="price py-3">
+                                    <p>تومان</p>&nbsp;<span>110.000</span>
+                                </div>
+                                <div class="btn-shoping-card">
+                                    <button class="btn-register-system" style="width: 110px;"><i
+                                            class="far fa-plus"></i>&nbsp;&nbsp;<small>افزودن به سبد</small></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <a href="#"><img src="../assets/image-product/download.jpg" alt=""
+                                                class="img-fluid w-100"></a>
+                            <div class="title-product mt-2">
+                                <h6>یطرزتشس</h6>
+                                <div class="price py-3">
+                                    <p>تومان</p>&nbsp;<span>110.000</span>
+                                </div>
+                                <div class="btn-shoping-card">
+                                    <button class="btn-register-system" style="width: 110px;"><i
+                                            class="far fa-plus"></i>&nbsp;&nbsp;<small>افزودن به سبد</small></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <a href="#"><img src="../assets/image-product/download.jpg" alt=""
+                                                class="img-fluid w-100"></a>
+                            <div class="title-product mt-2">
+                                <h6>یطرزتشس</h6>
+                                <div class="price py-3">
+                                    <p>تومان</p>&nbsp;<span>110.000</span>
+                                </div>
+                                <div class="btn-shoping-card">
+                                    <button class="btn-register-system" style="width: 110px;"><i
+                                            class="far fa-plus"></i>&nbsp;&nbsp;<small>افزودن به سبد</small></button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
                 </div>
                 <div v-if="activetab === 3">
-                    عسل گون
+                   <div class="items-product">
+                        <div class="product">
+                            <a href="#"><img src="../assets/image-product/download.jpg" alt=""
+                                                class="img-fluid w-100"></a>
+                            <div class="title-product mt-2">
+                                <h6>یطرزتشس</h6>
+                                <div class="price py-3">
+                                    <p>تومان</p>&nbsp;<span>110.000</span>
+                                </div>
+                                <div class="btn-shoping-card">
+                                    <button class="btn-register-system" style="width: 110px;"><i
+                                            class="far fa-plus"></i>&nbsp;&nbsp;<small>افزودن به سبد</small></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <a href="#"><img src="../assets/image-product/download.jpg" alt=""
+                                                class="img-fluid w-100"></a>
+                            <div class="title-product mt-2">
+                                <h6>یطرزتشس</h6>
+                                <div class="price py-3">
+                                    <p>تومان</p>&nbsp;<span>110.000</span>
+                                </div>
+                                <div class="btn-shoping-card">
+                                    <button class="btn-register-system" style="width: 110px;"><i
+                                            class="far fa-plus"></i>&nbsp;&nbsp;<small>افزودن به سبد</small></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <a href="#"><img src="../assets/image-product/download.jpg" alt=""
+                                                class="img-fluid w-100"></a>
+                            <div class="title-product mt-2">
+                                <h6>یطرزتشس</h6>
+                                <div class="price py-3">
+                                    <p>تومان</p>&nbsp;<span>110.000</span>
+                                </div>
+                                <div class="btn-shoping-card">
+                                    <button class="btn-register-system" style="width: 110px;"><i
+                                            class="far fa-plus"></i>&nbsp;&nbsp;<small>افزودن به سبد</small></button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
                 </div>
     
             </div>
