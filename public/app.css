@@ -796,6 +796,8 @@ body {
 
 .about-section{
     margin-top: 93px; 
+    overflow: hidden;
+    margin: 95px 0;
 }
 
 .about-section h2{
