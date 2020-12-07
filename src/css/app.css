@@ -791,6 +791,13 @@ body {
 }
 /* End product tab */
 
+.container, .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+    width: 91% !important;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 /* start blog section */
 
@@ -1148,6 +1155,7 @@ body {
 .items-product{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .items-product .product{

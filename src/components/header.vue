@@ -1,7 +1,7 @@
 <template>
-   
+    
         <header class="header" id="header">
-        <div class="container-grid">
+        <div class="container">
             <nav class="main-nav" >
                 <div class="menu-btn" :class="{ open:menuOpen }" @click="menuOpenshow">
                     <div class="menu-btn-burger"></div>
@@ -159,4 +159,6 @@ export default {
         transition: all 500ms;
         padding-left: 10px;
     }
+
+    
 </style>
