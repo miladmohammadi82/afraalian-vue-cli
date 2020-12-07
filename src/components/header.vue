@@ -99,13 +99,6 @@ export default {
     },
     methods: {
         menuOpenshow(){
-            if(!this.menuOpen){
-                this.menuOpen = true;
-            }
-            else{
-                this.menuOpen = false;
-            }
-
             if(!this.mobileMenu){
                 this.mobileMenu = true;
             }
