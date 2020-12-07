@@ -523,7 +523,18 @@ margin: -34px 0 0 17px;
         top: 70px;
     }
 
+    .nav-mobile{
+        padding: 27px 17px 0px 0;
+    }
 
+    .nav-mobile .nav-link-mobile{
+        border-bottom: 1px solid #e6e6e6c2;
+        width: 100%;
+    }
+
+    .nav-mobile .nav-link-mobile:last-child{
+        border: none;
+    }
 
     /* END Header mobile */
 

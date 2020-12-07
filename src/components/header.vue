@@ -90,7 +90,11 @@
 
             <div class="header-mobile">
                 <ul class="nav-mobile">
-                    <li class="nav-link-mobile"></li>
+                    <li class="nav-link-mobile"><a href="">آیتم 1</a></li>
+                    <li class="nav-link-mobile"><a href="">آیتم 2</a></li>
+                    <li class="nav-link-mobile"><a href="">آیتم 3</a></li>
+                    <li class="nav-link-mobile"><a href="">آیتم 4</a></li>
+                    <li class="nav-link-mobile"><a href="">آیتم 5</a></li>
                 </ul>
             </div>
 
