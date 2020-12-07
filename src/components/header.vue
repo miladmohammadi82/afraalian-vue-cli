@@ -36,15 +36,7 @@
                 </ul>
 
 
-                <!-- Start menu mobile -->
-
-
-                <div class="header-mobile">
-                    
-                </div>
-
-
-                <!-- END menu mobile -->
+                
 
                 <ul class="right-menu">
                     <div>
@@ -90,8 +82,21 @@
                 </ul>
             </nav>
 
+            
         </div>
+            
+            <!-- Start menu mobile -->
+
+
+            <div class="header-mobile">
+
+            </div>
+
+
+            <!-- END menu mobile -->
         </header>
+
+        
   
 </template>
 

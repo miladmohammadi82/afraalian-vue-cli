@@ -480,21 +480,6 @@ margin: -34px 0 0 17px;
         border-bottom: 1px solid #d2d2d2;
     }
 
-    .nav-link:hover .dropdown {
-        transform: translate(0,0);
-        pointer-events: auto;
-        display: block;
-        padding-top: 0;
-        background: #FFAA00;
-        border-radius: 0;
-        width: 100%;
-        -webkit-border-radius: 0;
-        -moz-border-radius: 0;
-        -ms-border-radius: 0;
-        -o-border-radius: 0;
-        height: 155px;
-    }
-
     .dropdown ul{
         background: #FFAA00;
         box-shadow: 0 0 0 0;
@@ -540,7 +525,13 @@ margin: -34px 0 0 17px;
 
 
 
-        
+    .header-mobile{
+        width: 50%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.226);
+        z-index: 1000;
+        position: absolute;
+    }
 
 
 
