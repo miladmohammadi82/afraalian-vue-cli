@@ -129,23 +129,15 @@ export default {
     },
 
     mounted () {
-        window.onscroll = ()=> {myFunction()};
+        let header = document.querySelector("header");
+        let sticky = header.offsetTop;
 
-        // Get the header
-        var header = document.getElementById("header");
-
-        // Get the offset position of the navbar
-        var sticky = header.offsetTop;
-
-        // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
-        function myFunction() {
+        window.onscroll = ()=> {
             if(window.pageYOffset > 300){
                 if (window.pageYOffset > sticky) {
                     header.classList.add("sticky");
                 }  
             }
-            
-            
             else {
                 header.classList.remove("sticky");
             }
@@ -157,12 +149,14 @@ export default {
 
 <style scoped>
     .sticky{
-        background: #000;
+        background: #ffb700;
         position: fixed;
+        border-bottom: 3px solid #ff6d00;
     }
     
     .header{
         z-index: 100000;
         transition: all 500ms;
+        padding-left: 10px;
     }
 </style>
