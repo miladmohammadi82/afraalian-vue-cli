@@ -443,30 +443,8 @@ margin: -34px 0 0 17px;
         display: block;
     }
     .main-nav ul.main-menu{
-        display: block;
-        width: 50%;
-        background: #fff;
-        right: 0;
-        position: fixed;
-        height: calc(100% - 3rem);
-        top: 100px;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        margin: 0;
-        line-height: 60px;
-        z-index: 200;
-        overflow-x: hidden;
-        overflow-y: auto;
-        transform: translateX(607px);
-        transition: 1s;
-        border-left: 2px solid #FF6D00;
-        -webkit-transform: translateX(607px);
-        -moz-transform: translateX(607px);
-        -ms-transform: translateX(607px);
-        -o-transform: translateX(607px);
-        top: 70px;
-        opacity: 80%;
+        display: none;
+        
     }
 
 
@@ -527,10 +505,23 @@ margin: -34px 0 0 17px;
 
     .header-mobile{
         width: 50%;
-        height: 100vh;
-        background: rgba(0, 0, 0, 0.226);
-        z-index: 1000;
-        position: absolute;
+        background: #fff;
+        right: 0;
+        position: fixed;
+        height: calc(100% - 3rem);
+        top: 100px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0;
+        line-height: 60px;
+        z-index: 200;
+        overflow-x: hidden;
+        overflow-y: auto;
+        transition: 1s;
+        border-left: 2px solid #FF6D00;
+        top: 70px;
+        opacity: 80%;
     }
 
 
