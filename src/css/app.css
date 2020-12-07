@@ -792,67 +792,6 @@ body {
 /* End product tab */
 
 
-/* Start section about */
-
-.about-section{
-    margin-top: 93px; 
-    overflow: hidden;
-    margin: 95px 0;
-}
-
-.about-section h2{
-    text-align: center;
-    font-weight: bolder;
-}
-
-
-
-.items-about .dd{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    margin-top: 30px;
-}
-
-@media (max-width: 1000px){
-    .items-about .dd{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        margin-top: 30px;
-    }
-
-    .items-about .dd .item-about1 p{
-        width: 100%;
-        display: block;
-    }
-}
-
-.items-about .dd div{
-    margin-top: 30px;
-}
-
-
-.items-about .item-about1{
-    background: #fff;
-    height: auto;
-    width: 87%;
-    padding: 27px 22px;
-    margin: 0 26px 0 0;
-    box-shadow: 0px 0px 8px 0px #8a8a8a;
-}
-
-.items-about .item-about2{
-    background: #fff;
-    height: auto;
-    width: 95%;
-    box-shadow: 0px 0px 8px 0px #8a8a8a;
-}
-
-.items-about .item-about2 h1{
-    padding: 29% 47% 0 0;
-}
-/* Start section about */
-
-
 /* start blog section */
 
 .blog{
