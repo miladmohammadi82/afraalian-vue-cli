@@ -536,6 +536,28 @@ margin: -34px 0 0 17px;
         border: none;
     }
 
+    .header-menu{
+        width: 100%;
+        height: 50px;
+        background: #ff6d00;
+        color: #fff;
+    }
+
+
+    .igron{
+        width: 100pc;
+        height: 100pc;
+        opacity: 1;
+        -webkit-transition: opacity 0.5s;
+        transition: opacity 0.5s;
+        display: block;
+        background: hsla(0, 0%, 0%, 0.548);
+        padding: 0;
+        margin: 0;
+        -moz-transition: opacity 0.5s;
+        -ms-transition: opacity 0.5s;
+        -o-transition: opacity 0.5s;
+}
     /* END Header mobile */
 
 
