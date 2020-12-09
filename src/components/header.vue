@@ -108,8 +108,8 @@
 
                 <ul class="nav-mobile">
                     <li class="nav-link-mobile"><a href="#"><i class="far fa-home fa-lg"></i>&nbsp;خانه</a></li>
-                    <li class="nav-link-mobile"><a href="#"><i class="far fa-boxes fa-lg"></i>&nbsp;محصولات ما</a>
-                        <div class="dropdown-mobile">
+                    <li class="nav-link-mobile" @click.prevent="showDropdownMethod"><a href="#"><i class="far fa-boxes fa-lg"></i>&nbsp;محصولات ما</a><i class="far fa-chevron-down" :class="{ 'roterIcondropdoen':editIconDropdown }"></i>
+                        <div class="dropdown-mobile" v-if="showDropdownMobile" :class="{ showDropdownMobile:showDropdownMenuMobile }">
                             <ul>
                                 <li><a href="#">عسل آویشن</a></li>
                                 <li><a href="#">عسل بهارنارنج</a></li>
@@ -148,6 +148,8 @@ export default {
             showIgron: false,
 
             natayejSearch: false,
+            showDropdownMobile: false,
+            editIconDropdown: false,
         }
     },
 
@@ -171,6 +173,20 @@ export default {
                 this.showIgron = true
             }else{
                 this.showIgron = false
+            }
+        },
+
+        showDropdownMethod(){
+            if(!this.showDropdownMobile){
+                this.showDropdownMobile = true;
+            }else{
+                this.showDropdownMobile = false;
+            }
+
+            if (!this.editIconDropdown) {
+                this.editIconDropdown = true
+            }else{
+                this.editIconDropdown = false
             }
         },
 
