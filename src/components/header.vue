@@ -117,7 +117,7 @@
 
             </div>
 
-            <div :class="{ igron:showIgron }" @click="showIgronDiv"></div>
+            <div :class="{ igron:showIgron }" @click="menuOpenshow"></div>
             <!-- END menu mobile -->
         </header>
 
@@ -159,10 +159,6 @@ export default {
             }else{
                 this.showIgron = false
             }
-        },
-
-        showIgronDiv(){
-            
         },
 
         addSearchBox(){
