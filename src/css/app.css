@@ -156,10 +156,10 @@ transition: all 0.5s ease-in-out;
 -o-transition: all 0.5s ease-in-out;
 }
 
-.menu-btn-burger::before{ transform: translateY(-13px); -webkit-transform: translateY(-13px); -moz-transform: translateY(-13px); -ms-transform: translateY(-13px); -o-transform: translateY(-13px);
+.menu-btn-burger::before{ transform: translateY(-10px); -webkit-transform: translateY(-10px); -moz-transform: translateY(-10px); -ms-transform: translateY(-10px); -o-transform: translateY(-10px);
 }
 
-.menu-btn-burger::after{ transform: translateY(15px); -webkit-transform: translateY(15px); -moz-transform: translateY(13px); -ms-transform: translateY(15px); -o-transform: translateY(15px);
+.menu-btn-burger::after{ transform: translateY(10px); -webkit-transform: translateY(10px); -moz-transform: translateY(10px); -ms-transform: translateY(10px); -o-transform: translateY(10px);
 }
 
 .menu-btn.open .menu-btn-burger{

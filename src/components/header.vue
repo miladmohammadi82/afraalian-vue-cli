@@ -146,6 +146,14 @@ export default {
             else{
                 this.mobileMenu = false;
             }
+
+            if(!this.menuOpen){
+                this.menuOpen = true;
+            }
+            else{
+                this.menuOpen = false;
+            }
+
         },
         addSearchBox(){
             if(!this.searchBox){
