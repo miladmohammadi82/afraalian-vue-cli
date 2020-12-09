@@ -432,6 +432,9 @@ margin: -34px 0 0 17px;
     color: #fff;
 }
 
+.header-mobile{
+    display: none;
+}
 
 @media (max-width: 599px){
     .main-nav ul li:last-child{
@@ -526,6 +529,7 @@ margin: -34px 0 0 17px;
         transition: 1s;
         border-left: 2px solid #FF6D00;
         top: 70px;
+        display: block;
     }
 
     .nav-mobile{
@@ -548,6 +552,21 @@ margin: -34px 0 0 17px;
         color: #fff;
     }
 
+    .igron{
+        width: 100pc;
+        height: 100pc;
+        opacity: 1;
+        -webkit-transition: opacity 0.5s;
+        transition: opacity 0.5s;
+        display: block;
+        background: hsla(0, 0%, 0%, 0.548);
+        padding: 0;
+        position: fixed;
+        margin: 0;
+        -moz-transition: opacity 0.5s;
+        -ms-transition: opacity 0.5s;
+        -o-transition: opacity 0.5s;
+    }
 
     
     /* END Header mobile */
@@ -585,21 +604,7 @@ margin: -34px 0 0 17px;
 
 }
 
-.igron{
-    width: 100pc;
-    height: 100pc;
-    opacity: 1;
-    -webkit-transition: opacity 0.5s;
-    transition: opacity 0.5s;
-    display: block;
-    background: hsla(0, 0%, 0%, 0.548);
-    padding: 0;
-    position: fixed;
-    margin: 0;
-    -moz-transition: opacity 0.5s;
-    -ms-transition: opacity 0.5s;
-    -o-transition: opacity 0.5s;
-}
+
 
 @media(max-width: 513px){
     .searchbox{

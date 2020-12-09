@@ -94,6 +94,16 @@
                     <h3 class="text-center">منو</h3>
                 </div>
 
+                <div class="serch-box">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search this blog">
+                    <div class="input-group-append">
+                        
+                    <button class="btn btn-secondary" type="button">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+
                 <ul class="nav-mobile">
                     <li class="nav-link-mobile"><a href="#">آیتم 1</a></li>
                     <li class="nav-link-mobile"><a href="#">آیتم 2</a></li>
