@@ -1,6 +1,6 @@
 @font-face{
     font-family: iran;
-    src:url('webfonts/iran.ttf') format('truetype');
+    src:url('webfonts/iran.TTF') format('truetype');
 }
 
 *{
@@ -97,7 +97,7 @@ margin: 0 0 0 12px;
 
 .main-nav ul li a{
 padding-bottom: 2px;
-font-size: 18px;
+font-size: 15px;
 }
 
 .main-nav ul li a i{
