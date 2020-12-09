@@ -516,7 +516,7 @@ margin: -34px 0 0 17px;
         overflow-x: hidden;
         overflow-y: auto;
         transition: 1s;
-        border-left: 2px solid #FF6D00;
+        border-left: 2px solid #e67a01;
         top: 70px;
         display: block;
         transform: translateX(100%);
@@ -570,6 +570,7 @@ margin: -34px 0 0 17px;
     .nav-mobile .nav-link-mobile{
         border-bottom: 1px solid #e6e6e6c2;
         width: 100%;
+        cursor: pointer;
     }
 
     .nav-mobile .nav-link-mobile a{
