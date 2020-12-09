@@ -529,7 +529,7 @@ margin: -34px 0 0 17px;
         -moz-transition: all .5s;
         -ms-transition: all .5s;
         -o-transition: all .5s;
-}
+    }
 
     .showMenu{
         transform: translateX(0);
@@ -537,7 +537,23 @@ margin: -34px 0 0 17px;
         -moz-transform: translateX(0);
         -ms-transform: translateX(0);
         -o-transform: translateX(0);
-}
+    }
+
+
+    /* Start dropdown Style Mobile */
+    .dropdown-mobile{
+        background: #d67100;
+        width: 100%;
+        margin: 0px -17px;
+        padding: 0 45px 0px 0;
+    }
+
+    .dropdown-mobile ul li{
+        line-height: 42px;
+    }
+
+    /* END dropdown Style Mobile */
+
 
     .nav-mobile{
         padding: 27px 17px 0px 0;

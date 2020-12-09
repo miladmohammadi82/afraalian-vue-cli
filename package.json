@@ -11,6 +11,8 @@
     "bootstrap": "^4.5.3",
     "bootstrap-vue": "^2.20.1",
     "core-js": "^3.6.5",
+    "sass-loader": "^10.1.0",
+    "scss": "^0.2.4",
     "swiper": "^6.3.5",
     "vue": "^3.0.0",
     "vue-backtotop": "^1.6.1",

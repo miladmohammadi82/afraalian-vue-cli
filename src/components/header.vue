@@ -108,7 +108,15 @@
 
                 <ul class="nav-mobile">
                     <li class="nav-link-mobile"><a href="#"><i class="far fa-home fa-lg"></i>&nbsp;خانه</a></li>
-                    <li class="nav-link-mobile"><a href="#"><i class="far fa-boxes fa-lg"></i>&nbsp;محصولات ما</a></li>
+                    <li class="nav-link-mobile"><a href="#"><i class="far fa-boxes fa-lg"></i>&nbsp;محصولات ما</a>
+                        <div class="dropdown-mobile">
+                            <ul>
+                                <li>cnasjcn</li>
+                                <li>cnasjcn</li>
+                                <li>cnasjcn</li>
+                            </ul>
+                        </div>
+                    </li>
                     <li class="nav-link-mobile"><a href="#"><i class="fal fa-file-alt fa-lg"></i>&nbsp;مطالب</a></li>
                     <li class="nav-link-mobile"><a href="#"><i class="far fa-comment-exclamation fa-lg"></i>&nbsp;درباره ما</a></li>
                     <li class="nav-link-mobile"><a href="#"><i class="far fa-phone fa-lg"></i>&nbsp;تماس با ما</a></li>
@@ -195,7 +203,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped >
     .sticky{
         background: #ffb700;
         position: fixed;
