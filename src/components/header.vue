@@ -107,11 +107,11 @@
                 </div>
 
                 <ul class="nav-mobile">
-                    <li class="nav-link-mobile"><a href="#">آیتم 1</a></li>
-                    <li class="nav-link-mobile"><a href="#">آیتم 2</a></li>
-                    <li class="nav-link-mobile"><a href="#">آیتم 3</a></li>
-                    <li class="nav-link-mobile"><a href="#">آیتم 4</a></li>
-                    <li class="nav-link-mobile"><a href="#">آیتم 5</a></li>
+                    <li class="nav-link-mobile"><a href="#"><i class="far fa-home fa-lg"></i>&nbsp;خانه</a></li>
+                    <li class="nav-link-mobile"><a href="#"><i class="far fa-boxes fa-lg"></i>&nbsp;محصولات ما</a></li>
+                    <li class="nav-link-mobile"><a href="#"><i class="fal fa-file-alt fa-lg"></i>&nbsp;مطالب</a></li>
+                    <li class="nav-link-mobile"><a href="#"><i class="far fa-comment-exclamation fa-lg"></i>&nbsp;درباره ما</a></li>
+                    <li class="nav-link-mobile"><a href="#"><i class="far fa-phone fa-lg"></i>&nbsp;تماس با ما</a></li>
                 </ul>
 
 
