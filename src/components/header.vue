@@ -111,9 +111,11 @@
                     <li class="nav-link-mobile"><a href="#"><i class="far fa-boxes fa-lg"></i>&nbsp;محصولات ما</a>
                         <div class="dropdown-mobile">
                             <ul>
-                                <li>cnasjcn</li>
-                                <li>cnasjcn</li>
-                                <li>cnasjcn</li>
+                                <li><a href="#">عسل آویشن</a></li>
+                                <li><a href="#">عسل بهارنارنج</a></li>
+                                <li><a href="#">عسل گون</a></li>
+                                <li><a href="#">عسل افرا</a></li>
+                                <li><a href="#">عسل کدو</a></li>
                             </ul>
                         </div>
                     </li>
@@ -136,6 +138,7 @@
 <script>
 export default {
     
+    
     data(){
         return{
             menuOpen: false,
@@ -147,6 +150,13 @@ export default {
             natayejSearch: false,
         }
     },
+    
+    
+    mounted(){
+
+    },
+
+
     methods: {
         menuOpenshow(){
             if(!this.mobileMenu){
@@ -179,9 +189,6 @@ export default {
         },
 
         
-    },
-
-    components: {
     },
 
     mounted () {
