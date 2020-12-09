@@ -1,6 +1,6 @@
 @font-face{
     font-family: iran;
-    src:url('webfonts/iran.TTF') format('truetype');
+    src:url('webfonts/iran.ttf') format('truetype');
 }
 
 *{
@@ -549,20 +549,7 @@ margin: -34px 0 0 17px;
     }
 
 
-    .igron{
-        width: 100pc;
-        height: 100pc;
-        opacity: 1;
-        -webkit-transition: opacity 0.5s;
-        transition: opacity 0.5s;
-        display: block;
-        background: hsla(0, 0%, 0%, 0.548);
-        padding: 0;
-        margin: 0;
-        -moz-transition: opacity 0.5s;
-        -ms-transition: opacity 0.5s;
-        -o-transition: opacity 0.5s;
-}
+    
     /* END Header mobile */
 
 
@@ -596,6 +583,22 @@ margin: -34px 0 0 17px;
     }
 
 
+}
+
+.igron{
+    width: 100pc;
+    height: 100pc;
+    opacity: 1;
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+    display: block;
+    background: hsla(0, 0%, 0%, 0.548);
+    padding: 0;
+    position: fixed;
+    margin: 0;
+    -moz-transition: opacity 0.5s;
+    -ms-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
 }
 
 @media(max-width: 513px){
