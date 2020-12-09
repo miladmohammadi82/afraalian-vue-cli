@@ -541,6 +541,10 @@ margin: -34px 0 0 17px;
         width: 100%;
     }
 
+    .nav-mobile .nav-link-mobile a{
+        font-size: 16px;
+    }
+
     .nav-mobile .nav-link-mobile:last-child{
         border: none;
     }
