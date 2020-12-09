@@ -88,7 +88,7 @@
             <!-- Start menu mobile -->
 
 
-            <div class="header-mobile">
+            <div class="header-mobile" :class="{ showMenu:mobileMenu }">
 
                 <div class="header-menu">
                     <h3 class="text-center">منو</h3>
@@ -117,7 +117,7 @@
 
             </div>
 
-            <div class="igron"></div>
+            <div :class="{ igron:showIgron }" @click="showIgronDiv"></div>
             <!-- END menu mobile -->
         </header>
 
@@ -134,6 +134,7 @@ export default {
             mobileMenu: false,
 
             searchBox: false,
+            showIgron: false,
 
             natayejSearch: false,
         }
@@ -142,19 +143,28 @@ export default {
         menuOpenshow(){
             if(!this.mobileMenu){
                 this.mobileMenu = true;
-            }
-            else{
+            }else{
                 this.mobileMenu = false;
             }
 
             if(!this.menuOpen){
                 this.menuOpen = true;
-            }
-            else{
+            }else{
                 this.menuOpen = false;
             }
 
+
+            if (this.menuOpen) {
+                this.showIgron = true
+            }else{
+                this.showIgron = false
+            }
         },
+
+        showIgronDiv(){
+            
+        },
+
         addSearchBox(){
             if(!this.searchBox){
                 this.searchBox = true;
