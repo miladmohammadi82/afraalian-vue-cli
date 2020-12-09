@@ -150,11 +150,6 @@ export default {
             natayejSearch: false,
         }
     },
-    
-    
-    mounted(){
-
-    },
 
 
     methods: {
