@@ -97,12 +97,12 @@
                 <div class="serch-box">
                     <!-- Another variation with a button -->
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search this blog">
                         <div class="input-group-append">
-                            <button class="btn btn-secondary" type="button">
+                            <button style="height: 32px;" class="btn btn-secondary" type="button">
                                 <i class="fa fa-search"></i>
                             </button>
                         </div>
+                        <input type="text" style="height: 18px;" class="form-control" placeholder="Search this blog">
                     </div>
                 </div>
 
@@ -193,6 +193,10 @@ export default {
         transition: all 500ms;
         padding-left: 10px;
     }
-
+    .btn-secondary {
+        color: #fff;
+        background-color: #ff6d00;
+        border-color: #ff6d00;
+    }
     
 </style>

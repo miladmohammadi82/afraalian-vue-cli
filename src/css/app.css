@@ -573,12 +573,17 @@ margin: -34px 0 0 17px;
 
 .serch-box {
     width: 50%;
-    margin: 50px auto;
+    margin: 45px auto 0px;
     direction: rtl;
 }
 .has-search .form-control {
     padding-left: 2.375rem;
 }
+
+.has-search .input-group input{
+    height: 10px;
+}
+
 .has-search .form-control-feedback {
     position: absolute;
     z-index: 2;
