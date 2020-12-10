@@ -527,17 +527,17 @@ margin: -34px 0 0 17px;
         border-left: 2px solid #e67a01;
         top: 70px;
         display: block;
-        transform: translateX(100%);
-        -webkit-transform: translateX(100%);
-        -moz-transform: translateX(100%);
-        -ms-transform: translateX(100%);
-        -o-transform: translateX(100%);
+        transform: translateX(110%);
+        -webkit-transform: translateX(110%);
+        -moz-transform: translateX(110%);
+        -ms-transform: translateX(110%);
+        -o-transform: translateX(110%);
         transition: all .5s;
         -webkit-transition: all .5s;
         -moz-transition: all .5s;
         -ms-transition: all .5s;
         -o-transition: all .5s;
-    }
+}
 
     .showMenu{
         transform: translateX(0);
