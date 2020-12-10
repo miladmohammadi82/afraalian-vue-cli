@@ -685,6 +685,14 @@ margin: -34px 0 0 17px;
         padding: 20px 10px;
     }
 
+    .content-user .items-user ul li{
+        border-bottom: 1px solid #26262636;
+    }
+
+    .content-user .items-user ul li:last-child{
+        border: none;
+    }
+
     /* Search box style */
 
 
