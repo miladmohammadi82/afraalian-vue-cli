@@ -254,6 +254,8 @@ export default {
             if (this.showMenuUser &&  this.showIgroneUser) {
                 this.menuOpen = false;
                 this.mobileMenu = false;
+                this.showIgron = false
+
             }
 
 
