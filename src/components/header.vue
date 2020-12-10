@@ -202,6 +202,12 @@ export default {
             }else{
                 this.showIgron = false
             }
+
+
+            if (this.menuOpen &&  this.mobileMenu) {
+                this.showMenuUser = false;
+                this.showIgroneUser = false;
+            }
         },
 
         showDropdownMethod(){
