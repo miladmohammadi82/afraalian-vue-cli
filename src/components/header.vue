@@ -84,7 +84,7 @@
                     </li>
                 </ul>
 
-                <div class="box-icon-user" @click="showUserMenu">
+                <div class="box-icon-user" :class="{ openUser:openMenuUser }" @click="showUserMenu">
                     <i class="far fa-user-circle fa-lg" style="color:#ff0800"></i>
                 </div>
             </nav>
@@ -177,6 +177,7 @@ export default {
             editIconDropdown: false,
             showMenuUser: false,
             showIgroneUser: false,
+            openMenuUser:false,
         }
     },
 
@@ -234,7 +235,16 @@ export default {
                 this.showMenuUser = false;
                 this.showIgroneUser = false;
             }
-        }
+
+
+            if (!this.openMenuUser) {
+                this.openMenuUser = true
+            }else{
+                this.openMenuUser = false
+            }
+
+        },
+        
         
     },
 
