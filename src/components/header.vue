@@ -76,10 +76,17 @@
                         <div class="conter-shopping-cart"><span>0</span></div>
                     </li>
                     <li>
+                        
+                    </li>
+                    <li>
                         <button class="btn-register-system" style="margin-left: 5px;">ورود</button>
                         <button class="btn-register-system">ثبت نام</button>
                     </li>
                 </ul>
+                
+                <div class="box-icon-user">
+                    <i class="far fa-user-circle fa-lg"></i>
+                </div>
             </nav>
 
             
