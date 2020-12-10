@@ -11,10 +11,6 @@
                     <h2>logo</h2>
                 </div>
                 <ul class="main-menu">
-                    <li class="register-btn-mobile">
-                        <button class="btn-register-system"><p>ورود</p></button>
-                        <button class="btn-register-system"><p>ثبت نام</p></button>
-                    </li>
 
                     <li class="nav-link"><a href="#" class="a-nav-link active">خانه</a></li>
 
@@ -79,8 +75,8 @@
                         
                     </li>
                     <li>
-                        <button class="btn-register-system" style="margin-left: 5px;">ورود</button>
-                        <button class="btn-register-system">ثبت نام</button>
+                        <button class="btn-register-system" style="margin-left: 5px;"><i class="far fa-sign-in-alt fa-lg"></i>&nbsp;ورود</button>
+                        <button class="btn-register-system"><i class="far fa-user-plus fa-lg"></i>&nbsp;ثبت نام</button>
                     </li>
                 </ul>
 
