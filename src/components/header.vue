@@ -84,7 +84,7 @@
                     </li>
                 </ul>
 
-                <div class="box-icon-user">
+                <div class="box-icon-user" @click="showUserMenu">
                     <i class="far fa-user-circle fa-lg" style="color:#ff0800"></i>
                 </div>
             </nav>
@@ -138,7 +138,7 @@
             <!-- END menu mobile -->
 
 
-            <div class="menu-user">
+            <div class="menu-user" :class="{ 'user-show':showMenuUser }">
                 <div class="content-user">
                     <div class="header1">
                         <h4 style="color: #fff" class="text-center">محیط کاربری</h4>
@@ -153,7 +153,7 @@
                 </div>
             </div>
 
-            <div class="igrone-user-menu"></div>
+            <div :class="{'igrone-user-menu':showIgroneUser}" @click="showUserMenu"></div>
         </header>
 
         
@@ -175,6 +175,8 @@ export default {
             natayejSearch: false,
             showDropdownMobile: false,
             editIconDropdown: false,
+            showMenuUser: false,
+            showIgroneUser: false,
         }
     },
 
@@ -224,6 +226,15 @@ export default {
             }
         },
 
+        showUserMenu(){
+            if(!this.showMenuUser){
+                this.showMenuUser = true;
+                this.showIgroneUser = true;
+            }else{
+                this.showMenuUser = false;
+                this.showIgroneUser = false;
+            }
+        }
         
     },
 
