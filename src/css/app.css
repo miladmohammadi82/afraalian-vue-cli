@@ -317,6 +317,14 @@ opacity: 1;
 margin-right: 5px;
 }
 
+.box-icon-user{
+    display: none;
+}
+
+.items-user{
+    display: none;
+}
+
 .searchbox{
     min-width: 17%;
     text-align: center;
@@ -634,6 +642,9 @@ margin: -34px 0 0 17px;
 
 
 
+    .items-user{
+        display: block;
+    }
 
     .menu-user{
         width: 50%;
@@ -705,12 +716,12 @@ margin: -34px 0 0 17px;
 
     .openUser i{
         color: #fff !important;
-        transition: all .3s;
+        transition: all .5s;
         -webkit-transition: all .5s;
-        -moz-transition: all .3s;
-        -ms-transition: all .3s;
-        -o-transition: all .3s;
-    }
+        -moz-transition: all .5s;
+        -ms-transition: all .5s;
+        -o-transition: all .5s;
+}
 
 
     .content-user .items-user{
