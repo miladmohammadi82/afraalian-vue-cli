@@ -368,7 +368,20 @@
         </section>
         <!-- End section blog -->
 
-        
+        <!-- Start Newsletters section -->
+
+        <section class="newsletters">
+            <div class="bg-newsletters">
+                <form class="form-wrapper cf">
+                    <input type="text" placeholder="Search here..." required>
+                    <button type="submit">عضویت</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- END Newsletters section -->
+
+
         <footer-vue></footer-vue>
         <back-to-top></back-to-top>
     </main>
