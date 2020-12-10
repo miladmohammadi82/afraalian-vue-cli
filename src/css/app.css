@@ -537,7 +537,7 @@ margin: -34px 0 0 17px;
         -moz-transition: all .5s;
         -ms-transition: all .5s;
         -o-transition: all .5s;
-}
+    }
 
     .showMenu{
         transform: translateX(0);
