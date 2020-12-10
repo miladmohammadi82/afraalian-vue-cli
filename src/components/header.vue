@@ -207,6 +207,7 @@ export default {
             if (this.menuOpen &&  this.mobileMenu) {
                 this.showMenuUser = false;
                 this.showIgroneUser = false;
+                this.openMenuUser = false;
             }
         },
 
