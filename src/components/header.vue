@@ -83,9 +83,9 @@
                         <button class="btn-register-system">ثبت نام</button>
                     </li>
                 </ul>
-                
+
                 <div class="box-icon-user">
-                    <i class="far fa-user-circle fa-lg"></i>
+                    <i class="far fa-user-circle fa-lg" style="color:#ff0800"></i>
                 </div>
             </nav>
 
@@ -142,6 +142,13 @@
                 <div class="content-user">
                     <div class="header1">
                         <h4 style="color: #fff" class="text-center">محیط کاربری</h4>
+                    </div>
+
+                    <div class="items-user">
+                        <ul>
+                            <li><a href="#"><i class="far fa-sign-in-alt fa-lg"></i>&nbsp;ورود</a></li>
+                            <li><a href="#"><i class="far fa-user-plus fa-lg"></i>&nbsp;ثبت نام</a></li>
+                        </ul>
                     </div>
                 </div>
                 

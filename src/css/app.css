@@ -661,7 +661,7 @@ margin: -34px 0 0 17px;
         -o-transition: all .5s;
     }
 
-    .content-user .header1{
+     .header1{
         width: 100%;
         height: 50px;
         background: #ff6d00;
@@ -670,7 +670,7 @@ margin: -34px 0 0 17px;
     .box-icon-user{
         width: 40px;
         height: 40px;
-        border: 1px solid #ff6d00;
+        border: 1px solid #ff0800;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -680,12 +680,10 @@ margin: -34px 0 0 17px;
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
     }
-
-    .box-icon-user i{
-        
-    }
     
-
+    .content-user .items-user{
+        padding: 20px 10px;
+    }
 
     /* Search box style */
 
