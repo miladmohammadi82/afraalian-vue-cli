@@ -824,9 +824,9 @@ margin: -34px 0 0 17px;
 @media(max-width: 513px){
     .searchbox{
         margin: 0px -118px 0 0;
-    }
 }
 
+}
 
 /*start media*/
 
@@ -1095,12 +1095,17 @@ body {
     -o-border-radius: 0 0 10px 10px;
 }
 
+.header1 h5{
+    display: none;
+}
+
 .blog-item img{
     border-radius: 10px 10px 0 0;
     -webkit-border-radius: 10px 10px 0 0;
     -moz-border-radius: 10px 10px 0 0;
     -ms-border-radius: 10px 10px 0 0;
     -o-border-radius: 10px 10px 0 0;
+
 }
 
 .blog-item:hover{

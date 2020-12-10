@@ -5,7 +5,7 @@
                 <div class="swiper-container img container">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide" v-for="image in images" :key="image.id">
-                            <img class="w-100" :src="image.slider" :alt="images.alt">
+                            <img class="w-100" style="border-radius: 20px" :src="image.slider" :alt="images.alt">
                         </div>
                     </div>
                     <div class="swiper-pagination swiper-pagination-white"></div>
