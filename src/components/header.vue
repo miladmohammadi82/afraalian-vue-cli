@@ -97,17 +97,7 @@
                     <h3 class="text-center">منو</h3>
                 </div>
 
-                <div class="serch-box">
-                    <!-- Another variation with a button -->
-                    <div class="input-group">
-                        <div class="input-group-append">
-                            <button style="height: 32px;" class="btn btn-secondary" type="button">
-                                <i class="fa fa-search"></i>
-                            </button>
-                        </div>
-                        <input type="text" style="height: 18px;" class="form-control" placeholder="Search this blog">
-                    </div>
-                </div>
+            
 
                 <ul class="nav-mobile">
                     <li class="nav-link-mobile"><a href="#"><i class="far fa-home fa-lg"></i>&nbsp;خانه</a></li>
