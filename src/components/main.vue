@@ -371,9 +371,10 @@
         <!-- Start Newsletters section -->
 
         <section class="newsletters">
-            <div class="bg-newsletters">
+            <h2 class="text-center">عضویت در خبرنامه</h2>
+            <div class="bg-newsletters mt-4">
                 <form class="form-wrapper cf">
-                    <input type="text" placeholder="Search here..." required>
+                    <input type="text" placeholder="ایمیل خود را وارد کنید" required>
                     <button type="submit">عضویت</button>
                 </form>
             </div>

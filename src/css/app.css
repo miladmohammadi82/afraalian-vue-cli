@@ -1431,7 +1431,7 @@ body {
 }
 .newsletters .bg-newsletters{
     height: 300px;
-    background: url('../assets/bg-about.jpg') repeat fixed 100%;
+    background: url('../assets/bg-about.jpg') repeat fixed 100% center ;
     padding: 1px 0;
 }
 
@@ -1468,16 +1468,18 @@ body {
 
   .form-wrapper input {
       width: 330px;
-      height: 20px;
+      height: 30px;
       padding: 10px 5px;
-      float: left;    
+      float: left;
       font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
       border: 0;
       background: #eee;
-      -moz-border-radius: 3px 0 0 3px;
-      -webkit-border-radius: 3px 0 0 3px;
-      border-radius: 3px 0 0 3px;      
-  }
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+}
   
   .form-wrapper input:focus {
       outline: 0;
@@ -1518,18 +1520,20 @@ body {
       border: 0;
       padding: 0;
       cursor: pointer;
-      height: 40px;
+      height: 50px;
       width: 110px;
       font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
       color: #fff;
       text-transform: uppercase;
       background: #e8a100;
-      -moz-border-radius: 0 3px 3px 0;
-      -webkit-border-radius: 0 3px 3px 0;
-      border-radius: 0 3px 3px 0;      
       text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
       font-family: iran;
-  }   
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+}   
     
   @media(max-width: 604px){
         .form-wrapper{
