@@ -10,7 +10,7 @@
                 <div class="logo">
                     <h2>logo</h2>
                 </div>
-                <ul class="main-menu" :class="{ show:mobileMenu }">
+                <ul class="main-menu">
                     <li class="register-btn-mobile">
                         <button class="btn-register-system"><p>ورود</p></button>
                         <button class="btn-register-system"><p>ثبت نام</p></button>
@@ -242,6 +242,13 @@ export default {
             }else{
                 this.openMenuUser = false
             }
+
+
+            if (this.showMenuUser &&  this.showIgroneUser) {
+                this.menuOpen = false;
+                this.mobileMenu = false;
+            }
+
 
         },
         
