@@ -403,7 +403,7 @@
     <section id="top-sale">
         <div class="container py-5">
             <h4>
-                <span>پرفروش ترین ها</span>
+                <span>آخرین مطالب</span>
             </h4>
             <!-- owl-carousel -->
             <div class="swiper-container product-slider">
@@ -419,14 +419,19 @@
                                     احساس ضعف و بی‌حالی یک احساس آشنا برای هریک از ما است. اما اگر این موضوع باعث ایجاد مشکلاتی شود باید به  کم 
                                 </p>
                             </div>
-                            <div class="text-"></div>
+                            <div class="text-center pt-4">
+                                <button class="btn btn-warning text-dark">ادامه مطالب</button>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <!-- Add Pagination -->
-                <div class="swiper-pagination" style="bottom: 90px;"></div>
+                <div class="swiper-pagination pb-2" style="bottom: 30px;"></div>
             </div>                  
             <!-- owl-carousel -->
+            <div class="text-center">
+                    <button class="button-blog">مشاهده همه مطالب&nbsp;&nbsp;<i class="fa fa-chevron-left"></i></button>
+            </div>
         </div>
     </section>
 
@@ -448,32 +453,6 @@
 
 
 
-       <!-- Start section blog -->
-        <section class="blog">
-            <div class="container">
-                <div class="title-blogsection">
-                    <h1 class="text-center">آخرین مطالب</h1>
-                </div>
-
-
-                <div class="blogs-items">
-                        <a href="" v-for="blog in blogs" :key="blog.id">
-                            <div class="blog-item">
-                                <img :src="blog.img" class="w-100" alt="">
-                                <div class="title-blog-item p-3">
-                                    <p>{{ blog.title }}</p>
-                                </div>
-                                <button class="w-100 btn-blog-item">ادامه مطلب</button>
-                            </div>
-                        </a>
-                    
-                </div>
-                <div class="text-center">
-                    <button class="button-blog">مشاهده همه مطالب&nbsp;&nbsp;<i class="fa fa-chevron-left"></i></button>
-                </div>
-            </div>
-        </section>
-        <!-- End section blog -->
 
 
         <!-- Start Newsletters section -->
