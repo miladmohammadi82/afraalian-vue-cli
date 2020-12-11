@@ -465,7 +465,7 @@ export default{
 
     .product-slider {
       width: 100%;
-      height: 400px;
+      height: 380px;
     }
 
     .product-slider a img{
