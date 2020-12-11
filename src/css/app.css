@@ -992,10 +992,33 @@ body {
     width: 213px;
     height: 347px;
     border-radius: 10px;
-    background: #ffffff;
-    -webkit-box-shadow: 1px 0px 8px 0px #262626;
-    box-shadow: 0 0 6px -2px #262626;
+    background: #f7f7f7;
     margin-right: 5px;
+    padding: 0 0 10px 0;
+}
+
+.btn-shoping-card{
+    opacity: 0;
+    pointer-events: none;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.product:hover .btn-shoping-card{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.product:hover{
+    border: 1px solid #26262641;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet{
+    width: 15px !important;
+    height: 15px !important;
 }
 
 

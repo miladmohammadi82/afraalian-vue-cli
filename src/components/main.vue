@@ -78,7 +78,7 @@
                                         <p>تومان</p>&nbsp;<span>{{ product.price }}</span>
                                     </div>
                                     <div class="btn-shoping-card">
-                                        <button class="btn-register-system" style="width: 110px;"><i
+                                        <button class="btn-register-system w-75"><i
                                                 class="far fa-plus"></i>&nbsp;&nbsp;<small>افزودن به سبد</small></button>
                                     </div>
                                 </div>
@@ -464,7 +464,7 @@ export default{
 
     .product-slider {
       width: 100%;
-      height: 100%;
+      height: 400px;
     }
 
     .product-slider a img{
