@@ -1298,6 +1298,7 @@ body {
     width: 40px;
     height: 40px;
     background: #fff;
+    overflow: hidden;
     border-radius: 50%;
     margin-left: 11px;
     transition: all .5s;
@@ -1313,11 +1314,13 @@ body {
     -moz-transition: all .5s;
     -ms-transition: all .5s;
     -o-transition: all .5s;
+    font-size: 22px;
 }
 
 
 .telegram-plane i{
     color: #0088cc !important;
+    
 }
 .telegram-plane:hover i{
     color: #fff !important;
