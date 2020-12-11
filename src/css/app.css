@@ -1171,8 +1171,8 @@ body {
 .footer{
     width: 100%;
     height: auto;
-    background: #ffc636;
-    margin: 0;
+    background: rgb(255,158,0);
+    background: linear-gradient(0deg, rgba(255,158,0,1) 28%, rgba(255,123,0,1) 76%);    margin: 0;
     padding: 0;
     display: block;
     padding: 56px 0 0 0;
@@ -1475,7 +1475,7 @@ body {
       font-style: italic;
   }    
   
-  .form-wrapper button {
+    .form-wrapper button {
       overflow: visible;
       position: relative;
       float: right;
@@ -1495,7 +1495,7 @@ body {
       -moz-border-radius: 10px;
       -ms-border-radius: 10px;
       -o-border-radius: 10px;
-}   
+    }   
     
   @media(max-width: 604px){
         .form-wrapper{
