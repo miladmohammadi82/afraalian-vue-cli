@@ -92,7 +92,49 @@
                 <!-- owl-carousel -->
             </div>
         </section>
+
+
+
+
+        <!-- #2 -->
+
+        <section id="top-sale">
+            <div class="container py-5">
+                <h4>
+                    <span>پرفروش ترین ها</span>
+                </h4>
+                <!-- owl-carousel -->
+                <div class="swiper-container product-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" v-for="product in products" :key="product.id">
+                            <div class="product" style="width: 350px;">
+                                <a href="#">
+                                    <img :src="product.img" alt="" class="img-fluid">
+                                </a>
+                                <div class="title-product mt-2">
+                                    <h6>{{product.title}}</h6>
+                                    <div class="price py-3">
+                                        <p>تومان</p>&nbsp;<span>{{ product.price }}</span>
+                                    </div>
+                                    <div class="btn-shoping-card">
+                                        <button class="btn-register-system w-75"><i
+                                                class="far fa-plus"></i>&nbsp;&nbsp;<small>افزودن به سبد</small></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>                  
+                <!-- owl-carousel -->
+            </div>
+        </section>
         <!-- End Slider product -->
+
+
+
+
 
 
 
