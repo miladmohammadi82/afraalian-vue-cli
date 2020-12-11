@@ -69,7 +69,7 @@
                 <div class="swiper-container product-slider">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide" v-for="product in products" :key="product.id">
-                            <div class="product">
+                            <div class="product" style="width: 350px;">
                                 <a href="#"><img :src="product.img" alt=""
                                                  class="img-fluid"></a>
                                 <div class="title-product mt-2">
@@ -468,7 +468,7 @@ export default{
     }
 
     .product-slider a img{
-        width: 200px;
+        width: 220px;
     }
 
     .product-slider {
