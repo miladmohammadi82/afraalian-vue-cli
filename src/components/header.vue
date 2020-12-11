@@ -34,11 +34,12 @@
 
                 
 
-                <ul class="right-menu">
-                    <div>
-                        <li class="pl-3">
-                            <a href="#"><i class="fal fa-search" :class="{ 'fal fa-search-minus':searchBox }" @click.prevent="addSearchBox"></i></a>
-                        </li>
+                
+                <div class="right-menu d-flex">
+                    <div class="search-section pl-3">
+                        <div class="pl-3">
+                            <a href="#"><i class="fal fa-search fa-lg" :class="{ 'fal fa-search-minus':searchBox }" @click.prevent="addSearchBox"></i></a>
+                        </div>
 
                         <div class="searchbox" :class="{ showSearchbox:searchBox }">
                             <form action="" >
@@ -65,26 +66,23 @@
                         </div>
                     </div>
 
-                    <li>
+                    <div class="sopping-cart pl-3">
                         <a href="#">
-                            <i class="fal fa-shopping-bag"></i>
+                            <i class="fal fa-shopping-bag fa-lg"></i>
                         </a>
-                        <div class="conter-shopping-cart"><span>0</span></div>
-                    </li>
-                    <li>
-                        
-                    </li>
-                    <li>
-                        <button class="btn-register-system" style="margin-left: 5px;"><i class="far fa-sign-in-alt fa-lg"></i>&nbsp;ورود</button>
+                        <div class="conter-shopping-cart" style="margin: -34px -6px;"><span>0</span></div>
+                    </div>
+
+                    <div class="box-icon-user" :class="{ openUser:openMenuUser }" @click="showUserMenu">
+                        <i class="far fa-user-circle fa-lg" style="color:#ff0800"></i>
+                    </div>
+
+                    <div class="buttons-register">
+                        <button class="btn-register-system ml-2"><i class="far fa-sign-in-alt fa-lg"></i>&nbsp;ورود</button>
                         <button class="btn-register-system"><i class="far fa-user-plus fa-lg"></i>&nbsp;ثبت نام</button>
-                    </li>
-                </ul>
-                <div class="">
-                    
+                    </div>
                 </div>
-                <div class="box-icon-user" :class="{ openUser:openMenuUser }" @click="showUserMenu">
-                    <i class="far fa-user-circle fa-lg" style="color:#ff0800"></i>
-                </div>
+                
             </nav>
 
             

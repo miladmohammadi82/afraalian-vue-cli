@@ -334,6 +334,10 @@ opacity: 1;
 margin-right: 5px;
 }
 
+.right-menu div{
+    padding: 0 0 0 0;
+}
+
 .box-icon-user{
     display: none;
 }
@@ -360,7 +364,8 @@ margin-right: 5px;
     -moz-transition: all .2s ease-in-out;
     -ms-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
-    z-index: 5;
+    z-index: 50000;
+    margin: 10px -4%;
 }
 
 .showSearchbox{
@@ -576,9 +581,11 @@ margin: -34px 0 0 17px;
         -moz-transition: all .5s;
         -ms-transition: all .5s;
         -o-transition: all .5s;
-}
+    }
 
- 
+
+    
+
 
     .dropdown-mobile ul li{
         line-height: 42px;
@@ -1042,7 +1049,6 @@ body {
 
 
 
-  
 
 
 /* Start swiper slider product */
