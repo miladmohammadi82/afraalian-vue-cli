@@ -44,6 +44,14 @@ new Swiper('.product-slider', {
       clickable: true,
     },
     breakpoints: {
+      300: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      400: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
       500: {
         slidesPerView: 2,
         spaceBetween: 20,
