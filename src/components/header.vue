@@ -271,7 +271,7 @@ export default {
 
 <style scoped >
     .sticky{
-        background: #ffb700;
+        background: #FFC736;
         position: fixed;
         border-bottom: 3px solid #ff6d00;
     }
@@ -281,6 +281,7 @@ export default {
         transition: all 500ms;
         padding-left: 10px;
     }
+    
     .btn-secondary {
         color: #fff;
         background-color: #ff6d00;
