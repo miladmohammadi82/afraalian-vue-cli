@@ -187,19 +187,20 @@ font-size: 21px;
 position: relative;
 }
 
-.dropdown{
-position: absolute;
-top: 100%;
-right: 0;
-padding-top: 20px;
-display: none;
-transition: .5s;
-z-index: 9999;
-transition:all .5s ;
--webkit-transition:all .5s ;
--moz-transition:all .5s ;
--ms-transition:all .5s ;
--o-transition:all .5s ;
+.nav-link .dropdown{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    transition: .5s;
+    z-index: 9999;
+    transition:all .5s ;
+    -webkit-transition:all .5s ;
+    -moz-transition:all .5s ;
+    -ms-transition:all .5s ;
+    -o-transition:all .5s ;
+    opacity: 0;
+    pointer-events: none;
+    margin: 23px 0;
 }
 
 
@@ -212,7 +213,7 @@ transition:all .5s ;
     padding-left: 20px;
     background: rgb(255,158,0);
     background: linear-gradient(17deg, rgba(255,158,0,1) 28%, rgba(255,123,0,1) 76%);
-    height: 136px;
+    height: auto;
     width: 116px;
     transition: .5s;
     z-index: 99999999999999;
@@ -224,37 +225,46 @@ transition:all .5s ;
     flex-direction: column;
     position: absolute;
     transition: .5s;
-    padding-left: 20px;
     border-radius: 0 0 20px 20px;
-}
-
-
-
-.dropdown-link a{
-display: flex;
-color: #fff;
-}
-
-.dropdown ul li{
-padding-top: 10px;
-transition: .5s;
-line-height: 20px;
--webkit-transition: .5s;
--moz-transition: .5s;
--ms-transition: .5s;
--o-transition: .5s;
-}
-
-.dropdown ul li a{
-color: #262626 !important;
+    -webkit-border-radius: 0 0 20px 20px;
+    -moz-border-radius: 0 0 20px 20px;
+    -ms-border-radius: 0 0 20px 20px;
+    -o-border-radius: 0 0 20px 20px;
+    margin: 0 0 0 0;
 }
 
 .nav-link:hover .dropdown{
-transform: translate(0,0);
-pointer-events: auto;
-display: block;
-padding-top: 0;
+    opacity: 1; 
+    pointer-events: auto;
+    margin-top: 0px;
 }
+
+.dropdown-link a{
+    display: flex;
+    color: #fff;
+}
+
+.dropdown ul li{
+    line-height: 30px;
+    padding-top: 10px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    width: 100%;
+    margin: 0 -36px 0px 0;
+}
+
+.nav-link:hover .dropdown ul li{
+    margin: 0 0 0px 0;
+}
+
+.dropdown ul li a{
+color: #F4F5F6 !important;
+}
+
+
 
 .search-btn{
 border: none;
