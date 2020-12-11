@@ -210,7 +210,8 @@ transition:all .5s ;
     position: absolute;
     transition: .5s;
     padding-left: 20px;
-    background:#fff;
+    background: rgb(255,158,0);
+    background: linear-gradient(17deg, rgba(255,158,0,1) 28%, rgba(255,123,0,1) 76%);
     height: 136px;
     width: 116px;
     transition: .5s;
@@ -224,6 +225,7 @@ transition:all .5s ;
     position: absolute;
     transition: .5s;
     padding-left: 20px;
+    border-radius: 0 0 20px 20px;
 }
 
 
