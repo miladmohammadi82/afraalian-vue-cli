@@ -79,7 +79,9 @@
                         <button class="btn-register-system"><i class="far fa-user-plus fa-lg"></i>&nbsp;ثبت نام</button>
                     </li>
                 </ul>
-
+                <div class="">
+                    
+                </div>
                 <div class="box-icon-user" :class="{ openUser:openMenuUser }" @click="showUserMenu">
                     <i class="far fa-user-circle fa-lg" style="color:#ff0800"></i>
                 </div>
