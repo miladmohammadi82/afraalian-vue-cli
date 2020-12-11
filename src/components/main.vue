@@ -408,50 +408,30 @@
             <!-- owl-carousel -->
             <div class="swiper-container product-slider">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
+                    <div class="swiper-slide" v-for="blog in blogs" :key="blog.id">
                         <div class="blog2">
-
+                            <img :src="blog.img" class="w-100" alt="">
+                            <div class="title-blog">
+                                <h5 class="text-center">عسل درمانی چیست</h5>
+                            </div>
+                            <div class="desciption-blog text-center pt-2">
+                                <p class="" style="font-size: small;">
+                                    احساس ضعف و بی‌حالی یک احساس آشنا برای هریک از ما است. اما اگر این موضوع باعث ایجاد مشکلاتی شود باید به  کم 
+                                </p>
+                            </div>
+                            <div class="text-"></div>
                         </div>
                     </div>
-
-                    <div class="swiper-slide">
-                        <div class="blog2">
-
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="blog2">
-
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="blog2">
-
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="blog2">
-
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="blog2">
-
-                        </div>
-                    </div>
-                    
-
-                    
                 </div>
                 <!-- Add Pagination -->
-                <div class="swiper-pagination"></div>
+                <div class="swiper-pagination" style="bottom: 90px;"></div>
             </div>                  
             <!-- owl-carousel -->
         </div>
     </section>
 
     <!-- Start section blog #2 -->
+
 
 
 
