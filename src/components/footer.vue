@@ -115,11 +115,11 @@
                 </div>
                 <div class="pm-resans">
                     <ul class="social-network">
-                        <li><a href="#"><i class="fab fa-telegram-plane fa-2x"></i></a></li>
-                        <li><a href="#"><i class="fab fa-instagram fa-2x"></i></a></li>
-                        <li><a href="#"><i class="fab fa-youtube fa-2x"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter fa-2x"></i></a></li>
-                        <li><a href="#"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+                        <li class="telegram-plane"><a href="#"><i class="fab fa-telegram-plane fa-2x"></i></a></li>
+                        <li class="instagram"><a href="#"><i class="fab fa-instagram fa-2x"></i></a></li>
+                        <li class="youtube"><a href="#"><i class="fab fa-youtube fa-2x"></i></a></li>
+                        <li class="twitter"><a href="#"><i class="fab fa-twitter fa-2x"></i></a></li>
+                        <li class="facebook-square"><a href="#"><i class="fab fa-facebook-square fa-2x"></i></a></li>
                     </ul>
                 </div>
             </div>
