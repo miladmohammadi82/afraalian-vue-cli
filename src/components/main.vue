@@ -70,8 +70,18 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide" v-for="product in products" :key="product.id">
                             <div class="product" style="width: 350px;">
-                                <a href="#"><img :src="product.img" alt=""
-                                                 class="img-fluid"></a>
+                                <div class="icon-ptoduct">
+                                    <div class="icon-like">
+                                        <i class="far fa-hard-hat"></i>
+                                    </div>
+
+                                    <div class="icon-save">
+                                        <i class="far fa-hard-hat"></i>
+                                    </div>
+                                </div>
+                                <a href="#">
+                                    <img :src="product.img" alt="" class="img-fluid">
+                                </a>
                                 <div class="title-product mt-2">
                                     <h6>{{product.title}}</h6>
                                     <div class="price py-3">

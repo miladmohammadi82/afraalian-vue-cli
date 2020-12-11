@@ -990,12 +990,19 @@ body {
 
 .product{
     width: 213px;
-    height: 347px;
+    height: auto;
     border-radius: 10px;
     background: #f7f7f7;
     margin-right: 5px;
     padding: 0 0 10px 0;
 }
+
+
+.icon-ptoduct{
+    display: flex;
+    justify-content: space-between;
+}
+
 
 .btn-shoping-card{
     opacity: 0;
