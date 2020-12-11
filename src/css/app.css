@@ -1007,6 +1007,13 @@ body {
     -o-transition: all .5s;
 }
 
+@media(max-width: 1050px){
+    .btn-shoping-card{
+        opacity: 1;
+        pointer-events: auto;
+    }
+}
+
 .product:hover .btn-shoping-card{
     opacity: 1;
     pointer-events: auto;
