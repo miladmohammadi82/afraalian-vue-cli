@@ -384,6 +384,90 @@
        <!-- END tab product -->
 
 
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    <!-- Start section blog #2 -->
+
+
+    <section id="top-sale">
+        <div class="container py-5">
+            <h4>
+                <span>پرفروش ترین ها</span>
+            </h4>
+            <!-- owl-carousel -->
+            <div class="swiper-container product-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="blog2">
+
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="blog2">
+
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="blog2">
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="blog2">
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="blog2">
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="blog2">
+
+                        </div>
+                    </div>
+                    
+
+                    
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>                  
+            <!-- owl-carousel -->
+        </div>
+    </section>
+
+    <!-- Start section blog #2 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
        <!-- Start section blog -->
         <section class="blog">
             <div class="container">
@@ -410,6 +494,7 @@
             </div>
         </section>
         <!-- End section blog -->
+
 
         <!-- Start Newsletters section -->
 
