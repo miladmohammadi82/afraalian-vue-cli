@@ -109,11 +109,11 @@
 
 
             <section class="footer-drop-down">
-                <div class="menu-doropdon">
+                <div class="menu-doropdon" @click="activeDrop1=!activeDrop1">
                     <div class="title-drop-name">هاتند</div>
                     <i class="far fa-plus"></i>
                 </div>
-                <div class="dropdown-footer" >
+                <div class="dropdown-footer" v-if="activeDrop1">
                     <ul class="pr-3">
                         <li><a href="#">scnjsacn</a></li>
                         <li><a href="#">scnjsacn</a></li>
@@ -123,15 +123,31 @@
                 </div>
 
 
-                <div class="menu-doropdon">
+                <div class="menu-doropdon" @click="activeDrop2=!activeDrop2">
                     <div class="title-drop-name">هاتند</div>
                     <i class="far fa-plus"></i>
                 </div>
-                <div class="menu-doropdon">
+                <div class="dropdown-footer" v-if="activeDrop2">
+                    <ul class="pr-3">
+                        <li><a href="#">scnjsacn</a></li>
+                        <li><a href="#">scnjsacn</a></li>
+                        <li><a href="#">scnjsacn</a></li>
+                        <li><a href="#">scnjsacn</a></li>
+                    </ul>
+                </div>
+                
+                <div class="menu-doropdon" @click="activeDrop3=!activeDrop3">
                     <div class="title-drop-name">هاتند</div>
                     <i class="far fa-plus"></i>
                 </div>
-
+                <div class="dropdown-footer" v-if="activeDrop3">
+                    <ul class="pr-3">
+                        <li><a href="#">scnjsacn</a></li>
+                        <li><a href="#">scnjsacn</a></li>
+                        <li><a href="#">scnjsacn</a></li>
+                        <li><a href="#">scnjsacn</a></li>
+                    </ul>
+                </div>
                 
 
             </section>
@@ -168,10 +184,18 @@
 
 <script>
 export default {
-
+    data(){
+        return{
+            activeDrop1: false,
+            activeDrop2: false,
+            activeDrop3: false,
+        }
+    }
 }
 </script>
 
-<style>
-
+<style scoped>
+.active-drop{
+    background: #000;
+}
 </style>
