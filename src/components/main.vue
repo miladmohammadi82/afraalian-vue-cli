@@ -426,11 +426,11 @@
                     </div>
                 </div>
                 <!-- Add Pagination -->
-                <div class="swiper-pagination pb-2" style="bottom: 30px;"></div>
+                <div class="swiper-pagination" style="bottom: 20px;"></div>
             </div>                  
             <!-- owl-carousel -->
             <div class="text-center">
-                    <button class="button-blog">مشاهده همه مطالب&nbsp;&nbsp;<i class="fa fa-chevron-left"></i></button>
+                <button class="button-blog">مشاهده همه مطالب&nbsp;&nbsp;<i class="fa fa-chevron-left"></i></button>
             </div>
         </div>
     </section>
@@ -521,6 +521,13 @@ export default{
     height: 392px;
   }
     
+    @media(max-width: 499px){
+        .blog-slider{
+            width: 100%;
+            height: auto;
+            padding: 0 0 96px 0;
+        }
+    }
 
     .swiper-button-prev.swiper-button-white, .swiper-button-next.swiper-button-white {
         --swiper-navigation-color: #ffffff;
