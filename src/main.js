@@ -22,6 +22,7 @@ import Swiper from 'swiper/bundle';
 
 
 new Swiper('.swiper-container.img', {
+    loop: true,
     spaceBetween: 30,
     effect: 'fade',
     pagination: {
