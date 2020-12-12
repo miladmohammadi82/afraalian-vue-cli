@@ -114,7 +114,7 @@
                     <i class="far fa-plus"></i>
                 </div>
                 <div class="dropdown-footer" v-if="activeDrop1">
-                    <ul class="pr-3">
+                    <ul class="menu-items">
                         <li><a href="#">عسل آویشن و خواص آن</a></li>
                         <li><a href="#">عسل آویشن و خواص آن</a></li>
                         <li><a href="#">عسل آویشن و خواص آن</a></li>
@@ -130,7 +130,7 @@
                     <i class="far fa-plus"></i>
                 </div>
                 <div class="dropdown-footer" v-if="activeDrop2">
-                    <ul class="pr-3">
+                    <ul class="menu-items">
                         <li><a href="#">تماس باما</a></li>
                         <li><a href="#">درباره ما</a></li>
                         <li><a href="#">پشتیبانی</a></li>

@@ -1213,9 +1213,18 @@ body {
         justify-content: space-between;
         background: #fff;
         align-items: center;
-        padding: 0 10px 0 10px;
         border-bottom: 1px solid #eca900;
         cursor: pointer;
+    }
+
+    .footer-drop-down .menu-doropdon div,
+    .footer-drop-down .menu-doropdon i{
+        
+    }
+
+
+    .menu-items{
+        padding: 18px;
     }
 
 
@@ -1469,6 +1478,8 @@ body {
 .tabs ul li a{
     font-size: 14px;
 }
+
+
 
 .active-tab{
     border-bottom: 2px solid #d56400;
