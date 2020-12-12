@@ -15,12 +15,12 @@
                         <i class="far fa-user-circle fa-lg" style="color:#ff0800"></i>
                     </div>
 
-
                 </div>
-                
-                <div class="logo">
+
+                <div class="logo comp">
                     <h2>logo</h2>
                 </div>
+                
                 <ul class="main-menu">
 
                     <li class="nav-link"><a href="#" class="a-nav-link active">خانه</a></li>
@@ -106,6 +106,9 @@
                     <h3 class="text-center">منو</h3>
                 </div>
 
+                <div class="logo mobile text-center pt-3">
+                    <h2>logo</h2>
+                </div>
             
 
                 <ul class="nav-mobile">
@@ -279,6 +282,24 @@ export default {
 </script>
 
 <style scoped >
+    .logo.mobile{
+        display: none;
+    }
+
+    @media (max-width: 400px) {
+        .logo.comp{
+            display: none;
+        }
+        
+        .logo.mobile{
+            display: block;
+        }
+        
+    }
+
+    
+
+
     .sticky{
         background: #FFC736;
         position: fixed;
