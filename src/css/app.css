@@ -357,7 +357,8 @@ margin-right: 5px;
     display: flex;
     border-bottom: 2px solid #ff7d1d;
     box-shadow: 0 0 3px 0px #262626;
-    display: none;
+    opacity: 0;
+    pointer-events: none;
     transition: all .2s ease-in-out;
     pointer-events: painted;
     -webkit-transition: all .2s ease-in-out;
@@ -365,12 +366,12 @@ margin-right: 5px;
     -ms-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
     z-index: 50000;
-    margin: 10px -4%;
+    margin: 50px -4%;
 }
 
 .showSearchbox{
-opacity: 1;
-display: block;
+    opacity: 1;
+    margin: 20px -4%;
 }
 
 .searchbox input{
