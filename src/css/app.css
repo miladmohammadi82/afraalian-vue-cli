@@ -1000,12 +1000,13 @@ body {
 
 .product{
     width: 213px;
-    height: auto;
+    height: fit-content;
     border-radius: 10px;
-    background: #f7f7f7;
+    background: #F4F5F6;
     margin-right: 5px;
     padding: 0 0 10px 0;
 }
+
 
 
 .icon-ptoduct{

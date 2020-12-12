@@ -87,7 +87,7 @@
                         </div>
                     </div>
                     <!-- Add Pagination -->
-                    <div class="swiper-pagination"></div>
+                    <div class="swiper-pagination" style="bottom: 20px;"></div>
                 </div>                  
                 <!-- owl-carousel -->
             </div>
