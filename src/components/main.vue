@@ -406,7 +406,7 @@
                 <span>آخرین مطالب</span>
             </h4>
             <!-- owl-carousel -->
-            <div class="swiper-container product-slider">
+            <div class="swiper-container blog-slider">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" v-for="blog in blogs" :key="blog.id">
                         <div class="blog2">
@@ -516,6 +516,10 @@ export default{
     background-size: cover;
   }
 
+  .blog-slider{
+    width: 100%;
+    height: 392px;
+  }
     
 
     .swiper-button-prev.swiper-button-white, .swiper-button-next.swiper-button-white {
