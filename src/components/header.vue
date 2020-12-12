@@ -304,6 +304,7 @@ export default {
         background: #FFC736;
         position: fixed;
         border-bottom: 3px solid #ff6d00;
+        opacity: 90%;
     }
     
     .header{
