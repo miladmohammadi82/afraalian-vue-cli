@@ -1279,7 +1279,14 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    
+}
+
+@media(max-width: 766px){
+    .items-copy-right-footer .container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 }
 
 .pm-resans{
@@ -1289,7 +1296,7 @@ body {
 
 .social-network{
     display: flex;
-
+    padding: 10px;
 }
 
 .social-network li{
