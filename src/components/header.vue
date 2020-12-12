@@ -3,10 +3,21 @@
         <header class="header" id="header">
         <div class="container">
             <nav class="main-nav" >
-                <div class="menu-btn" :class="{ open:menuOpen }" @click="menuOpenshow">
-                    <div class="menu-btn-burger"></div>
-                </div>
+                <div class="icon-mobile-right d-flex align-items-center">
 
+
+                    <div class="menu-btn" :class="{ open:menuOpen }" @click="menuOpenshow">
+                        <div class="menu-btn-burger"></div>
+                    </div>
+
+
+                    <div class="box-icon-user " :class="{ openUser:openMenuUser }" @click="showUserMenu">
+                        <i class="far fa-user-circle fa-lg" style="color:#ff0800"></i>
+                    </div>
+
+
+                </div>
+                
                 <div class="logo">
                     <h2>logo</h2>
                 </div>
@@ -73,9 +84,7 @@
                         <div class="conter-shopping-cart" style="margin: -34px -6px;"><span>0</span></div>
                     </div>
 
-                    <div class="box-icon-user" :class="{ openUser:openMenuUser }" @click="showUserMenu">
-                        <i class="far fa-user-circle fa-lg" style="color:#ff0800"></i>
-                    </div>
+                    
 
                     <div class="buttons-register">
                         <button class="btn-register-system ml-2"><i class="far fa-sign-in-alt fa-lg"></i>&nbsp;ورود</button>
