@@ -455,13 +455,13 @@
 
 
         <footer-vue></footer-vue>
-        <back-to-top></back-to-top>
+        <!-- <back-to-top></back-to-top> -->
     </main>
 </template>
 
 <script>
 import footerVue from './footer.vue'
-import BackToTop from './inden/back-to-top.vue'
+// import BackToTop from './inden/back-to-top.vue'
 export default{
     data(){
         return{
@@ -497,7 +497,7 @@ export default{
     },
 
     components: {
-        BackToTop,
+        // BackToTop,
         footerVue,
     }
 
