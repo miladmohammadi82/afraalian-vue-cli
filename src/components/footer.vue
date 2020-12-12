@@ -104,6 +104,41 @@
                 </section>
             </div>
             
+
+            <!-- Start footer for mobile -->
+
+
+            <section class="footer-drop-down">
+                <div class="menu-doropdon">
+                    <div class="title-drop-name">هاتند</div>
+                    <i class="far fa-plus"></i>
+                </div>
+                <div class="dropdown-footer" >
+                    <ul class="pr-3">
+                        <li><a href="#">scnjsacn</a></li>
+                        <li><a href="#">scnjsacn</a></li>
+                        <li><a href="#">scnjsacn</a></li>
+                        <li><a href="#">scnjsacn</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="menu-doropdon">
+                    <div class="title-drop-name">هاتند</div>
+                    <i class="far fa-plus"></i>
+                </div>
+                <div class="menu-doropdon">
+                    <div class="title-drop-name">هاتند</div>
+                    <i class="far fa-plus"></i>
+                </div>
+
+                
+
+            </section>
+
+
+            <!-- END footer for mobile -->
+
         </div>
     </div>
     <div class="copy-right-footer">
@@ -127,6 +162,8 @@
         </div>
     </div>
     <!-- End Footer -->
+
+
 </template>
 
 <script>

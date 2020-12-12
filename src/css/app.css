@@ -1199,13 +1199,26 @@ body {
 
 @media (max-width: 769px){
     .items-main-footer{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        display: none;
     }
 
-    .items-main-footer section{
-        padding-top: 31px;
+
+    .footer-drop-down ul.menu-doropdon li{
+        width: 100%;
+        background: #ec0000;
     }
+    
+    .footer-drop-down .menu-doropdon{
+        display: flex;
+        justify-content: space-between;
+        background: #fff;
+        align-items: center;
+        padding: 0 10px 0 10px;
+        border-bottom: 1px solid #eca900;
+        cursor: pointer;
+    }
+
+
 }
 
 .items-main-footer .item2{
