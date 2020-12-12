@@ -360,7 +360,6 @@ margin-right: 5px;
     opacity: 0;
     pointer-events: none;
     transition: all .2s ease-in-out;
-    pointer-events: painted;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     -ms-transition: all .2s ease-in-out;
@@ -372,6 +371,7 @@ margin-right: 5px;
 .showSearchbox{
     opacity: 1;
     margin: 20px -4%;
+    pointer-events: auto;
 }
 
 .searchbox input{

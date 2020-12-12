@@ -2,7 +2,7 @@
     <main class="main-site">
         <section class="banner-arias" id="banner-aria">
             <div class="container">
-                <div class="swiper-container img container">
+                <div class="swiper-container img">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide" v-for="image in images" :key="image.id">
                             <img class="w-100" style="border-radius: 20px" :src="image.slider" :alt="images.alt">
