@@ -310,6 +310,7 @@ export default {
         z-index: 100000;
         transition: all 500ms;
         padding-left: 10px;
+        position: fixed !important;
     }
     
     .btn-secondary {
