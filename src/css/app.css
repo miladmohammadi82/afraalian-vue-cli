@@ -1215,6 +1215,7 @@ body {
         align-items: center;
         border-bottom: 1px solid #eca900;
         cursor: pointer;
+        padding: 14px 17px;
     }
 
     .footer-drop-down .menu-doropdon div,
