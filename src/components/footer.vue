@@ -141,7 +141,7 @@
                     </div>
                 </transition>
                 
-                <section class="namads">
+                <section class="namads pt-5">
                     <p>نماد ها</p>
                     <ul>
                         <li>
