@@ -111,23 +111,24 @@
             <section class="footer-drop-down">
                 <div class="menu-doropdon" @click="activeDrop1=!activeDrop1">
                     <div class="title-drop-name">مطالب پربازدید</div>
-                    <i class="far fa-plus"></i>
+                    <i :class="{ 'far fa-plus':!activeDrop1,'far fa-minus':activeDrop1 }"></i>
                 </div>
-                <div class="dropdown-footer" v-if="activeDrop1">
-                    <ul class="menu-items">
-                        <li><a href="#">عسل آویشن و خواص آن</a></li>
-                        <li><a href="#">عسل آویشن و خواص آن</a></li>
-                        <li><a href="#">عسل آویشن و خواص آن</a></li>
-                        <li><a href="#">عسل آویشن و خواص آن</a></li>
-                        <li><a href="#">عسل آویشن و خواص آن</a></li>
-                        <li><a href="#">عسل آویشن و خواص آن</a></li>
-                    </ul>
-                </div>
-
+                <transition name="slide">
+                    <div class="dropdown-footer" v-if="activeDrop1">
+                        <ul class="menu-items">
+                            <li><a href="#">عسل آویشن و خواص آن</a></li>
+                            <li><a href="#">عسل آویشن و خواص آن</a></li>
+                            <li><a href="#">عسل آویشن و خواص آن</a></li>
+                            <li><a href="#">عسل آویشن و خواص آن</a></li>
+                            <li><a href="#">عسل آویشن و خواص آن</a></li>
+                            <li><a href="#">عسل آویشن و خواص آن</a></li>
+                        </ul>
+                    </div>
+                </transition>
 
                 <div class="menu-doropdon" @click="activeDrop2=!activeDrop2">
                     <div class="title-drop-name">باما همراه شوید</div>
-                    <i class="far fa-plus"></i>
+                    <i :class="{ 'far fa-plus':!activeDrop2,'far fa-minus':activeDrop2 }"></i>
                 </div>
                 <div class="dropdown-footer" v-if="activeDrop2">
                     <ul class="menu-items">
@@ -138,18 +139,7 @@
                     </ul>
                 </div>
                 
-                <div class="menu-doropdon" @click="activeDrop3=!activeDrop3">
-                    <div class="title-drop-name">هاتند</div>
-                    <i class="far fa-plus"></i>
-                </div>
-                <div class="dropdown-footer" v-if="activeDrop3">
-                    <ul class="pr-3">
-                        <li><a href="#">scnjsacn</a></li>
-                        <li><a href="#">scnjsacn</a></li>
-                        <li><a href="#">scnjsacn</a></li>
-                        <li><a href="#">scnjsacn</a></li>
-                    </ul>
-                </div>
+                
                 
 
             </section>

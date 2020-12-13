@@ -1218,9 +1218,26 @@ body {
         padding: 14px 17px;
     }
 
-    .footer-drop-down .menu-doropdon div,
-    .footer-drop-down .menu-doropdon i{
-        
+    .footer-drop-down .dropdown-footer{
+        background: #fff;
+    }
+    
+    .slid-down{
+        transition: height 0.5s ease-in-out;
+        -webkit-transition: height 0.5s ease-in-out;
+        -moz-transition: height 0.5s ease-in-out;
+        -ms-transition: height 0.5s ease-in-out;
+        -o-transition: height 0.5s ease-in-out;
+        display: block;
+    }
+
+    .footer-drop-down .dropdown-footer ul li{
+        line-height: 2;
+    }
+
+    .footer-drop-down .dropdown-footer ul li a{
+        font-size: 15px;
+        color: #3d3d3d;
     }
 
 
