@@ -130,16 +130,37 @@
                     <div class="title-drop-name">باما همراه شوید</div>
                     <i :class="{ 'far fa-plus':!activeDrop2,'far fa-minus':activeDrop2 }"></i>
                 </div>
-                <div class="dropdown-footer" v-if="activeDrop2">
-                    <ul class="menu-items">
-                        <li><a href="#">تماس باما</a></li>
-                        <li><a href="#">درباره ما</a></li>
-                        <li><a href="#">پشتیبانی</a></li>
-                        <li><a href="#">وبلاگ</a></li>
+                <transition name="slide">
+                    <div class="dropdown-footer" v-if="activeDrop2">
+                        <ul class="menu-items">
+                            <li><a href="#">تماس باما</a></li>
+                            <li><a href="#">درباره ما</a></li>
+                            <li><a href="#">پشتیبانی</a></li>
+                            <li><a href="#">وبلاگ</a></li>
+                        </ul>
+                    </div>
+                </transition>
+                
+                <section class="namads">
+                    <p>نماد ها</p>
+                    <ul>
+                        <li>
+                            <a href="" >
+                                <img src="../assets/logo1.png" class="w-75" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" >
+                                <img src="../assets/logo2.png" class="w-75" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" >
+                                <img src="../assets/nashr.png" class="w-75" alt="">
+                            </a>
+                        </li>
                     </ul>
-                </div>
-                
-                
+                </section>
                 
 
             </section>
@@ -188,36 +209,14 @@ export default {
 
 <style scoped>
 
-.slide-enter-active {
-   -moz-transition-duration: 0.3s;
-   -webkit-transition-duration: 0.3s;
-   -o-transition-duration: 0.3s;
-   transition-duration: 0.3s;
-   -moz-transition-timing-function: ease-in;
-   -webkit-transition-timing-function: ease-in;
-   -o-transition-timing-function: ease-in;
-   transition-timing-function: ease-in;
+.dropdown-footer{
+  transform-origin: top;
+  transition: transform .4s ease-in-out;
+  overflow: hidden;
 }
-
-.slide-leave-active {
-   -moz-transition-duration: 0.3s;
-   -webkit-transition-duration: 0.3s;
-   -o-transition-duration: 0.3s;
-   transition-duration: 0.3s;
-   -moz-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
-   -webkit-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
-   -o-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
-   transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
-}
-
-.slide-enter-to, .slide-leave {
-   max-height: 100px;
-   overflow: hidden;
-}
-
+  
 .slide-enter, .slide-leave-to {
-   overflow: hidden;
-   max-height: 0;
+  transform: scaleY(0);
 }
 
 .active-drop{

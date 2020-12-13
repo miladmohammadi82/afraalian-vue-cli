@@ -1197,16 +1197,19 @@ body {
     grid-template-columns: repeat(3, 1fr);
 }
 
+.footer-drop-down{
+    display: none;
+}
+
 @media (max-width: 769px){
     .items-main-footer{
         display: none;
+
+    }
+    .footer-drop-down{
+        display: block;
     }
 
-
-    .footer-drop-down ul.menu-doropdon li{
-        width: 100%;
-        background: #ec0000;
-    }
     
     .footer-drop-down .menu-doropdon{
         display: flex;
@@ -1238,6 +1241,7 @@ body {
 
     .footer-drop-down .dropdown-footer ul li{
         line-height: 2;
+        border-bottom: 1px solid #26262626;
     }
 
     .footer-drop-down .dropdown-footer ul li a{
