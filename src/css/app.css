@@ -1037,6 +1037,7 @@ body {
     }
 }
 
+
 .product:hover .btn-shoping-card{
     opacity: 1;
     pointer-events: auto;

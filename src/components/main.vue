@@ -545,8 +545,10 @@ export default{
     }
 
     .product-slider {
-      width: 100%;
-      height: 380px;
+        width: 100%;
+        height: 380px;
+        box-shadow: 0 0px 26px -10px #838383;
+        border-radius: 10px;
     }
 
     .product-slider a img{
