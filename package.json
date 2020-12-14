@@ -18,7 +18,8 @@
     "vue": "^3.0.0",
     "vue-backtotop": "^1.6.1",
     "vue-fixed-header": "^3.2.15",
-    "vue-material": "^1.0.0-beta-15"
+    "vue-material": "^1.0.0-beta-15",
+    "vue-router": "^4.0.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

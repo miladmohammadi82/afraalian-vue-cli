@@ -3,12 +3,19 @@ import App from './App.vue';
 
 import './css/app.css';
 import 'bootstrap/dist/css/bootstrap.css';
+import router from './router'
+
+
+
+
 
 
 
 const app = createApp(App, {
   
-});
+}).use(router);
+
+
 
 app.mount('#app');
 

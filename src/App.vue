@@ -1,17 +1,21 @@
 <template>
   <header-section></header-section>
-  <main-section></main-section>
+  
+   <router-view />
+
+  <footer-section></footer-section>
+  
 </template>
 
 <script>
 import headerSection from './components/header';
-import mainSection from './components/main';
+import footerSection from './components/footer';
 
 export default {
   name: 'App',
   components: {
     headerSection,
-    mainSection
+    footerSection
   }
 }
 </script>

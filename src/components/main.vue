@@ -1,5 +1,6 @@
 <template>
     <main class="main-site">
+
         <section class="banner-arias" id="banner-aria">
             <div class="container">
                 <div class="swiper-container img">
@@ -454,17 +455,18 @@
         <!-- END Newsletters section -->
 
 
-        <footer-vue></footer-vue>
         <!-- <back-to-top></back-to-top> -->
     </main>
 </template>
 
 <script>
-import footerVue from './footer.vue'
 // import BackToTop from './inden/back-to-top.vue'
+import { Swiper, SwiperSlide } from 'vue-awesome-swiper'
+import 'swiper/css/swiper.css'
 export default{
     data(){
         return{
+
             activetab: 1,
             images: [
                 { slider: require('../assets/slider/banner1.jpg'), alt: "honey-banner1" },
@@ -497,9 +499,9 @@ export default{
     },
 
     components: {
-        // BackToTop,
-        footerVue,
-    }
+      Swiper,
+      SwiperSlide
+    },
 
     
 }
