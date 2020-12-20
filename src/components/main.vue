@@ -81,8 +81,40 @@
                 </h4>
                 <!-- owl-carousel -->
                 <div class="swiper-container product-slider">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide" v-for="product in products" :key="product.id">
+                    <swiper
+                        :slides-per-view="3"
+                        :space-between="50"
+                        @swiper="onSwiper"
+                        @slideChange="onSlideChange"
+                        class="swiper-wrapper"
+                        :breakpoints="{
+                            300: {
+                            slidesPerView: 2,
+                            spaceBetween: 20,
+                            },
+                            400: {
+                            slidesPerView: 2,
+                            spaceBetween: 20,
+                            },
+                            500: {
+                            slidesPerView: 2,
+                            spaceBetween: 20,
+                            },
+                            640: {
+                            slidesPerView: 2,
+                            spaceBetween: 20,
+                            },
+                            768: {
+                            slidesPerView: 3,
+                            spaceBetween: 40,
+                            },
+                            1024: {
+                            slidesPerView: 4,
+                            spaceBetween: 50,
+                            },
+                        }"
+                        >
+                        <swiper-slide class="swiper-slide" v-for="product in products" :key="product.id">
                             <div class="product" style="width: 350px;">
                                 <a href="#">
                                     <img :src="product.img" alt="" class="img-fluid">
@@ -98,8 +130,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
+                        </swiper-slide>
+                    </swiper>
                     <!-- Add Pagination -->
                     <div class="swiper-pagination" style="bottom: 0;"></div>
                 </div>                  
