@@ -1695,6 +1695,69 @@ body {
     }
 
 
+
+
+
+
+/* Start Page product Stayle */
+
+
+.product-page-content{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    box-shadow: 0 0 80px -39px #262626;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.gallery-product{
+    height: 100%;
+    display: block;
+}
+
+.gallery-product-item{
+    display: flex;
+    padding: 30px 0;
+    justify-content: center;
+    flex: 1;
+}
+
+.gallery-product-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    position: relative;
+    text-align: center;
+}
+
+.gallery-product-image img{
+    max-height: 100%;
+    -o-object-fit: contain;
+    object-fit: contain;
+    -o-object-position: center;
+    object-position: center;
+    overflow: hidden;
+    overflow: visible;
+    min-height: 100px;
+    min-width: 101px;
+}
+
+/* END Page product Stayle */
+
+
+
+
+
+
+
+
+
+
+
+
 /*!
  * Font Awesome Pro 5.15.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license (Commercial License)
