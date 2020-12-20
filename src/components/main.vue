@@ -9,7 +9,7 @@
                         :space-between="50"
                         @swiper="onSwiper"
                         @slideChange="onSlideChange"
-                        :pagination="{ clickable: true }"
+                        :pagination="{ clickable: true, dynamicBullets: true }"
                         effect="fade"
                         class="swiper-wrapper"
                         :navigation="{ 
@@ -87,6 +87,7 @@
                         @swiper="onSwiper"
                         @slideChange="onSlideChange"
                         class="swiper-wrapper"
+                        :pagination="{ clickable: true }"
                         :breakpoints="{
                             300: {
                                 slidesPerView: 2,
