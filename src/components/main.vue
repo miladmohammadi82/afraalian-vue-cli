@@ -491,8 +491,36 @@
             </h4>
             <!-- owl-carousel -->
             <div class="swiper-container blog-slider">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide" v-for="blog in blogs" :key="blog.id">
+                <swiper class="swiper-wrapper"
+                    :slides-per-view="3"
+                    :space-between="50"
+                    @swiper="onSwiper"
+                    @slideChange="onSlideChange"
+                    :pagination="{ clickable: true }"
+                    :breakpoints="{
+                        459: {
+                            slidesPerView: 1,
+                            spaceBetween: 20,
+                        },
+                        500: {
+                            slidesPerView: 2,
+                            spaceBetween: 20,
+                        },
+                        640: {
+                            slidesPerView: 2,
+                            spaceBetween: 20,
+                        },
+                        768: {
+                            slidesPerView: 3,
+                            spaceBetween: 40,
+                        },
+                        1024: {
+                            slidesPerView: 4,
+                            spaceBetween: 50,
+                        },
+                    }"
+                    >
+                    <swiper-slide class="swiper-slide" v-for="blog in blogs" :key="blog.id">
                         <div class="blog2">
                             <img :src="blog.img" class="w-100" alt="">
                             <div class="title-blog">
@@ -507,8 +535,8 @@
                                 <button class="btn btn-warning text-dark">ادامه مطالب</button>
                             </div>
                         </div>
-                    </div>
-                </div>
+                    </swiper-slide>
+                </swiper>
                 <!-- Add Pagination -->
                 <div class="swiper-pagination" style="bottom: 20px;"></div>
             </div>                  
