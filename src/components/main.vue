@@ -4,11 +4,24 @@
         <section class="banner-arias" id="banner-aria">
             <div class="container">
                 <div class="swiper-container img">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide" v-for="image in images" :key="image.id">
+                    <swiper
+                        :slides-per-view="1"
+                        :space-between="50"
+                        @swiper="onSwiper"
+                        @slideChange="onSlideChange"
+                        :pagination="{ clickable: true }"
+                        effect="fade"
+                        class="swiper-wrapper"
+                        :navigation="{ 
+                            nextEl: '.swiper-button-next',
+                            prevEl: '.swiper-button-prev',
+                        }"
+                        >
+                        
+                        <swiper-slide class="swiper-slide" v-for="image in images" :key="image.id">
                             <img class="w-100" style="border-radius: 20px" :src="image.slider" :alt="images.alt">
-                        </div>
-                    </div>
+                        </swiper-slide>
+                    </swiper>
                     <div class="swiper-pagination swiper-pagination-white"></div>
                     <div class="swiper-button-next swiper-button-white"></div>
                     <div class="swiper-button-prev swiper-button-white"></div>
@@ -462,6 +475,9 @@
 <script>
 // import BackToTop from './inden/back-to-top.vue'
 
+// Import Swiper Vue.js components
+import { Swiper, SwiperSlide } from 'swiper/vue';
+
 export default{
     data(){
         return{
@@ -498,7 +514,8 @@ export default{
     },
 
     components: {
-     
+        Swiper,
+        SwiperSlide,
     },
 
     
