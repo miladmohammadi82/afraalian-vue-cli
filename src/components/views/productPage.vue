@@ -8,6 +8,24 @@
             <img src="../../assets/image-product/download.jpg" alt="">
           </div>
         </div>
+        <ul class="gallery-product-items">
+          <li class="js-product-thumb-img">
+            <div class="thumb-wrapper">
+              <img src="../../assets/image-product/download.jpg" alt="">
+            </div>
+          </li>
+          <li class="js-product-thumb-img">
+            <div class="thumb-wrapper">
+              <img src="../../assets/image-product/download.jpg" alt="">
+            </div>
+          </li>
+          <li class="js-product-thumb-img">
+            <div class="thumb-wrapper">
+              <img src="../../assets/image-product/download.jpg" alt="">
+            </div>
+          </li>
+          
+        </ul>
       </div>
       <div class=""></div>
       <div class=""></div>

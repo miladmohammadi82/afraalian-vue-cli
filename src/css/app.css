@@ -1731,6 +1731,7 @@ body {
     flex: 1;
     position: relative;
     text-align: center;
+    
 }
 
 .gallery-product-image img{
@@ -1743,6 +1744,57 @@ body {
     overflow: visible;
     min-height: 100px;
     min-width: 101px;
+}
+
+.gallery-product-items{
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-top: none;
+    padding: 0;
+    justify-content: center;
+    margin: 0 -31px 0 0;
+}
+
+
+
+.js-product-thumb-img li .thumb-wrapper{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 4px;
+}
+
+.js-product-thumb-img .thumb-wrapper{
+    width: 100px;
+    height: 70px;
+    margin: -29px 21px 20px -37px;
+}
+
+.js-product-thumb-img .thumb-wrapper img{
+    border: 1px solid #6e6e6e;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.js-product-thumb-img .thumb-wrapper img{
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: top;
+    opacity: .7;
+    position: relative;
 }
 
 /* END Page product Stayle */
