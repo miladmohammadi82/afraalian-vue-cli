@@ -8,7 +8,7 @@
             <img src="../../assets/image-product/download.jpg"  alt="">
           </div>
           <div class="gallery-product-image">
-            <img src="../../assets/image-product/عسل-آویشن-ممتاز-800-گرمی.jpg" alt="" style="margin: 0 -201% 0 0;">
+            <img src="../../assets/image-product/عسل-آویشن-ممتاز-800-گرمی.jpg" alt="">
           </div>
           <div class="gallery-product-image" style="margin: 0px -763px 0px 0px;">
             <img src="../../assets/image-product/گرده-گل-مخلوط-150-گرمی.jpg" alt="">

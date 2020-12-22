@@ -1744,7 +1744,18 @@ body {
     overflow: visible;
     min-height: 100px;
     min-width: 101px;
+    margin: 0 -201% 0 0;
 }
+
+.gallery-product-image:last-child img{
+    margin: 0;
+}
+
+.gallery-product-image:first-child img{
+    margin: 0;
+}
+
+
 
 .gallery-product-items{
     list-style: none;
