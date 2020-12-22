@@ -9,22 +9,11 @@
           </div>
         </div>
         <ul class="gallery-product-items">
-          <li class="js-product-thumb-img">
+          <li class="js-product-thumb-img" v-for="galleryEndImg in galleryEndImgs" :key="galleryEndImg.id">
             <div class="thumb-wrapper">
-              <img src="../../assets/image-product/download.jpg" alt="">
+              <img :src="galleryEndImg.img" alt="">
             </div>
           </li>
-          <li class="js-product-thumb-img">
-            <div class="thumb-wrapper">
-              <img src="../../assets/image-product/عسل-آویشن-ممتاز-800-گرمی.jpg" alt="">
-            </div>
-          </li>
-          <li class="js-product-thumb-img">
-            <div class="thumb-wrapper">
-              <img src="../../assets/image-product/گرده-گل-مخلوط-150-گرمی.jpg" alt="">
-            </div>
-          </li>
-          
         </ul>
       </div>
       <div class=""></div>
@@ -38,6 +27,12 @@ export default {
   data(){
     return {
       galleryHeadImgs: [
+        { id: 1, img: require("../../assets/image-product/download.jpg") },
+        { id: 2, img: require("../../assets/image-product/عسل-آویشن-ممتاز-800-گرمی.jpg") },
+        { id: 3, img: require("../../assets/image-product/گرده-گل-مخلوط-150-گرمی.jpg") },
+      ],
+
+      galleryEndImgs: [
         { id: 1, img: require("../../assets/image-product/download.jpg") },
         { id: 2, img: require("../../assets/image-product/عسل-آویشن-ممتاز-800-گرمی.jpg") },
         { id: 3, img: require("../../assets/image-product/گرده-گل-مخلوط-150-گرمی.jpg") },
