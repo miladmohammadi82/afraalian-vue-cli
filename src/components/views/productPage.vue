@@ -4,14 +4,8 @@
     <div class="product-page-content">
       <div class="gallery-product">
         <div class="gallery-product-item">
-          <div class="gallery-product-image">
-            <img src="../../assets/image-product/download.jpg"  alt="">
-          </div>
-          <div class="gallery-product-image">
-            <img src="../../assets/image-product/عسل-آویشن-ممتاز-800-گرمی.jpg" alt="">
-          </div>
-          <div class="gallery-product-image">
-            <img src="../../assets/image-product/گرده-گل-مخلوط-150-گرمی.jpg" alt="">
+          <div class="gallery-product-image" v-for="galleryHeadImg in galleryHeadImgs" :key="galleryHeadImg.id">
+            <img :src="galleryHeadImg.img"  alt="">
           </div>
         </div>
         <ul class="gallery-product-items">
@@ -41,7 +35,15 @@
 
 <script>
 export default {
-
+  data(){
+    return {
+      galleryHeadImgs: [
+        { id: 1, img: require("../../assets/image-product/download.jpg") },
+        { id: 2, img: require("../../assets/image-product/عسل-آویشن-ممتاز-800-گرمی.jpg") },
+        { id: 3, img: require("../../assets/image-product/گرده-گل-مخلوط-150-گرمی.jpg") },
+      ]
+    }
+  }
 }
 </script>
 
