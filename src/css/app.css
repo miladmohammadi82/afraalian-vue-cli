@@ -1734,6 +1734,10 @@ body {
     text-align: center;
 }
 
+.gallery-product-image:last-child{
+    margin: 0px -763px 0px 0px;
+}
+
 .gallery-product-image img{
     max-height: 100%;
     -o-object-fit: contain;
