@@ -5,13 +5,13 @@
       <div class="gallery-product">
         <div class="gallery-product-item">
           <div class="gallery-product-image" v-for="galleryHeadImg in galleryHeadImgs" :key="galleryHeadImg.id">
-            <img :src="galleryHeadImg.img"  alt="">
+            <img :src="galleryHeadImg.img" ref="itemImg" alt="">
           </div>
         </div>
         <ul class="gallery-product-items">
           <li class="js-product-thumb-img" v-for="galleryEndImg in galleryEndImgs" :key="galleryEndImg.id">
             <div class="thumb-wrapper">
-              <img :src="galleryEndImg.img" alt="">
+              <img :src="galleryEndImg.img" ref="itemsImg" @click="editImg" alt="">
             </div>
           </li>
         </ul>
@@ -37,6 +37,12 @@ export default {
         { id: 2, img: require("../../assets/image-product/عسل-آویشن-ممتاز-800-گرمی.jpg") },
         { id: 3, img: require("../../assets/image-product/گرده-گل-مخلوط-150-گرمی.jpg") },
       ]
+    }
+  },
+
+  methods: {
+    editImg(){
+      this.$refs.itemImg = this.$refs.itemsImg
     }
   }
 }
