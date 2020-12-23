@@ -1813,36 +1813,26 @@ body {
     position: relative;
 }
 
+/* Start Main in page */
 
+.info-product .items-main-product-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 45px 30px 0 0;
+}
 
+.info-product .items-main-product-page h4{
+    border-bottom: 1px solid #000000;
+    width: 235px;
+    text-align: center;
+    padding: 0 0 26px 0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* END Main in page */
 
 
 /* END Page product Stayle */
-
-
-
 
 
 

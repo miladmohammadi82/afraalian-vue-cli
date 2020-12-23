@@ -16,7 +16,13 @@
           </li>
         </ul>
       </div>
-      <div class=""></div>
+      <div class="info-product">
+        <div class="items-main-product-page">
+          <div class="title">
+            <h4>عسل آویشن 5 کیلویی</h4>
+          </div>
+        </div>
+      </div>
       <div class=""></div>
     </div>
   </div>
