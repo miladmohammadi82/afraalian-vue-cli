@@ -19,7 +19,7 @@
       <div class="info-product">
         <div class="items-main-product-page">
           <div class="title">
-            <h4>عسل آویشن 5 کیلویی</h4>
+            <h4 class="text-product">عسل آویشن 5 کیلویی</h4>
           </div>
           <div class="servisess-product-page">
             <ul>
@@ -27,6 +27,14 @@
               <li><img src="../../assets/image-servisess/rerurn-product.svg" alt=""></li>
               <li><img src="../../assets/image-servisess/support-24.svg" alt=""></li>
               <li><img src="../../assets/image-servisess/tarxk-time.svg" alt=""></li>
+            </ul>
+          </div>
+          <div class="next-section">
+            <h5>ویژگی محصول:</h5>
+            <ul>
+              <li>ساکارز: <span>2 </span>درصد</li>
+              <li>نوع عسل: <span>آویشن</span></li>
+              <li>محل برداشت: <span>گیلان</span></li>
             </ul>
           </div>
         </div>

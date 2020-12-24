@@ -1810,7 +1810,7 @@ body {
     display: block;
 }
 
-.info-product .items-main-product-page h4{
+.info-product .items-main-product-page .text-product{
     border-bottom: 1px solid #000000;
     width: 235px;
     text-align: center;
@@ -1831,6 +1831,21 @@ body {
     height: 50px;
     margin: 0 0 0 11px;
 }
+
+/* Next section */
+.next-section h5{
+    color: #262626;
+}
+
+.next-section ul{
+    padding: 10px 0;
+}
+
+.next-section ul li{
+    font-size: 15px;
+    color: #262626;
+}
+
 
 /* END Main in page */
 
