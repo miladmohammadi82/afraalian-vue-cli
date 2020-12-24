@@ -1807,6 +1807,7 @@ body {
     align-items: center;
     justify-content: center;
     margin: 45px 30px 0 0;
+    display: block;
 }
 
 .info-product .items-main-product-page h4{
@@ -1814,6 +1815,19 @@ body {
     width: 235px;
     text-align: center;
     padding: 0 0 26px 0;
+}
+
+/* Servisess */
+
+
+.servisess-product-page ul{
+    display: flex;
+}
+
+.servisess-product-page ul li{
+    width: 50px;
+    height: 50px;
+    background: #000;
 }
 
 /* END Main in page */

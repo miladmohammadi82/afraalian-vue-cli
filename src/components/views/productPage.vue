@@ -21,6 +21,14 @@
           <div class="title">
             <h4>عسل آویشن 5 کیلویی</h4>
           </div>
+          <div class="servisess-product-page">
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
         </div>
       </div>
       <div class=""></div>
