@@ -1846,6 +1846,14 @@ body {
     color: #262626;
 }
 
+/* cart-product-page */
+
+.cart-product-page{
+    width: 271px;
+    height: 300px;
+    border: 1px solid #262626;
+    border-radius: 15px;
+}
 
 /* END Main in page */
 

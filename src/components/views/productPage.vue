@@ -39,7 +39,11 @@
           </div>
         </div>
       </div>
-      <div class=""></div>
+      <div class="cart-product-page-section d-flex justify-content-center align-items-center">
+        <div class="cart-product-page">
+
+        </div>
+      </div>
     </div>
   </div>
 </template>
