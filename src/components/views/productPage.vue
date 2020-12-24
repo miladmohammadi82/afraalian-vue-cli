@@ -23,10 +23,10 @@
           </div>
           <div class="servisess-product-page">
             <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+              <li><img src="../../assets/image-servisess/free-send.svg" alt=""></li>
+              <li><img src="../../assets/image-servisess/rerurn-product.svg" alt=""></li>
+              <li><img src="../../assets/image-servisess/support-24.svg" alt=""></li>
+              <li><img src="../../assets/image-servisess/tarxk-time.svg" alt=""></li>
             </ul>
           </div>
         </div>
