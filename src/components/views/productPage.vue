@@ -4,8 +4,8 @@
     <div class="product-page-content">
       <div class="gallery-product">
         <div class="gallery-product-item">
-          <div class="gallery-product-image" v-for="galleryHeadImg in galleryHeadImgs" :key="galleryHeadImg.id">
-            <img :src="galleryHeadImg.img" ref="itemImg" alt="">
+          <div class="gallery-product-image">
+            <img src="../../assets/image-product/download.jpg" ref="itemImg" alt="">
           </div>
         </div>
         <ul class="gallery-product-items">

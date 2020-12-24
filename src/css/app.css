@@ -1734,9 +1734,6 @@ body {
     text-align: center;
 }
 
-.gallery-product-image:last-child{
-    margin: 0px -763px 0px 0px;
-}
 
 .gallery-product-image img{
     max-height: 100%;
@@ -1748,15 +1745,6 @@ body {
     overflow: visible;
     min-height: 100px;
     min-width: 101px;
-    margin: 0 -201% 0 0;
-}
-
-.gallery-product-image:last-child img{
-    margin: 0;
-}
-
-.gallery-product-image:first-child img{
-    margin: 0;
 }
 
 
@@ -1769,7 +1757,6 @@ body {
     border-top: none;
     padding: 0;
     justify-content: center;
-    margin: 0 -31px 0 0;
     
 }
 
