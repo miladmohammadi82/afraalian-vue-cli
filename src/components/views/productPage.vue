@@ -41,7 +41,9 @@
       </div>
       <div class="cart-product-page-section d-flex justify-content-center align-items-center">
         <div class="cart-product-page">
-
+          <div class="title">
+            <h4 class="text-product">عسل آویشن 5 کیلویی</h4>
+          </div>
         </div>
       </div>
     </div>
