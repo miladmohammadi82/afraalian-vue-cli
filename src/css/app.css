@@ -1896,6 +1896,7 @@ input[type=number] {
     height: 300px;
     border: 1px solid #adadad;
     border-radius: 15px;
+    padding: 0 0 20px 0;
 }
 
 .cart-product-page .title .text-product{
@@ -1911,8 +1912,8 @@ input[type=number] {
 
 
 .main-cart-product{
-    padding: 29px 18px 0;
-    font-size: 18px;
+    padding: 14px 18px 0;
+    font-size: 16px;
 }
 
 

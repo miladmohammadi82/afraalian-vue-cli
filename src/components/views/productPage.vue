@@ -54,11 +54,10 @@
           <div class="main-cart-product">
             <ul>
               <li>قیمت: <span>150,000</span> <small>تومان</small></li>
+              <li>هزینه ارسال: <span>رایگان!</span></li>
               <li>تخفیف: <span>0</span></li>
               <li>جمع کل: <span class="text-danger">{{ price }}</span> <small class="text-danger">تومان</small></li>
             </ul>
-
-            
           </div>
           <button class="btn-add-to-cart-productPage ">افزودن به سبد خرید</button>
         </div>
@@ -103,6 +102,9 @@ export default {
     delNumber(){
       this.numberProduct--
       this.price -= this.price
+      if (this.numberProduct == 0){
+        this.numberProduct = 1
+      }
       if (this.numberProduct < 1) {
         this.numberProduct = 1
       }
