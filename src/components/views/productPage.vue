@@ -87,7 +87,41 @@
         </div>
       </div>
       <div class="comments-user" v-if="activetab == 2">
-        
+        <ul id="comments-list" class="comments-list">
+          <li>
+            <div class="comment-main-level">
+              <!-- Avatar -->
+              <div class="comment-avatar" style="margin: 0 0 30px 0;"><img src="http://i9.photobucket.com/albums/a88/creaticode/avatar_1_zps8e1c80cd.jpg" alt=""></div>
+              <!-- Contenedor del Comentario -->
+              
+            </div>
+            <!-- Respuestas de los comentarios -->
+            <ul class="comments-list reply-list">
+              <li>
+                <!-- Avatar -->
+                <div class="comment-avatar"><img src="http://i9.photobucket.com/albums/a88/creaticode/avatar_2_zps7de12f8b.jpg" alt=""></div>
+                <!-- Contenedor del Comentario -->
+                
+              </li>
+
+              <li>
+                <!-- Avatar -->
+                <div class="comment-avatar"><img src="http://i9.photobucket.com/albums/a88/creaticode/avatar_1_zps8e1c80cd.jpg" alt=""></div>
+                <!-- Contenedor del Comentario -->
+                
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <div class="comment-main-level">
+              <!-- Avatar -->
+              <div class="comment-avatar"><img src="http://i9.photobucket.com/albums/a88/creaticode/avatar_2_zps7de12f8b.jpg" alt=""></div>
+              <!-- Contenedor del Comentario -->
+              
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
