@@ -53,10 +53,14 @@
           </div>
           <div class="main-cart-product">
             <ul>
-              <li>قیمت: <span>500000</span></li>
+              <li>قیمت: <span>150,000</span> <small>تومان</small></li>
               <li>تخفیف: <span>0</span></li>
+              <li>جمع کل: <span class="text-danger">150,000</span> <small class="text-danger">تومان</small></li>
             </ul>
+
+            
           </div>
+          <button class="btn-add-to-cart-productPage ">افزودن به سبد خرید</button>
         </div>
       </div>
     </div>
