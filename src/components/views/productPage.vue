@@ -123,5 +123,7 @@ export default {
 </script>
 
 <style scoped>
-  
+  .tab-foo-product-page ul li .active{
+    border-top: 3px solid #c40000;
+  }
 </style>
