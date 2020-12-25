@@ -37,12 +37,25 @@
               <li>محل برداشت: <span>گیلان</span></li>
             </ul>
           </div>
+          <div class="count-number">
+            <div class="number__container">
+              <button @click="delNumber" class="decrement"><i class="far fa-minus"></i></button>
+              <input v-model="numberProduct" type="number" inputmode="numeric" placeholder="تعداد" />
+              <button @click="addNumber" class="increment"><i class="far fa-plus"></i></button>
+            </div>
+          </div>
         </div>
       </div>
       <div class="cart-product-page-section d-flex justify-content-center align-items-center">
         <div class="cart-product-page">
           <div class="title">
             <h4 class="text-product">عسل آویشن 5 کیلویی</h4>
+          </div>
+          <div class="main-cart-product">
+            <ul>
+              <li>قیمت: <span>500000</span></li>
+              <li>تخفیف: <span>0</span></li>
+            </ul>
           </div>
         </div>
       </div>
@@ -54,6 +67,7 @@
 export default {
   data(){
     return {
+      numberProduct : 1,
       galleryHeadImgs: [
         { id: 1, img: require("../../assets/image-product/download.jpg") },
         { id: 2, img: require("../../assets/image-product/عسل-آویشن-ممتاز-800-گرمی.jpg") },
@@ -68,9 +82,14 @@ export default {
     }
   },
 
+
   methods: {
     editImg(){
       this.$refs.itemImg = this.$refs.itemsImg
+    },
+    addNumber(){
+      this.numberProduct++
+      
     }
   }
 }
