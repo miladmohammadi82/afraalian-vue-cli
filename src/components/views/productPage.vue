@@ -67,9 +67,27 @@
     <div class="foo-product-page">
       <div class="tab-foo-product-page">
         <ul>
-          <li><a href="#">توضیخات</a></li>
-          <li><a href="#">نظر کاربران</a></li>
+          <li class="" @click.prevent="activetab=1" :class="[ activetab === 1 ? 'active' : '' ]"><a href="#"><i class="far fa-book fa-lg"></i>&nbsp;&nbsp;توضیخات</a></li>
+          <li @click.prevent="activetab=2" :class="[ activetab === 2 ? 'active' : '' ]"><a href="#"><i class="far fa-comments-alt fa-lg"></i>&nbsp;&nbsp;نظر کاربران</a></li>
         </ul>
+      </div>
+      <div class="description-product-page" v-if="activetab == 1">
+        <div class="items-description">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non a alias provident doloremque laboriosam nihil, nulla quisquam sequi labore perferendis explicabo consequatur sunt. Molestias voluptates placeat consequuntur, fugiat dolores asperiores!</p>
+          <br><br><br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non a alias provident doloremque laboriosam nihil, nulla quisquam sequi labore perferendis explicabo consequatur sunt. Molestias voluptates placeat consequuntur, fugiat dolores asperiores!</p>
+          <br><br><br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non a alias provident doloremque laboriosam nihil, nulla quisquam sequi labore perferendis explicabo consequatur sunt. Molestias voluptates placeat consequuntur, fugiat dolores asperiores!</p>
+          <br><br><br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non a alias provident doloremque laboriosam nihil, nulla quisquam sequi labore perferendis explicabo consequatur sunt. Molestias voluptates placeat consequuntur, fugiat dolores asperiores!</p>
+          <br><br><br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non a alias provident doloremque laboriosam nihil, nulla quisquam sequi labore perferendis explicabo consequatur sunt. Molestias voluptates placeat consequuntur, fugiat dolores asperiores!</p>
+          <br><br><br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non a alias provident doloremque laboriosam nihil, nulla quisquam sequi labore perferendis explicabo consequatur sunt. Molestias voluptates placeat consequuntur, fugiat dolores asperiores!</p>
+        </div>
+      </div>
+      <div class="comments-user" v-if="activetab == 2">
+        
       </div>
     </div>
   </div>
@@ -80,6 +98,7 @@ export default {
   data(){
     return {
       numberProduct : 1,
+      activetab: 1,
       price: 150000,
       galleryHeadImgs: [
         { id: 1, img: require("../../assets/image-product/download.jpg") },
@@ -123,7 +142,7 @@ export default {
 </script>
 
 <style scoped>
-  .tab-foo-product-page ul li .active{
+   .active{
     border-top: 3px solid #c40000;
   }
 </style>

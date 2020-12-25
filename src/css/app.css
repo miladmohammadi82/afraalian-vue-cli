@@ -1947,7 +1947,7 @@ input[type=number] {
 
 .foo-product-page{
     width: 100%;
-    height: 500px;
+    height: auto;
     background: #fff;
     box-shadow: 0 0 80px -39px #838383;
     margin: 100px 0;
@@ -1975,6 +1975,20 @@ input[type=number] {
 }
 
 
+.tab-foo-product-page ul li a{
+    color: #6f6f6f;
+}
+
+
+.tab-foo-product-page ul li a i{
+    color: #c3c3c3;
+}
+
+/* description-product-page */
+
+.description-product-page .items-description{
+    padding: 43px 18px;
+}
 
 /* END foo-product-page */
 
