@@ -63,6 +63,15 @@
         </div>
       </div>
     </div>
+        
+    <div class="foo-product-page">
+      <div class="tab-foo-product-page">
+        <ul>
+          <li><a href="#">توضیخات</a></li>
+          <li><a href="#">نظر کاربران</a></li>
+        </ul>
+      </div>
+    </div>
   </div>
 </template>
 
