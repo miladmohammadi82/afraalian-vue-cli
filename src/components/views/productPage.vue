@@ -55,7 +55,7 @@
             <ul>
               <li>قیمت: <span>150,000</span> <small>تومان</small></li>
               <li>تخفیف: <span>0</span></li>
-              <li>جمع کل: <span class="text-danger">150,000</span> <small class="text-danger">تومان</small></li>
+              <li>جمع کل: <span class="text-danger">{{ price }}</span> <small class="text-danger">تومان</small></li>
             </ul>
 
             
@@ -72,6 +72,7 @@ export default {
   data(){
     return {
       numberProduct : 1,
+      price: 150000,
       galleryHeadImgs: [
         { id: 1, img: require("../../assets/image-product/download.jpg") },
         { id: 2, img: require("../../assets/image-product/عسل-آویشن-ممتاز-800-گرمی.jpg") },
@@ -93,6 +94,7 @@ export default {
     },
     addNumber(){
       this.numberProduct++
+      this.price += this.price 
       if (this.numberProduct > 20) {
         this.numberProduct = 20
       }
