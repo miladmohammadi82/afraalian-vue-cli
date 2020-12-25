@@ -40,7 +40,7 @@
           <div class="count-number">
             <div class="number__container">
               <button @click="delNumber" class="decrement"><i class="far fa-minus"></i></button>
-              <input v-model="numberProduct" max="20" min="1" type="number" inputmode="numeric" placeholder="تعداد" />
+              <input v-model="numberProduct" type="text" inputmode="numeric" placeholder="تعداد" />
               <button @click="addNumber" class="increment"><i class="far fa-plus"></i></button>
             </div>
           </div>
