@@ -94,6 +94,7 @@ export default {
     },
     addNumber(){
       this.numberProduct++
+      
       this.price += this.price 
       if (this.numberProduct > 20) {
         this.numberProduct = 20
@@ -101,6 +102,7 @@ export default {
     },
     delNumber(){
       this.numberProduct--
+      this.price -= this.price
       if (this.numberProduct < 1) {
         this.numberProduct = 1
       }

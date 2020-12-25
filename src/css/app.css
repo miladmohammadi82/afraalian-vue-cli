@@ -1814,8 +1814,9 @@ body {
     border-bottom: 1px solid #707070;
     width: 235px;
     text-align: center;
-    padding: 0 0 26px 0;
+    padding: 0 0 17px 0;
     color: #444;
+    font-size: 18px;
 }
 
 /* Servisess */
@@ -1905,6 +1906,7 @@ input[type=number] {
     width: 80%;
     margin: 0 auto;
     color: #444;
+    font-size: 14px;
 }
 
 
