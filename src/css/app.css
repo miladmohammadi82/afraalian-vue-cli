@@ -2230,7 +2230,11 @@ input[type=number] {
 
 	.reply-list .comment-box {
 		width: 320px;
-	}
+    }
+    
+    .reply-comment-message{
+        width: 247px;
+    }
 }
 
 /* END comment users */
