@@ -103,9 +103,9 @@
                   </p>
                 </div>
                 <div class="reply-to-comment">
-                  <a href="">پاسخ به نظر</a>
+                  <a href="" @click.prevent="openDropComent=!openDropComent">پاسخ به نظر</a>
                 </div>
-                <div class="relpy-message-box">
+                <div class="relpy-message-box" v-if="openDropComent">
                   <form class="inout-box" action="">
                     <div class="user-info-input">
                       <input class="form-control" placeholder="نام" type="text" name="" id="">
@@ -114,6 +114,7 @@
                     <div class="message-box">
                       <textarea name="" id="" placeholder="پاسخ خود را بنویسید..." class="form-control" cols="30" rows="10"></textarea>
                     </div>
+                    <button class="btn btn-primary" style="margin: 10px 20px;">ارسال</button>
                   </form>
                 </div>
               </div>
@@ -134,7 +135,19 @@
                     </p>
                   </div>
                   <div class="reply-to-comment">
-                    <a href="">پاسخ به نظر</a>
+                    <a href="" @click.prevent="openDropComentReply=!openDropComentReply">پاسخ به نظر</a>
+                  </div>
+                  <div class="relpy-message-box" v-if="openDropComentReply">
+                    <form class="inout-box" action="">
+                      <div class="user-info-input">
+                        <input class="form-control" placeholder="نام" type="text" name="" id="">
+                        <input class="form-control" placeholder="ایمیل" type="text" name="" id="">
+                      </div>
+                      <div class="message-box">
+                        <textarea name="" id="" placeholder="پاسخ خود را بنویسید..." class="form-control" cols="30" rows="10"></textarea>
+                      </div>
+                      <button class="btn btn-primary" style="margin: 10px 20px;">ارسال</button>
+                    </form>
                   </div>
                 </div>
               </li>
@@ -229,6 +242,8 @@
 export default {
   data(){
     return {
+      openDropComent: false,
+      openDropComentReply: false,
       numberProduct : 1,
       activetab: 1,
       price: 150000,
