@@ -112,7 +112,7 @@
                       <input class="form-control" placeholder="ایمیل" type="text" name="" id="">
                     </div>
                     <div class="message-box">
-                      <input class="form-control" />
+                      <textarea name="" id="" placeholder="پاسخ خود را بنویسید..." class="form-control" cols="30" rows="10"></textarea>
                     </div>
                   </form>
                 </div>

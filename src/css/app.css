@@ -2241,7 +2241,7 @@ input[type=number] {
     height: 25px;
 }
 
-.message-box input{
+.message-box textarea{
     height: 200px;
 }
 
