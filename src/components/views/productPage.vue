@@ -102,6 +102,9 @@
                     لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای  .
                   </p>
                 </div>
+                <div class="reply-to-comment">
+                  <a href="">پاسخ به نظر</a>
+                </div>
               </div>
             </div>
             <!-- Respuestas de los comentarios -->
@@ -110,14 +113,38 @@
                 <!-- Avatar -->
                 <div class="comment-avatar"><img src="http://i9.photobucket.com/albums/a88/creaticode/avatar_2_zps7de12f8b.jpg" alt=""></div>
                 <!-- Contenedor del Comentario -->
-                
+                <div class="reply-comment-message">
+                  <div class="comment-user-name">
+                    <h5>میلاد محمدی</h5>
+                  </div>
+                  <div class="comment-text">
+                    <p>
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای  .
+                    </p>
+                  </div>
+                  <div class="reply-to-comment">
+                    <a href="">پاسخ به نظر</a>
+                  </div>
+                </div>
               </li>
 
               <li>
                 <!-- Avatar -->
                 <div class="comment-avatar"><img src="http://i9.photobucket.com/albums/a88/creaticode/avatar_1_zps8e1c80cd.jpg" alt=""></div>
                 <!-- Contenedor del Comentario -->
-                
+                <div class="reply-comment-message">
+                  <div class="comment-user-name">
+                    <h5>میلاد محمدی</h5>
+                  </div>
+                  <div class="comment-text">
+                    <p>
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای  .
+                    </p>
+                  </div>
+                  <div class="reply-to-comment">
+                    <a href="">پاسخ به نظر</a>
+                  </div>
+                </div>
               </li>
             </ul>
           </li>
@@ -127,21 +154,57 @@
               <!-- Avatar -->
               <div class="comment-avatar"><img src="http://i9.photobucket.com/albums/a88/creaticode/avatar_2_zps7de12f8b.jpg" alt=""></div>
               <!-- Contenedor del Comentario -->
-              
+              <div class="comment-message">
+                <div class="comment-user-name">
+                  <h5>میلاد محمدی</h5>
+                </div>
+                <div class="comment-text">
+                  <p>
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای  .
+                  </p>
+                </div>
+                <div class="reply-to-comment">
+                  <a href="">پاسخ به نظر</a>
+                </div>
+              </div>
             </div>
             <ul class="comments-list reply-list">
               <li>
                 <!-- Avatar -->
                 <div class="comment-avatar"><img src="http://i9.photobucket.com/albums/a88/creaticode/avatar_2_zps7de12f8b.jpg" alt=""></div>
                 <!-- Contenedor del Comentario -->
-                
+                <div class="reply-comment-message">
+                  <div class="comment-user-name">
+                    <h5>میلاد محمدی</h5>
+                  </div>
+                  <div class="comment-text">
+                    <p>
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای  .
+                    </p>
+                  </div>
+                  <div class="reply-to-comment">
+                    <a href="">پاسخ به نظر</a>
+                  </div>
+                </div>
               </li>
 
               <li>
                 <!-- Avatar -->
                 <div class="comment-avatar"><img src="http://i9.photobucket.com/albums/a88/creaticode/avatar_1_zps8e1c80cd.jpg" alt=""></div>
                 <!-- Contenedor del Comentario -->
-                
+                <div class="reply-comment-message">
+                  <div class="comment-user-name">
+                    <h5>میلاد محمدی</h5>
+                  </div>
+                  <div class="comment-text">
+                    <p>
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای  .
+                    </p>
+                  </div>
+                  <div class="reply-to-comment">
+                    <a href="">پاسخ به نظر</a>
+                  </div>
+                </div>
               </li>
             </ul>
             

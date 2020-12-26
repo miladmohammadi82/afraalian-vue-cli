@@ -2136,7 +2136,86 @@ input[type=number] {
     font-size: 16px;
     color: #535355;
 }
+
+
+.comment-message .reply-to-comment{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 30px;
+}
+
+.comment-message .reply-to-comment a{
+    font-size: 16px;
+    color: #002bff;
+}
+
+
+
+
+
+
+.reply-comment-message{
+    margin: 0 180px 0 0;
+    width: auto;
+    height: auto;
+    background: #fff;
+    border: 1px solid #d3d3d3;
+}
+
+.reply-comment-message::after{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: #ffffff;
+    position: absolute;
+    overflow: hidden;
+    transform: rotate(46deg);
+    -webkit-transform: rotate(46deg);
+    -moz-transform: rotate(46deg);
+    -ms-transform: rotate(46deg);
+    -o-transform: rotate(46deg);
+    right: 170px;
+    top: 28px;
+    overflow: hidden;
+    border: 1px solid #b6b6b6;
+    border-left: none;
+    border-bottom: none;
+}
  
+
+.reply-comment-message .comment-user-name{
+    padding: 20px;
+    color: #535355;
+}
+
+.reply-comment-message .comment-text{
+    padding: 0 20px 20px;
+}
+
+.reply-comment-message .comment-text{
+    font-size: 16px;
+    color: #535355;
+}
+
+
+.reply-comment-message .reply-to-comment{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 30px;
+}
+
+.reply-comment-message .reply-to-comment a{
+    font-size: 16px;
+    color: #002bff;
+}
+
+
+
+
+
+
+
+
 /** =====================
  * Responsive
  ========================*/
