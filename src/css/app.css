@@ -2123,8 +2123,19 @@ input[type=number] {
 }
  
 
- 
- 
+.comment-message .comment-user-name{
+    padding: 20px;
+    color: #535355;
+}
+
+.comment-message .comment-text{
+    padding: 0 20px 20px;
+}
+
+.comment-message .comment-text{
+    font-size: 16px;
+    color: #535355;
+}
  
 /** =====================
  * Responsive
