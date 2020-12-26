@@ -94,7 +94,9 @@
               <div class="comment-avatar" style="margin: 0 0 30px 0;"><img src="http://i9.photobucket.com/albums/a88/creaticode/avatar_1_zps8e1c80cd.jpg" alt=""></div>
               <!-- Contenedor del Comentario -->
               <div class="comment-message">
-                
+                <div class="comment-user-name">
+                  <h5>میلاد محمدی</h5>
+                </div>
               </div>
             </div>
             <!-- Respuestas de los comentarios -->

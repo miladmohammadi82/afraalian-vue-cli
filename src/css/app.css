@@ -2095,8 +2095,8 @@ input[type=number] {
 
 
 .comment-message{
-    width: 88%;
-    height: 170px;
+    width: auto;
+    height: auto;
     background: #fff;
     margin: 27px 104px 26px 33px;
     border: 1px solid #d3d3d3;
