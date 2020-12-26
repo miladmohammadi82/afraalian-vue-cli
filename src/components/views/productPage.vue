@@ -105,6 +105,17 @@
                 <div class="reply-to-comment">
                   <a href="">پاسخ به نظر</a>
                 </div>
+                <div class="relpy-message-box">
+                  <form class="inout-box" action="">
+                    <div class="user-info-input">
+                      <input class="form-control" placeholder="نام" type="text" name="" id="">
+                      <input class="form-control" placeholder="ایمیل" type="text" name="" id="">
+                    </div>
+                    <div class="message-box">
+                      <input class="form-control" />
+                    </div>
+                  </form>
+                </div>
               </div>
             </div>
             <!-- Respuestas de los comentarios -->

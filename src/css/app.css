@@ -2210,12 +2210,51 @@ input[type=number] {
 }
 
 
+.relpy-message-box{
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    padding: 0 0 0 0;
+}
 
+.inout-box ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 24px 0 0;
+}
 
+.inout-box ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.inout-box .message-box{
+    padding: 17px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.inout-box ul li input{
+    width: 300px;
+    height: 25px;
+}
 
+.message-box input{
+    height: 200px;
+}
 
+.user-info-input{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.user-info-input input:first-child{
+    margin: 20px 0;
+}
 /** =====================
  * Responsive
  ========================*/
