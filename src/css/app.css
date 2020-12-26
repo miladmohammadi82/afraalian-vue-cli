@@ -2094,10 +2094,35 @@ input[type=number] {
  ---------------------------*/
 
 
-
+.comment-message{
+    width: 88%;
+    height: 170px;
+    background: #fff;
+    margin: 27px 104px 26px 33px;
+    border: 1px solid #d3d3d3;
+}
+ 
+.comment-message::after{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: #ffffff;
+    position: absolute;
+    overflow: hidden;
+    transform: rotate(46deg);
+    -webkit-transform: rotate(46deg);
+    -moz-transform: rotate(46deg);
+    -ms-transform: rotate(46deg);
+    -o-transform: rotate(46deg);
+    right: 94px;
+    top: 28px;
+    overflow: hidden;
+    border: 1px solid #b6b6b6;
+    border-left: none;
+    border-bottom: none;
+}
  
 
- 
  
  
  
