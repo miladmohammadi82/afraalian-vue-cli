@@ -2031,7 +2031,14 @@ input[type=number] {
 
 
 @media (max-width: 620px){
+    .info-product .items-main-product-page{
+        display: none;
+    }
 
+    .product-page-content{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 
