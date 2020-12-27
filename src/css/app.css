@@ -1941,6 +1941,13 @@ input[type=number] {
 .btn-div-fixed-addCart{
     display: none;
 }
+.price-for-mobile div:last-child{
+    display: none;
+}
+
+.price-for-mobile div:first-child{
+    display: none;
+}
 
 
 @media (max-width: 992px){
@@ -2007,7 +2014,28 @@ input[type=number] {
     .price-for-mobile .number__container{
         padding: 20px;
     }
+
+    
+    .price-for-mobile div:first-child{
+        display: block;
+    }
+
+    .price-for-mobile div:last-child{
+        display: block;
+    }
+
+    .price-mobile-version{
+        padding: 20px;
+    }
 }
+
+
+@media (max-width: 620px){
+
+}
+
+
+
 
 .bg-product{
     width: 100%;

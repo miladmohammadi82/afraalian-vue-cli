@@ -69,15 +69,21 @@
           </div>
         </div>
       </div>
-
-      <div class="price-for-mobile">
-        <li>قیمت: <span>150,000</span> <small>تومان</small></li>
-        <div class="number__container">
-          <button @click="delNumber" class="decrement"><i class="far fa-minus"></i></button>
-          <input v-model="numberProduct" type="text" inputmode="numeric" placeholder="تعداد" />
-          <button @click="addNumber" class="increment"><i class="far fa-plus"></i></button>
+      
+      <div class="d-bb">
+        <div class="price-for-mobile">
+          <div class="price-mobile-version">
+            <li>قیمت: <span>150,000</span> <small>تومان</small></li>
+          </div>
+          
+          <div class="number__container">
+            <button @click="delNumber" class="decrement"><i class="far fa-minus"></i></button>
+            <input v-model="numberProduct" type="text" inputmode="numeric" placeholder="تعداد" />
+            <button @click="addNumber" class="increment"><i class="far fa-plus"></i></button>
+          </div>
         </div>
       </div>
+      
       
     </div>
     
