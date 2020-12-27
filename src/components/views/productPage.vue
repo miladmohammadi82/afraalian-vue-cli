@@ -88,19 +88,27 @@
       </div>
       <div class="comments-user" v-if="activetab == 2">
         <ul id="comments-list" class="comments-list">
-          <li>
-            <div class="comment-main-level">
+
+
+
+
+
+
+
+
+
+
+          <li v-for="userComment in userComments" :key="userComment.id">
+            <div class="comment-main-level" >
               <!-- Avatar -->
               <div class="comment-avatar" style="margin: 0 0 30px 0;"><img src="http://i9.photobucket.com/albums/a88/creaticode/avatar_1_zps8e1c80cd.jpg" alt=""></div>
               <!-- Contenedor del Comentario -->
               <div class="comment-message">
                 <div class="comment-user-name">
-                  <h5>میلاد محمدی</h5>
+                  <h5>{{ userComment.name }}</h5>
                 </div>
                 <div class="comment-text">
-                  <p>
-                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای  .
-                  </p>
+                  <p>{{ userComment.message }}</p>
                 </div>
                 <div class="reply-to-comment">
                   <a href="" @click.prevent="openDropComent=!openDropComent">پاسخ به نظر</a>
@@ -119,19 +127,20 @@
                 </div>
               </div>
             </div>
+
             <!-- Respuestas de los comentarios -->
             <ul class="comments-list reply-list">
-              <li>
+              <li v-for="replyUserComment in replyUserComments" :key="replyUserComment.id">
                 <!-- Avatar -->
                 <div class="comment-avatar"><img src="http://i9.photobucket.com/albums/a88/creaticode/avatar_2_zps7de12f8b.jpg" alt=""></div>
                 <!-- Contenedor del Comentario -->
                 <div class="reply-comment-message">
                   <div class="comment-user-name">
-                    <h5>میلاد محمدی</h5>
+                    <h5>{{ replyUserComment.name }}</h5>
                   </div>
                   <div class="comment-text">
                     <p>
-                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای  .
+                      {{ replyUserComment.message }}
                     </p>
                   </div>
                   <div class="reply-to-comment">
@@ -151,87 +160,10 @@
                   </div>
                 </div>
               </li>
-
-              <li>
-                <!-- Avatar -->
-                <div class="comment-avatar"><img src="http://i9.photobucket.com/albums/a88/creaticode/avatar_1_zps8e1c80cd.jpg" alt=""></div>
-                <!-- Contenedor del Comentario -->
-                <div class="reply-comment-message">
-                  <div class="comment-user-name">
-                    <h5>میلاد محمدی</h5>
-                  </div>
-                  <div class="comment-text">
-                    <p>
-                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای  .
-                    </p>
-                  </div>
-                  <div class="reply-to-comment">
-                    <a href="">پاسخ به نظر</a>
-                  </div>
-                </div>
-              </li>
             </ul>
           </li>
 
-          <li>
-            <div class="comment-main-level">
-              <!-- Avatar -->
-              <div class="comment-avatar"><img src="http://i9.photobucket.com/albums/a88/creaticode/avatar_2_zps7de12f8b.jpg" alt=""></div>
-              <!-- Contenedor del Comentario -->
-              <div class="comment-message">
-                <div class="comment-user-name">
-                  <h5>میلاد محمدی</h5>
-                </div>
-                <div class="comment-text">
-                  <p>
-                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای  .
-                  </p>
-                </div>
-                <div class="reply-to-comment">
-                  <a href="">پاسخ به نظر</a>
-                </div>
-              </div>
-            </div>
-            <ul class="comments-list reply-list">
-              <li>
-                <!-- Avatar -->
-                <div class="comment-avatar"><img src="http://i9.photobucket.com/albums/a88/creaticode/avatar_2_zps7de12f8b.jpg" alt=""></div>
-                <!-- Contenedor del Comentario -->
-                <div class="reply-comment-message">
-                  <div class="comment-user-name">
-                    <h5>میلاد محمدی</h5>
-                  </div>
-                  <div class="comment-text">
-                    <p>
-                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای  .
-                    </p>
-                  </div>
-                  <div class="reply-to-comment">
-                    <a href="">پاسخ به نظر</a>
-                  </div>
-                </div>
-              </li>
-
-              <li>
-                <!-- Avatar -->
-                <div class="comment-avatar"><img src="http://i9.photobucket.com/albums/a88/creaticode/avatar_1_zps8e1c80cd.jpg" alt=""></div>
-                <!-- Contenedor del Comentario -->
-                <div class="reply-comment-message">
-                  <div class="comment-user-name">
-                    <h5>میلاد محمدی</h5>
-                  </div>
-                  <div class="comment-text">
-                    <p>
-                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای  .
-                    </p>
-                  </div>
-                  <div class="reply-to-comment">
-                    <a href="">پاسخ به نظر</a>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </li>
+          
         </ul>
       </div>
     </div>
@@ -244,6 +176,16 @@ export default {
     return {
       openDropComent: false,
       openDropComentReply: false,
+      userComments: [
+        { id: 1,  name: "میلاد محمدی", message: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای  ." },
+        { id: 2,  name: "میلاد محمدی", message: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای  ." },
+      ],
+
+      replyUserComments: [
+        { id: 1, name: "میلاد محمدی", message: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای  ."},
+        { id: 2, name: "میلاد محمدی", message: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای  ."}
+      ],
+
       numberProduct : 1,
       activetab: 1,
       price: 150000,
