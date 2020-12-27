@@ -1703,11 +1703,7 @@ body {
 
 
 .product-page-content{
-    width: 100%;
-    height: auto;
-    background: #fff;
-    box-shadow: 0 0 80px -39px #262626;
-    border-radius: 30px;
+    
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
@@ -1996,8 +1992,30 @@ input[type=number] {
         background-color: #e9a20a;
         margin: 0 0 0 22px;
     }
+
+    .count-number{
+        display: none;
+    }
+    
+    .price-for-mobile{
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .price-for-mobile .number__container{
+        padding: 20px;
+    }
 }
 
+.bg-product{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    box-shadow: 0 0 80px -39px #262626;
+    border-radius: 30px;
+}
 /* END Main in page */
 
 /* Start foo-product-page */

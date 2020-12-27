@@ -1,74 +1,86 @@
 <template>
 <br><br><br><br><br>
   <div class="container">
-    <div class="product-page-content">
-      <div class="gallery-product">
-        <div class="gallery-product-item">
-          <div class="gallery-product-image">
-            <img src="../../assets/image-product/download.jpg" ref="itemImg" alt="">
-          </div>
-        </div>
-        <ul class="gallery-product-items">
-          <li class="js-product-thumb-img" v-for="galleryEndImg in galleryEndImgs" :key="galleryEndImg.id">
-            <div class="thumb-wrapper">
-              <img :src="galleryEndImg.img" ref="itemsImg" @click="editImg" alt="">
-            </div>
-          </li>
-        </ul>
-      </div>
-      <div class="info-product">
-        <div class="items-main-product-page">
-          <div class="title">
-            <h4 class="text-product">عسل آویشن 5 کیلویی</h4>
-          </div>
-          <div class="servisess-product-page">
-            <ul>
-              <li><img src="../../assets/image-servisess/free-send.svg" alt=""></li>
-              <li><img src="../../assets/image-servisess/rerurn-product.svg" alt=""></li>
-              <li><img src="../../assets/image-servisess/support-24.svg" alt=""></li>
-              <li><img src="../../assets/image-servisess/tarxk-time.svg" alt=""></li>
-            </ul>
-          </div>
-          <div class="next-section">
-            <h5>ویژگی محصول:</h5>
-            <ul>
-              <li>ساکارز: <span>2 </span>درصد</li>
-              <li>نوع عسل: <span>آویشن</span></li>
-              <li>محل برداشت: <span>گیلان</span></li>
-            </ul>
-          </div>
-          <div class="count-number">
-            <div class="number__container">
-              <button @click="delNumber" class="decrement"><i class="far fa-minus"></i></button>
-              <input v-model="numberProduct" type="text" inputmode="numeric" placeholder="تعداد" />
-              <button @click="addNumber" class="increment"><i class="far fa-plus"></i></button>
+    <div class="bg-product">
+      <div class="product-page-content">
+        <div class="gallery-product">
+          <div class="gallery-product-item">
+            <div class="gallery-product-image">
+              <img src="../../assets/image-product/download.jpg" ref="itemImg" alt="">
             </div>
           </div>
+          <ul class="gallery-product-items">
+            <li class="js-product-thumb-img" v-for="galleryEndImg in galleryEndImgs" :key="galleryEndImg.id">
+              <div class="thumb-wrapper">
+                <img :src="galleryEndImg.img" ref="itemsImg" @click="editImg" alt="">
+              </div>
+            </li>
+          </ul>
         </div>
+        <div class="info-product">
+          <div class="items-main-product-page">
+            <div class="title">
+              <h4 class="text-product">عسل آویشن 5 کیلویی</h4>
+            </div>
+            <div class="servisess-product-page">
+              <ul>
+                <li><img src="../../assets/image-servisess/free-send.svg" alt=""></li>
+                <li><img src="../../assets/image-servisess/rerurn-product.svg" alt=""></li>
+                <li><img src="../../assets/image-servisess/support-24.svg" alt=""></li>
+                <li><img src="../../assets/image-servisess/tarxk-time.svg" alt=""></li>
+              </ul>
+            </div>
+            <div class="next-section">
+              <h5>ویژگی محصول:</h5>
+              <ul>
+                <li>ساکارز: <span>2 </span>درصد</li>
+                <li>نوع عسل: <span>آویشن</span></li>
+                <li>محل برداشت: <span>گیلان</span></li>
+              </ul>
+            </div>
+            <div class="count-number">
+              <div class="number__container">
+                <button @click="delNumber" class="decrement"><i class="far fa-minus"></i></button>
+                <input v-model="numberProduct" type="text" inputmode="numeric" placeholder="تعداد" />
+                <button @click="addNumber" class="increment"><i class="far fa-plus"></i></button>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+
         
-      </div>
-
-      
 
 
-      <div class="cart-product-page-section d-flex justify-content-center align-items-center">
-        <div class="cart-product-page">
-          <div class="title">
-            <h4 class="text-product">عسل آویشن 5 کیلویی</h4>
+        <div class="cart-product-page-section d-flex justify-content-center align-items-center">
+          <div class="cart-product-page">
+            <div class="title">
+              <h4 class="text-product">عسل آویشن 5 کیلویی</h4>
+            </div>
+            <div class="main-cart-product">
+              <ul>
+                <li>قیمت: <span>150,000</span> <small>تومان</small></li>
+                <li>هزینه ارسال: <span>رایگان!</span></li>
+                <li>تخفیف: <span>0</span></li>
+                <li>جمع کل: <span class="text-danger">{{ price }}</span> <small class="text-danger">تومان</small></li>
+              </ul>
+            </div>
+            <button class="btn-add-to-cart-productPage ">افزودن به سبد خرید</button>
           </div>
-          <div class="main-cart-product">
-            <ul>
-              <li>قیمت: <span>150,000</span> <small>تومان</small></li>
-              <li>هزینه ارسال: <span>رایگان!</span></li>
-              <li>تخفیف: <span>0</span></li>
-              <li>جمع کل: <span class="text-danger">{{ price }}</span> <small class="text-danger">تومان</small></li>
-            </ul>
-          </div>
-          <button class="btn-add-to-cart-productPage ">افزودن به سبد خرید</button>
         </div>
       </div>
-    </div>
 
+      <div class="price-for-mobile">
+        <li>قیمت: <span>150,000</span> <small>تومان</small></li>
+        <div class="number__container">
+          <button @click="delNumber" class="decrement"><i class="far fa-minus"></i></button>
+          <input v-model="numberProduct" type="text" inputmode="numeric" placeholder="تعداد" />
+          <button @click="addNumber" class="increment"><i class="far fa-plus"></i></button>
+        </div>
+      </div>
+      
+    </div>
+    
         
     <div class="foo-product-page">
       <div class="tab-foo-product-page">
