@@ -46,6 +46,10 @@
           </div>
         </div>
       </div>
+
+
+
+
       <div class="cart-product-page-section d-flex justify-content-center align-items-center">
         <div class="cart-product-page">
           <div class="title">
@@ -63,6 +67,8 @@
         </div>
       </div>
     </div>
+
+    
         
     <div class="foo-product-page">
       <div class="tab-foo-product-page">

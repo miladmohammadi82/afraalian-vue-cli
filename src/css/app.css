@@ -1935,12 +1935,24 @@ input[type=number] {
     background: #E9A20A;
     border-radius: 15px;
     font-size: 14px;
-    cursor: pointer;
+    cursor: pointer;    
 }
 
 .btn-add-to-cart-productPage:hover{
     background: #da9c01;
 }
+
+
+@media (max-width: 992px){
+    .product-page-content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .cart-product-page{
+        display: none;
+    }
+}
+
 /* END Main in page */
 
 /* Start foo-product-page */
