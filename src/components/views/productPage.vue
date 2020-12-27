@@ -82,6 +82,14 @@
             <button @click="addNumber" class="increment"><i class="far fa-plus"></i></button>
           </div>
         </div>
+        <div class="next-section-mobile">
+          <h5>ویژگی محصول:</h5>
+          <ul>
+            <li>ساکارز: <span>2 </span>درصد</li>
+            <li>نوع عسل: <span>آویشن</span></li>
+            <li>محل برداشت: <span>گیلان</span></li>
+          </ul>
+        </div>
       </div>
       
       
