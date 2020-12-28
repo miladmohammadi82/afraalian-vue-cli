@@ -133,7 +133,7 @@
           <li v-for="userComment in userComments" :key="userComment.id">
             <div class="comment-main-level" >
               <!-- Avatar -->
-              <div class="comment-avatar" style="margin: 0 0 30px 0;"><img src="http://i9.photobucket.com/albums/a88/creaticode/avatar_1_zps8e1c80cd.jpg" alt=""></div>
+              <div class="comment-avatar" style="margin: 0 0 30px 0;"><img src="../../assets/photo_2020-08-25_23-52-47.jpg" alt=""></div>
               <!-- Contenedor del Comentario -->
               <div class="comment-message">
                 <div class="comment-user-name">
@@ -164,7 +164,7 @@
             <ul class="comments-list reply-list">
               <li v-for="replyUserComment in replyUserComments" :key="replyUserComment.id">
                 <!-- Avatar -->
-                <div class="comment-avatar"><img src="http://i9.photobucket.com/albums/a88/creaticode/avatar_2_zps7de12f8b.jpg" alt=""></div>
+                <div class="comment-avatar"><img src="../../assets/photo_2020-08-25_23-52-47.jpg" alt=""></div>
                 <!-- Contenedor del Comentario -->
                 <div class="reply-comment-message">
                   <div class="comment-user-name">

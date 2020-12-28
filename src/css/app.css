@@ -1807,11 +1807,11 @@ body {
 }
 
 .info-product .items-main-product-page .text-product{
-    border-bottom: 1px solid #707070;
+    border-bottom: 1px solid #767676;
     width: 235px;
     text-align: center;
     padding: 0 0 17px 0;
-    color: #444;
+    color: #767676;
     font-size: 18px;
 }
 
