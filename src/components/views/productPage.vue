@@ -143,7 +143,7 @@
                   <p>{{ userComment.message }}</p>
                 </div>
                 <div class="reply-to-comment">
-                  <a href="" @click.prevent="openDropComent=!openDropComent">پاسخ به نظر</a>
+                  <a href="" :list="userComment" @click.prevent="openDropComent=!openDropComent">پاسخ به نظر</a>
                 </div>
                 <div class="relpy-message-box" v-if="openDropComent">
                   <form class="inout-box" action="">
