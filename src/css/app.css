@@ -2426,9 +2426,24 @@ input[type=number] {
 }
 
 .content-table thead tr{
-    background: #ffae00;
-    color: #fff;
     text-align: right;
+}
+
+.content-table th,
+.content-table td{
+    padding: 12px 15px;
+}
+
+.content-table tr th{
+    border: 1px solid;
+}
+
+.content-table tbody tr{
+    border: 1px solid;
+}
+
+.content-table tbody tr td{
+    border: 1px solid;
 }
 
 /* END product page */
