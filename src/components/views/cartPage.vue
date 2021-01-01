@@ -1,6 +1,5 @@
 <template>
   <div class="">
-      cjsahcj
   </div>
 </template>
 
