@@ -2412,7 +2412,26 @@ input[type=number] {
 /* END Page product Stayle */
 
 
+/* Start product page */
 
+.container-cart-page{
+    padding: 150px 0;
+}
+
+.content-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9rem;
+    width: 100%;
+}
+
+.content-table thead tr{
+    background: #ffae00;
+    color: #fff;
+    text-align: right;
+}
+
+/* END product page */
 
 
 
