@@ -2434,17 +2434,14 @@ input[type=number] {
     padding: 12px 15px;
 }
 
-.content-table tr th{
-    border: 1px solid;
-}
-
-.content-table tbody tr{
-    border: 1px solid;
-}
-
+.content-table tr th,
+.content-table tbody tr,
 .content-table tbody tr td{
-    border: 1px solid;
+    border: 1px solid #c5c5c5;
+    text-align: center;
+    color: #777;
 }
+
 
 /* END product page */
 
