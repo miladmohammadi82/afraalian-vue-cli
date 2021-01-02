@@ -1,5 +1,9 @@
 <template>
   <div class="container container-cart-page">
+    <div class="title-page-cart">
+      <h4 class="text-center">سبد خرید من</h4>
+      <small style="font-size: 12px;">2 محصول اضافه شد</small>
+    </div>
     <table class="content-table">
       <thead>
         <tr>
