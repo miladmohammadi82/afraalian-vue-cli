@@ -34,7 +34,7 @@
     </table>
     <div class="items-cart-page">
       <div class="item-mored-niaz-forPay">
-
+        
       </div>
       <div class="faraiand-pay">
         <ul>

@@ -2494,6 +2494,16 @@ input[type=number] {
     font-size: 1.071rem;
     line-height: 1.467;
 }
+
+.item-mored-niaz-forPay{
+    border: 1px solid #bbb;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 0 12px;
+}
 /* END product page */
 
 
