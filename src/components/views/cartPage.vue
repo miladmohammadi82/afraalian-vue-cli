@@ -32,7 +32,48 @@
         </tr>
       </tbody>
     </table>
+    <div class="items-cart-page">
+      <div class="item-mored-niaz-forPay">
+
+      </div>
+      <div class="faraiand-pay">
+        <ul>
+          <li>
+            <span class="count-product-cart-page">قیمت محصول</span>
+            <span class="price-number-cart-page">
+              150,000
+              <span class="currency-cart-page">تومان</span>
+            </span>
+          </li>
+          <li>
+            <span class="count-product-cart-page">جمع</span>
+            <span class="price-number-cart-page">
+              150,000
+              <span class="currency-cart-page">تومان</span>
+            </span>
+          </li>
+          <li>
+            <span class="count-product-cart-page">هزینه ارسال</span>
+            <span class="price-number-cart-page">
+              رایگان!
+            </span>
+          </li>
+          <li>
+            <span class="count-product-cart-page">مبلغ قابل پرداخت</span>
+            <span class="price-number-cart-page">
+              150,000
+              <span class="currency-cart-page">تومان</span>
+            </span>
+          </li>
+          <li>
+            <button class="btn btn-danger w-100">پرداخت نهایی</button>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
+
+  
 </template>
 
 <script>

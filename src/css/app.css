@@ -2442,7 +2442,58 @@ input[type=number] {
     color: #777;
 }
 
+.items-cart-page{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    height: auto;
+    background: #fff;
+}
 
+.items-cart-page .faraiand-pay{
+    height: auto;
+    border: #bbbbbb solid 1px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 10px;
+}
+
+.items-cart-page .faraiand-pay ul li{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 6px 0;
+    color: #666;
+    border-bottom: #e2dfdf 1px solid;
+    padding: 5px 0;
+    margin: 15px 0 0 0;
+}
+
+.items-cart-page .faraiand-pay ul li:last-child{
+    border: none;
+    padding: 5px 0;
+}
+
+
+.items-cart-page .faraiand-pay ul li .count-product-cart-page{
+    font-size: 13px;
+    font-size: .929rem;
+    line-height: 1.692;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.items-cart-page .faraiand-pay ul li .price-number-cart-page{
+    font-size: 15px;
+    font-size: 1.071rem;
+    line-height: 1.467;
+}
 /* END product page */
 
 
