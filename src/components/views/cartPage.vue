@@ -34,7 +34,14 @@
     </table>
     <div class="items-cart-page">
       <div class="item-mored-niaz-forPay">
-        
+        <div class="code-takfif">
+          <span style="font-size: 15px;" @click="showCodeTakfifBox=!showCodeTakfifBox">کد تخفیف دارید ؟</span>
+          <div :class="{ showTacfifBox:!showCodeTakfifBox, 'code-takfif-box':showCodeTakfifBox }">
+            <input type="text" placeholder="درج کد تخفیف" >
+            <button class="btn btn-dark">اعمال</button>
+          </div>
+          
+        </div>
       </div>
       <div class="faraiand-pay">
         <ul>
@@ -80,6 +87,7 @@
 export default {
   data(){
     return{
+      showCodeTakfifBox: true,
       productCarts:[
         { image:"عکس", title: "عسل کاکوتی ممتاز 400 گرمی", priceVahed: "150,000 تومان", priceMajmoh: "150,000 تومان" },
         { image:"عکس", title: "عسل کاکوتی ممتاز 400 گرمی", priceVahed: "150,000 تومان", priceMajmoh: "150,000 تومان" },

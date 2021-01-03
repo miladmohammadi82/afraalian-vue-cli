@@ -2503,6 +2503,52 @@ input[type=number] {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     margin: 0 12px;
+    
+
+
+
+    
+}
+
+.item-mored-niaz-forPay .code-takfif{
+    margin: 20px;
+    display: flex;
+}
+
+.item-mored-niaz-forPay .code-takfif span{
+    margin: 9px;
+    cursor: pointer;
+    color: #183eff;
+}
+
+.item-mored-niaz-forPay .code-takfif input{
+    outline: none;
+    height: 34px;
+    padding: 0 10px;
+    border: 1px solid #959595;
+    margin: 0 10px;
+}
+
+.item-mored-niaz-forPay .code-takfif .code-takfif-box{
+    opacity: 0;
+    pointer-events: none;
+    margin: 0 -20px;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.showTacfifBox{
+    opacity: 1;
+    pointer-events: auto;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    margin: 0;
 }
 /* END product page */
 
