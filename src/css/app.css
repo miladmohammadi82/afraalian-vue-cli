@@ -2480,6 +2480,14 @@ input[type=number] {
         height: auto;
         background: #fff;
     }
+
+    .items-cart-page .faraiand-pay ul li:last-child{
+        display: none;
+    }
+
+    .items-cart-page .faraiand-pay{
+        height: 220px !important;
+    }
 }
 
 .items-cart-page .faraiand-pay{
