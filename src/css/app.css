@@ -2604,6 +2604,7 @@ input[type=number] {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     min-height: 64px;
+    cursor: pointer;
 }
 
 .nahve-pay .py-interneti .Redio-pay{
@@ -2622,7 +2623,7 @@ input[type=number] {
 .radio__radio-pay, .radio__radio-pay2{
     width: 1.25rem;
     height: 1.25rem;
-    border: 2px solid #d8e4e2;
+    border: 2px solid #17a2b8;
     border-radius: 50% ;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -2634,6 +2635,7 @@ input[type=number] {
     display: inline-flex;
     align-items: center;
     display: inline-flex;
+    cursor: pointer;
 }
 
 .Radio-pay img{
@@ -2643,10 +2645,12 @@ input[type=number] {
     align-items: center;
     margin: -17px 0;
     padding: -0 14px;
+    cursor: pointer;
 }
 
 .Radio-pay h5{
     display: inline-flex;
+    cursor: pointer;
 }
 
 .radio__radio-pay::after,
