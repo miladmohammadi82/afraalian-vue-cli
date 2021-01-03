@@ -199,7 +199,9 @@
         </ul>
       </div>
     </div>
-    
+    <div class="btn-div-fixed-addCart">
+        <button class="btn-add-to-cart-productPage btn-mobile-add-cart"><i class="far fa-plus"></i>&nbsp;&nbsp; افزودن به سبد خرید</button>
+    </div>
   </div>
 </template>
 

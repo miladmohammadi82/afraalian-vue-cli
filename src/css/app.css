@@ -2473,6 +2473,15 @@ input[type=number] {
     background: #fff;
 }
 
+@media(max-width: 992px){
+    .items-cart-page{
+        display: grid;
+        grid-template-columns:repeat(1, 1fr);
+        height: auto;
+        background: #fff;
+    }
+}
+
 .items-cart-page .faraiand-pay{
     height: 282px;
     border: #bbbbbb solid 1px;
