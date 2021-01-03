@@ -2496,18 +2496,7 @@ input[type=number] {
 }
 
 .item-mored-niaz-forPay{
-    border: 1px solid #bbb;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    margin: 0 12px;
-    
-
-
-
-    
+    margin: 0 12px; 
 }
 
 .item-mored-niaz-forPay .code-takfif{
@@ -2551,8 +2540,13 @@ input[type=number] {
     margin: 0;
 }
 
+.addres-girande-box{
+    background: #fff;
+    box-shadow: 0px 0px 1px 0px #262626;
+    padding: 17px;
+}
+
 .addres-girande-box ul{
-    padding: 0 20px;
     color: #5c5c5c;
 }
 
@@ -2569,6 +2563,12 @@ input[type=number] {
 .addres-girande-box ul li a{
     color: #002bff;
     font-size: 16px;
+}
+
+.nahve-pay{
+    background: #fff;
+    box-shadow: 0px 0px 1px 0px #262626;
+    margin: 17px;
 }
 
 .nahve-pay h5{

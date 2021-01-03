@@ -34,14 +34,16 @@
     </table>
     <div class="items-cart-page">
       <div class="item-mored-niaz-forPay">
-        <div class="code-takfif">
-          <span style="font-size: 15px;" @click="showCodeTakfifBox=!showCodeTakfifBox">کد تخفیف دارید ؟</span>
-          <div :class="{ showTacfifBox:!showCodeTakfifBox, 'code-takfif-box':showCodeTakfifBox }">
-            <input type="text" placeholder="درج کد تخفیف" >
-            <button class="btn btn-dark">اعمال</button>
-          </div>
-        </div>
         <div class="addres-girande-box">
+          <div class="code-takfif">
+            <span style="font-size: 15px;" @click="showCodeTakfifBox=!showCodeTakfifBox">کد تخفیف دارید ؟</span>
+            <div :class="{ showTacfifBox:!showCodeTakfifBox, 'code-takfif-box':showCodeTakfifBox }">
+              <input type="text" placeholder="درج کد تخفیف" >
+              <button class="btn btn-dark">اعمال</button>
+            </div>
+          </div>
+         
+        
           <ul>
             <h5>مشخصات گیرنده</h5>
             <li><i class="fas fa-map-marker-alt"></i>&nbsp;آدرس گیرنده : <span>گیلان</span></li>
