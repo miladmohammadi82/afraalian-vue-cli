@@ -2568,7 +2568,7 @@ input[type=number] {
 .nahve-pay{
     background: #fff;
     box-shadow: 0px 0px 1px 0px #262626;
-    margin: 17px;
+    margin: 17px 0;
 }
 
 .nahve-pay h5{
@@ -2633,6 +2633,20 @@ input[type=number] {
     padding: 2px; 
     display: inline-flex;
     align-items: center;
+    display: inline-flex;
+}
+
+.Radio-pay img{
+    display: inline-flex;
+    width: 10;
+    width: 50px;
+    align-items: center;
+    margin: -17px 0;
+    padding: -0 14px;
+}
+
+.Radio-pay h5{
+    display: inline-flex;
 }
 
 .radio__radio-pay::after,

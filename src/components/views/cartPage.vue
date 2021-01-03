@@ -52,6 +52,7 @@
             <li><a href="#">ویرایش اطلاعات&nbsp;<i class="far fa-chevron-left"></i></a></li>
           </ul>
         </div>
+        
         <div class="nahve-pay">
           <h5>شیوه پرداخت</h5>
           <div class="py-interneti">
@@ -59,7 +60,9 @@
               <input type="radio" name="myRadioPay" id="myRadioPay" class="radio__inputPay">
               
               <div class="radio__radio-pay"></div>
-              redio
+              <img src="../../assets/svgs/1019611.svg" alt="">
+              <h5>پرداخت اینترنتی</h5>
+              
             </label>
           </div>
           <div class="py-mahal">
@@ -67,7 +70,9 @@
               <input type="radio" name="myRadioPay" id="myRadioPay2" class="radio__inputPay2">
               
               <div class="radio__radio-pay2"></div>
-              redio
+              <img src="../../assets/svgs/1019607.svg" alt="">
+              <h5>پرداخت در محل</h5>
+              
             </label>
           </div>
         </div>
