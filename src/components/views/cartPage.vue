@@ -17,18 +17,22 @@
       </thead>
       <tbody>
         <tr v-for="productCart in productCarts" :key="productCart.id">
-          <td>{{ productCart.image }}</td>
-          <td>{{ productCart.title }}</td>
-          <td>{{ productCart.priceVahed }}</td>
+          <td><h4>محصول : </h4>&nbsp;{{ productCart.image }}</td>
+          <td><h4>توضیحات : </h4>&nbsp;{{ productCart.title }}</td>
+          <td><h4>قیمت واحد : </h4>&nbsp;{{ productCart.priceVahed }}</td>
           <td>
+            <h4>تعداد : </h4>&nbsp;
             <div class="number__container">
               <button @click="delNumber" class="decrement"><i class="far fa-minus"></i></button>
               <input v-model="numberProduct" type="text" inputmode="numeric" placeholder="تعداد" />
               <button @click="addNumber" class="increment"><i class="far fa-plus"></i></button>
             </div>
           </td>
-          <td><i class="far fa-times fa-2x text-danger" style="cursor: pointer;"></i></td>
-          <td>{{ productCart.priceMajmoh }}</td>
+          <td>
+            <h4>حذف : </h4>&nbsp;
+            <i class="far fa-times fa-2x text-danger" style="cursor: pointer;"></i>
+          </td>
+          <td><h4>مجموع : </h4>&nbsp;{{ productCart.priceMajmoh }}</td>
         </tr>
       </tbody>
     </table>
