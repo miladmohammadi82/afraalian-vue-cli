@@ -40,7 +40,34 @@
             <input type="text" placeholder="درج کد تخفیف" >
             <button class="btn btn-dark">اعمال</button>
           </div>
-          
+        </div>
+        <div class="addres-girande-box">
+          <ul>
+            <h5>مشخصات گیرنده</h5>
+            <li><i class="fas fa-map-marker-alt"></i>&nbsp;آدرس گیرنده : <span>گیلان</span></li>
+            <li><i class="fas fa-user"></i>&nbsp;نام گیرنده : <span>میلاد محمدی</span></li>
+            <li><i class="fas fa-phone"></i>&nbsp;شماره تماس گیرنده : <span>02151526523</span></li>
+            <li><a href="#">ویرایش اطلاعات&nbsp;<i class="far fa-chevron-left"></i></a></li>
+          </ul>
+        </div>
+        <div class="nahve-pay">
+          <h5>شیوه پرداخت</h5>
+          <div class="py-interneti">
+            <label for="myRadioPay" class="Radio-pay">
+              <input type="radio" name="myRadioPay" id="myRadioPay" class="radio__inputPay">
+              
+              <div class="radio__radio-pay"></div>
+              redio
+            </label>
+          </div>
+          <div class="py-mahal">
+            <label for="myRadioPay2" class="Radio-pay">
+              <input type="radio" name="myRadioPay" id="myRadioPay2" class="radio__inputPay2">
+              
+              <div class="radio__radio-pay2"></div>
+              redio
+            </label>
+          </div>
         </div>
       </div>
       <div class="faraiand-pay">
