@@ -2765,6 +2765,7 @@ input[type=number] {
 }
 /* END product page */
 
+/* Start login and register style */
 
 .input-fild-box i{
 
@@ -2878,6 +2879,11 @@ ul.remember li input{
 ul.remember li{
     display: inline-flex;
 }
+
+/* Start login and register style */
+
+
+
 /*!
  * Font Awesome Pro 5.15.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license (Commercial License)
