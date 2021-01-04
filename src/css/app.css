@@ -2473,6 +2473,11 @@ input[type=number] {
     background: #fff;
 }
 
+.btn-pay-nahaeCart-page-box{
+    display: none;
+}
+
+
 @media(max-width: 992px){
     .items-cart-page{
         display: grid;
@@ -2488,6 +2493,36 @@ input[type=number] {
     .items-cart-page .faraiand-pay{
         height: 220px !important;
     }
+
+    .btn-pay-nahaeCart-page-box{
+        border-radius: 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        right: 0;
+        z-index: 9;
+        display: flex;
+        justify-content: center;
+        box-shadow: 0 -1px 2px 0 rgba(0,0,0,.08);
+        background-color: #fff;
+        padding: 12px;
+    }
+
+    .btn-pay-nahaeCart-page-box .btn-pay-nahaeCart-page{
+        border-radius: 9px;
+        font-size: 18px;
+        font-size: 1.286rem;
+        line-height: 1.222;
+        letter-spacing: -.6px;
+        color: #fff;
+        padding: 10px;
+        width: 100%;
+        background-color: #c82333;
+        margin: 0 0 0 22px;
+        border: none;
+        color: #fff;
+    }
+
 }
 
 .items-cart-page .faraiand-pay{
@@ -2579,6 +2614,8 @@ input[type=number] {
     -ms-transition: all .5s;
     -o-transition: all .5s;
     margin: 0;
+    position: absolute;
+    margin: 35px 0;
 }
 
 .addres-girande-box{

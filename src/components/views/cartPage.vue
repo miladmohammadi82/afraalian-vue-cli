@@ -118,7 +118,9 @@
     </div>
   </div>
 
-  
+  <div class="btn-pay-nahaeCart-page-box">
+    <button class="btn-pay-nahaeCart-page">پرداخت نهایی</button>
+  </div>
 </template>
 
 <script>
