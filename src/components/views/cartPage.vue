@@ -123,6 +123,8 @@
   </div>
 </template>
 
+
+
 <script>
 export default {
   data(){
@@ -133,11 +135,53 @@ export default {
         { image:"عکس", title: "عسل کاکوتی ممتاز 400 گرمی", priceVahed: "150,000 تومان", priceMajmoh: "150,000 تومان" },
       ] 
     }
+  },
+
+  mounted () {
+    let sideBar = document.querySelector(".faraiand-pay");
+    let stickySideBar = sideBar.offsetTop;
+
+    let header = document.querySelector("header");
+    let sticky = header.offsetTop;
+    window.onscroll = ()=> {
+
+      if (window.pageYOffset > stickySideBar) {
+        sideBar.classList.add("sticky-sidebar");
+      }    
+      else {
+        sideBar.classList.remove("sticky-sidebar");
+      }
+
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } 
+        
+      else {
+        header.classList.remove("sticky");
+      }
+    }
   }
+
 
 }
 </script>
 
-<style>
-
+<style scoped>
+.sticky-sidebar{
+  position: sticky;
+  top: 15%;
+  left: 5%;
+  height: 282px;
+  border: #bbbbbb solid 1px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.sticky{
+  background: #FFC736;
+  position: fixed;
+  border-bottom: 3px solid #ff6d00;
+}
 </style>
