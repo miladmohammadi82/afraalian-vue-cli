@@ -3,6 +3,8 @@ import App from './App.vue';
 
 import './css/app.css';
 import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap-grid.css';
+
 import router from './router'
 
 

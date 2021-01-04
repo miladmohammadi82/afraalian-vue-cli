@@ -2766,8 +2766,23 @@ input[type=number] {
 /* END product page */
 
 
+.input-fild-box i{
 
+}
 
+.input-fild-box label{
+    font-size: 16px;
+    color: #3d3d3d;
+}
+
+.input-fild-box input{
+    font-size: 15px;
+}
+
+ul.login-link li a{
+    font-size: 16px;
+    color: #e77000;
+}
 
 
 /*!
