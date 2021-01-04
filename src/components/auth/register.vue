@@ -1,8 +1,10 @@
 <template>
+<main class="client-page">
   <div class="d-flex align-items-center">
       <div class="container">
-        <div class="justify-content-center fade-in-y forgot row">
-            <div class="m-5 p-5 rounded bg-white col-9 col-sm-7 col-md-5 col-lg-4">
+        <div class="justify-content-center anime fade-in-y fast forgot row">
+
+            <div class="box-input-auth p-3 rounded col-9 col-sm-7 col-md-5 col-lg-4">
                 <div class="">
                     <form action="">
                         <div class="input-fild-box form-group">
@@ -25,18 +27,21 @@
                             <label for="">تکرار رمز عبور</label>
                             <input type="text" class="mt-2 form-control" placeholder="تکرار رمز عبور" name="" id="">
                         </div>
-                        <ul class="login-link">
-                            <li class="mb-3"><a href="#"><i class="fas fa-user"></i>&nbsp;وارد شوید</a></li>
-                        </ul>
                         <div class="input-fild-box form-group">
-                            <button class="btn btn-success w-100">ثبت نام</button>
+                            <button class="btn btn-success w-100">ورود</button>
                         </div>
+
+                        <ul class="login-link">
+                            <li><a href="#"><i class="fas fa-user"></i>&nbsp;وارد شوید</a></li>
+                        </ul>
                     </form>
                 </div>
+                
             </div>
         </div>
       </div>
   </div>
+</main>
 </template>
 
 <script>
