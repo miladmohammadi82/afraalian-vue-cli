@@ -9,6 +9,7 @@
           <ul class="infos-user">
             <li><h4>میلاد محمدی</h4></li>
             <li><small>091165565212</small></li>
+            <li><a href="#"><i class="far fa-pencil"></i>&nbsp;تغییر رمز</a></li>
           </ul>
         </div>
         <div class="pt-5 list-user-prodile-section">
@@ -17,12 +18,16 @@
             <li><a href="#"><i class="far fa-heart fa-lg"></i>&nbsp;&nbsp;علاقه مندی ها</a></li>
             <li><a href="#"><i class="far fa-comments fa-lg"></i>&nbsp;&nbsp;نظرات</a></li>
             <li><a href="#"><i class="far fa-route fa-lg"></i>&nbsp;&nbsp;نشانی</a></li>
-            <li><a href="#"><i class="far fa-user fa-lg"></i>&nbsp;&nbsp;اصلاعات حساب</a></li>
+            <li><a href="#"><i class="far fa-user fa-lg"></i>&nbsp;&nbsp;اطلاعات حساب</a></li>
             <li><a href="#"><i class="far fa-sign-out-alt fa-lg"></i>&nbsp;&nbsp;خروج از حساب</a></li>
           </ul>
         </div>
       </div>
-      <div class="content-profile-page"></div>
+      <div class="content-profile-page">
+        <div class="container">
+          
+        </div>
+      </div>
     </div>
   </div>
 </template>

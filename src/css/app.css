@@ -2926,6 +2926,12 @@ ul.infos-user li small{
     color: #666;
 }
 
+ul.infos-user li a{
+    font-size: 15px;
+    margin: 1px -33px;
+    color: #3100ff;
+}
+
 .list-user-prodile-section .list-user-prodile-ul li{
     line-height: 2.5;
 }
