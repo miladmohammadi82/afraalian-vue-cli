@@ -3011,8 +3011,30 @@ ul.infos-user li a{
     color: #002bff;
 }
 
+.contier-orders h5{
+    padding: 8px 0;
+    color: #616161;
+}
 
+.orders-content{
+    background: #fff;
+    box-shadow: 0 0 1px 0 #262626;
+    width: 100%;
+    height: 200px;
+}
 
+.orders-content .items-order{
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+    color: #cacaca;
+}
+
+.orders-content .items-order h5{
+    position: absolute;
+    padding: 114px 0;
+    color: #cacaca;
+}
 /* END profile page */
 
 
