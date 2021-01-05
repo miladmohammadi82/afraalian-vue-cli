@@ -14,6 +14,7 @@
         </div>
         <div class="pt-5 list-user-prodile-section">
           <ul class="list-user-prodile-ul">
+            <li><a href="#"><i class="far fa-user fa-lg"></i>&nbsp;&nbsp;پیشخوان</a></li>
             <li><a href="#"><i class="far fa-box-open fa-lg"></i>&nbsp;&nbsp;سفارش های من</a></li>
             <li><a href="#"><i class="far fa-heart fa-lg"></i>&nbsp;&nbsp;علاقه مندی ها</a></li>
             <li><a href="#"><i class="far fa-comments fa-lg"></i>&nbsp;&nbsp;نظرات</a></li>
@@ -25,7 +26,56 @@
       </div>
       <div class="content-profile-page">
         <div class="container">
+          <div class="info-user-auth-patern">
+            <h5>اطلاعات شخصی شما</h5>
+            <div class="info-user-auth">
+              <div class="info-fild-user-auth row">
+
+                <div class="ful-name-user col-lg-6">
+                  <label for="">نام و نام خانوادگی</label>
+                  <div class="ful-name-user-content">
+                    <p>milad mohammadi</p>
+                  </div>
+                </div>
+
+                <div class="ful-name-user col-lg-6">
+                  <label for="">ایمیل</label>
+                  <div class="ful-name-user-content">
+                    <p>milad@gmail.com</p>
+                  </div>
+                </div>
+
+
+                <div class="ful-name-user col-lg-6">
+                  <label for="">تلفن همراه</label>
+                  <div class="ful-name-user-content">
+                    <p>091545452151</p>
+                  </div>
+                </div>
+
+                <div class="ful-name-user col-lg-6">
+                  <label for="">کد ملی</label>
+                  <div class="ful-name-user-content">
+                    <p>_</p>
+                  </div>
+                </div>
+                <div class="link-edit-info-user">
+                  <a href="#"><i class="fas fa-pencil"></i>  ویرایش اطلاعات شخصی </a>
+                </div>
+              </div>
+            </div>
+          </div>
           
+
+          <div class="contier-orders">
+            <h5>آخرین سفارش ها</h5>
+            <div class="orders-content">
+              
+            </div>
+          </div>
+
+
+
         </div>
       </div>
     </div>

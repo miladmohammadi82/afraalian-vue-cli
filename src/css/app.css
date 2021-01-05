@@ -2962,6 +2962,55 @@ ul.infos-user li a{
     font-size: 24px;
 }
 
+.info-fild-user-auth{
+    padding: 20px;
+}
+
+.info-user-auth-patern{
+    margin: 110px 0;
+}
+
+.info-user-auth-patern h5{
+    color: #535355;
+    padding: 8px 0;
+}
+
+.info-user-auth{
+    background: #fff;
+    box-shadow: 0 0 1px 0 #262626;
+    width: 100%;
+    height: auto;
+}
+
+
+.ful-name-user{
+    margin: 20px 0;
+}
+
+
+.ful-name-user label{
+    font-size: 14px;
+    color: #686e71;
+}
+
+.ful-name-user .ful-name-user-content{
+    font-weight: bold;
+    color: #666666;
+    font-size: 17px;
+    border-bottom: 1px solid #c4c4c4;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.link-edit-info-user{
+    margin: 0 auto 0;
+}
+
+.link-edit-info-user a{
+    font-size: 14px;
+    color: #002bff;
+}
+
 
 
 /* END profile page */
