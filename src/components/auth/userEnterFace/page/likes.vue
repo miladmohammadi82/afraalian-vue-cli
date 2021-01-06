@@ -50,7 +50,65 @@
             </div>
         </div>
         <div class="blogs-like col-lg-12">
-
+            <h5>علاقه مندی مطالب</h5>
+            <div class="section-blog-like">
+                <div class="blog-like">
+                    <img src="./../../../../assets/layares-of-atmosphere.jpg" class="w-100" alt="">
+                    <div class="title-blog">
+                        <h5 class="text-center">عسل درمانی چیست</h5>
+                    </div>
+                    <div class="desciption-blog text-center pt-2">
+                        <p class="" style="font-size: small;">
+                            احساس ضعف و بی‌حالی یک احساس آشنا برای هریک از ما است. اما اگر این موضوع باعث ایجاد مشکلاتی شود باید به  کم 
+                        </p>
+                    </div>
+                    <div class="text-center pt-4">
+                        <button class="btn btn-warning text-dark">ادامه مطالب</button>
+                    </div>
+                </div>
+                <div class="blog-like">
+                    <img src="./../../../../assets/layares-of-atmosphere.jpg" class="w-100" alt="">
+                    <div class="title-blog">
+                        <h5 class="text-center">عسل درمانی چیست</h5>
+                    </div>
+                    <div class="desciption-blog text-center pt-2">
+                        <p class="" style="font-size: small;">
+                            احساس ضعف و بی‌حالی یک احساس آشنا برای هریک از ما است. اما اگر این موضوع باعث ایجاد مشکلاتی شود باید به  کم 
+                        </p>
+                    </div>
+                    <div class="text-center pt-4">
+                        <button class="btn btn-warning text-dark">ادامه مطالب</button>
+                    </div>
+                </div>
+                <div class="blog-like">
+                    <img src="./../../../../assets/layares-of-atmosphere.jpg" class="w-100" alt="">
+                    <div class="title-blog">
+                        <h5 class="text-center">عسل درمانی چیست</h5>
+                    </div>
+                    <div class="desciption-blog text-center pt-2">
+                        <p class="" style="font-size: small;">
+                            احساس ضعف و بی‌حالی یک احساس آشنا برای هریک از ما است. اما اگر این موضوع باعث ایجاد مشکلاتی شود باید به  کم 
+                        </p>
+                    </div>
+                    <div class="text-center pt-4">
+                        <button class="btn btn-warning text-dark">ادامه مطالب</button>
+                    </div>
+                </div>
+                <div class="blog-like">
+                    <img src="./../../../../assets/layares-of-atmosphere.jpg" class="w-100" alt="">
+                    <div class="title-blog">
+                        <h5 class="text-center">عسل درمانی چیست</h5>
+                    </div>
+                    <div class="desciption-blog text-center pt-2">
+                        <p class="" style="font-size: small;">
+                            احساس ضعف و بی‌حالی یک احساس آشنا برای هریک از ما است. اما اگر این موضوع باعث ایجاد مشکلاتی شود باید به  کم 
+                        </p>
+                    </div>
+                    <div class="text-center pt-4">
+                        <button class="btn btn-warning text-dark">ادامه مطالب</button>
+                    </div>
+                </div>
+            </div>
         </div>
       </div>
   </div>
