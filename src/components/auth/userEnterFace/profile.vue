@@ -32,7 +32,32 @@
 
 <script>
 export default {
+  mounted () {
+    let sideBarUserPanel = document.querySelector(".sidebar-profile");
+    let stickySideBarUserPanel = sideBarUserPanel.offsetTop;
 
+    let header = document.querySelector("header");
+    let sticky = header.offsetTop;
+
+    window.onscroll = ()=> {
+      if (window.pageYOffset > stickySideBarUserPanel) {
+        sideBarUserPanel.classList.add("sticky-sidebar-panel-user");
+      }    
+      else {
+        sideBarUserPanel.classList.remove("sticky-sidebar-panel-user");
+      }
+
+
+
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } 
+        
+      else {
+        header.classList.remove("sticky");
+      }
+    }
+  }
 }
 </script>
 
