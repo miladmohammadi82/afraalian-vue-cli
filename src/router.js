@@ -3,12 +3,13 @@ import { createWebHistory, createRouter } from "vue-router";
 import productPage from './components/views/productPage.vue';
 import main from './components/main.vue';
 import cartPage from "./components/views/cartPage.vue";
-import registerPage from "./components/auth/register.vue"
-import loginPage from "./components/auth/login.vue"
-import profile from "./components/auth/userEnterFace/profile.vue"
+import registerPage from "./components/auth/register.vue";
+import loginPage from "./components/auth/login.vue";
+import profile from "./components/auth/userEnterFace/profile.vue";
 
-import dashboard from "./components/auth/userEnterFace/page/dashboard.vue"
-import myOrder from "./components/auth/userEnterFace/page/my-order.vue"
+import dashboard from "./components/auth/userEnterFace/page/dashboard.vue";
+import myOrder from "./components/auth/userEnterFace/page/my-order.vue";
+import likes from "./components/auth/userEnterFace/page/likes.vue";
 
 const routes = [
     { path: "/", component: main },
@@ -19,6 +20,7 @@ const routes = [
     { path: "/profile", component: profile, children:[
         { path: "dashboard", component: dashboard },
         { path: "my-order", component: myOrder },
+        { path: "likes", component: likes },
     ] },
 ]
 
