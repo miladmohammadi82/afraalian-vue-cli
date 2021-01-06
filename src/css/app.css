@@ -3041,6 +3041,26 @@ ul.infos-user li a{
 .router-link-active{
     color: #eb5600 !important;
 }
+
+.products-like h5{
+    padding: 10px 0;
+    color: #535353;
+}
+
+.section-products-like{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    box-shadow: 0 0 1px 0 #262626;
+    padding: 50px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-products-like .product{
+    margin: 0 15px;
+}
 /* END profile page */
 
 
