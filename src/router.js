@@ -8,6 +8,8 @@ import loginPage from "./components/auth/login.vue"
 import profile from "./components/auth/userEnterFace/profile.vue"
 
 import dashboard from "./components/auth/userEnterFace/page/dashboard.vue"
+import myOrder from "./components/auth/userEnterFace/page/my-order.vue"
+
 const routes = [
     { path: "/", component: main },
     { path: "/product", component: productPage },
@@ -15,7 +17,8 @@ const routes = [
     { path: "/register", component: registerPage },
     { path: "/login", component: loginPage },
     { path: "/profile", component: profile, children:[
-        { path: "dashboard", component: dashboard }
+        { path: "dashboard", component: dashboard },
+        { path: "my-order", component: myOrder },
     ] },
 ]
 

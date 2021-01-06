@@ -2966,9 +2966,11 @@ ul.infos-user li a{
     padding: 20px;
 }
 
-.info-user-auth-patern{
+.content-profile-page{
     margin: 110px 0;
 }
+
+
 
 .info-user-auth-patern h5{
     color: #535355;
@@ -3034,6 +3036,10 @@ ul.infos-user li a{
     position: absolute;
     padding: 114px 0;
     color: #cacaca;
+}
+
+.router-link-active{
+    color: #eb5600 !important;
 }
 /* END profile page */
 

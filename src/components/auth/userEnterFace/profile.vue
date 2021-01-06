@@ -14,13 +14,13 @@
         </div>
         <div class="pt-5 list-user-prodile-section">
           <ul class="list-user-prodile-ul">
-            <li><a href="#"><i class="far fa-user fa-lg"></i>&nbsp;&nbsp;پیشخوان</a></li>
-            <li><a href="#"><i class="far fa-box-open fa-lg"></i>&nbsp;&nbsp;سفارش های من</a></li>
-            <li><a href="#"><i class="far fa-heart fa-lg"></i>&nbsp;&nbsp;علاقه مندی ها</a></li>
-            <li><a href="#"><i class="far fa-comments fa-lg"></i>&nbsp;&nbsp;نظرات</a></li>
-            <li><a href="#"><i class="far fa-route fa-lg"></i>&nbsp;&nbsp;نشانی</a></li>
-            <li><a href="#"><i class="far fa-user fa-lg"></i>&nbsp;&nbsp;اطلاعات حساب</a></li>
-            <li><a href="#"><i class="far fa-sign-out-alt fa-lg"></i>&nbsp;&nbsp;خروج از حساب</a></li>
+            <li><router-link to="/profile/dashboard"><i class="far fa-user fa-lg"></i>&nbsp;&nbsp;پیشخوان</router-link></li>
+            <li><a><i class="far fa-box-open fa-lg"></i>&nbsp;&nbsp;سفارش های من</a></li>
+            <li><a><i class="far fa-heart fa-lg"></i>&nbsp;&nbsp;علاقه مندی ها</a></li>
+            <li><a><i class="far fa-comments fa-lg"></i>&nbsp;&nbsp;نظرات</a></li>
+            <li><a><i class="far fa-route fa-lg"></i>&nbsp;&nbsp;نشانی</a></li>
+            <li><a><i class="far fa-user fa-lg"></i>&nbsp;&nbsp;اطلاعات حساب</a></li>
+            <li><a><i class="far fa-sign-out-alt fa-lg"></i>&nbsp;&nbsp;خروج از حساب</a></li>
           </ul>
         </div>
       </div>
