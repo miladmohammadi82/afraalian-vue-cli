@@ -7,6 +7,7 @@ import registerPage from "./components/auth/register.vue";
 import loginPage from "./components/auth/login.vue";
 import profile from "./components/auth/userEnterFace/profile.vue";
 
+
 import dashboard from "./components/auth/userEnterFace/page/dashboard.vue";
 import myOrder from "./components/auth/userEnterFace/page/my-order.vue";
 import likes from "./components/auth/userEnterFace/page/likes.vue";
