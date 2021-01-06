@@ -3085,6 +3085,37 @@ ul.infos-user li a{
 }
 
 
+.addres-box h5{
+    color: #535353;
+    margin: 10px 0;
+}
+
+
+.addres-box .section-addres-user{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    box-shadow: 0 0 1px 0 #262626;
+    padding: 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.addres-box .section-addres-user ul.addres-user li{
+    color: #535353;
+    font-size: 16px;
+    padding: 5px 0;
+}
+
+.addres-box .section-addres-user ul.addres-user li:last-child{
+    padding: 15px 0;
+}
+
+.addres-box .section-addres-user ul.addres-user li a{
+    color: #002bff;
+    font-size: 15px;
+}
+
 /* END profile page */
 
 

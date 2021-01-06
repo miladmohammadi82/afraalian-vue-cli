@@ -18,8 +18,7 @@
             <li><router-link to="/profile/my-order"><i class="far fa-box-open fa-lg"></i>&nbsp;&nbsp;سفارش های من</router-link></li>
             <li><router-link to="/profile/likes"><i class="far fa-heart fa-lg"></i>&nbsp;&nbsp;علاقه مندی ها</router-link></li>
             <li><router-link to="/profile/comments"><i class="far fa-comments fa-lg"></i>&nbsp;&nbsp;نظرات</router-link></li>
-            <li><a><i class="far fa-route fa-lg"></i>&nbsp;&nbsp;نشانی</a></li>
-            <li><a><i class="far fa-user fa-lg"></i>&nbsp;&nbsp;اطلاعات حساب</a></li>
+            <li><router-link to="/profile/addres-user"><i class="far fa-route fa-lg"></i>&nbsp;&nbsp;نشانی</router-link></li>
             <li><a><i class="far fa-sign-out-alt fa-lg"></i>&nbsp;&nbsp;خروج از حساب</a></li>
           </ul>
         </div>
