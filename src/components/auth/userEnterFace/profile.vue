@@ -39,8 +39,10 @@ export default {
     let header = document.querySelector("header");
     let sticky = header.offsetTop;
 
+    
     window.onscroll = ()=> {
       if (window.pageYOffset > stickySideBarUserPanel) {
+       
         sideBarUserPanel.classList.add("sticky-sidebar-panel-user");
       }    
       else {
@@ -61,6 +63,19 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+.sticky-sidebar-panel-user{
+  position: sticky;
+  top: 11%;
+  left: 5%;
+}
 
+@media (max-width: 571px){
+  .sticky-sidebar-panel-user{
+    position: inherit;
+    top: 11%;
+    left: 5%;
+    
+  }
+}
 </style>

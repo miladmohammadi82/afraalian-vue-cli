@@ -2891,6 +2891,19 @@ ul.remember li{
     height: auto;
 }
 
+@media(max-width: 571px){
+    .continer-profile-page{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        width: 100%;
+    }
+    .list-user-prodile-section ul.list-user-prodile-ul li{
+        width: 100%;
+        border-bottom: 1px solid #c6c6c6;
+    }
+}
+
 .continer-profile-page .sidebar-profile{
     margin: 71px 0;
     background: #fff;
@@ -3121,12 +3134,7 @@ ul.infos-user li a{
 }
 
 
-.sticky-sidebar-panel-user{
-    position: sticky;
-    top: 11%;
-    left: 5%;
-    
-}
+
 
 
 /* END profile page */
