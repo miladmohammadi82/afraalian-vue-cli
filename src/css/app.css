@@ -3183,17 +3183,14 @@ ul.infos-user li a{
 
 /* Start contact Page */
 
-.container-contact-box{
-    display: flex;
-    height: auto;
-}
+
 
 .textarea-cantact-page{
     height: 200px !important;
 }
 
 .content-contact-page{
-    margin: 110px 0;
+    padding: 110px 0;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -3231,6 +3228,10 @@ ul.infos-user li a{
 .content-contact-page .contact-form-box{
     width: 70%;
     height: 500px;
+}
+
+.router-contact-this-web{
+    margin: 100px 0;
 }
 /* END contact Page */
 
