@@ -2899,9 +2899,6 @@ ul.remember li{
         margin: 50px 0;
     }
 
-    .header{
-        margin: 20px 0 !important;
-    }
 
     .continer-profile-page{
         display: grid;
@@ -3175,13 +3172,57 @@ ul.infos-user li a{
 .contier-orders{
     padding: 100px 0;
 }
-
-
-
-
-
 /* END profile page */
 
+
+/* Start contact Page */
+
+.container-contact-box{
+    height: 500px;
+    display: flex;
+}
+
+.content-contact-page{
+    margin: 110px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.title-contact-page{
+    font-size: 1.562rem;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 1.92;
+    color: #000;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.contact-form-filds form{
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    color: #666;
+    font-size: 14px;
+    font-size: .875rem;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 1.714;
+    width: 100%;
+}
+
+
+.content-contact-page .contact-form-box{
+    width: 70%;
+    height: 500px;
+}
+/* END contact Page */
 
 
 
