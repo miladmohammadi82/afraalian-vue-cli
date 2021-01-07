@@ -9,7 +9,7 @@
           <ul class="infos-user">
             <li><h4>میلاد محمدی</h4></li>
             <li><small>091165565212</small></li>
-            <li><a href="#"><i class="far fa-pencil"></i>&nbsp;تغییر رمز</a></li>
+            <li><router-link to="/profile/edit-password"><i class="far fa-pencil"></i>&nbsp;تغییر رمز</router-link></li>
           </ul>
         </div>
         <div class="list-user-prodile-section">
