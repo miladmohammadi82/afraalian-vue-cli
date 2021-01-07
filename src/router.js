@@ -13,6 +13,7 @@ import myOrder from "./components/auth/userEnterFace/page/my-order.vue";
 import likes from "./components/auth/userEnterFace/page/likes.vue";
 import comments from "./components/auth/userEnterFace/page/comments.vue";
 import addresUser from "./components/auth/userEnterFace/page/addres-user.vue";
+import editPassword from "./components/auth/userEnterFace/page/edit-password.vue";
 
 const routes = [
     { path: "/", component: main },
@@ -26,6 +27,7 @@ const routes = [
         { path: "likes", component: likes },
         { path: "comments", component: comments },
         { path: "addres-user", component: addresUser },
+        { path: "edit-password", component: editPassword },
     ] },
 ]
 
