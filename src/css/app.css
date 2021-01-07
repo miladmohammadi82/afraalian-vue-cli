@@ -2932,6 +2932,14 @@ ul.remember li{
     .my-order-section-box{
         margin: -94px 0 !important;
     }
+
+    .content-likes-page{
+        margin: -94px 0 !important;
+    }
+
+    .content-addres-page{
+        margin: -94px 0 10px !important;
+    }
 }
 
 .list-user-prodile-section{
