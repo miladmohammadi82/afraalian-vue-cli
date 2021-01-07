@@ -3172,14 +3172,24 @@ ul.infos-user li a{
 .contier-orders{
     padding: 100px 0;
 }
+
+.btn-save-info-edit-user{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
 /* END profile page */
 
 
 /* Start contact Page */
 
 .container-contact-box{
-    height: 500px;
     display: flex;
+    height: auto;
+}
+
+.textarea-cantact-page{
+    height: 200px !important;
 }
 
 .content-contact-page{

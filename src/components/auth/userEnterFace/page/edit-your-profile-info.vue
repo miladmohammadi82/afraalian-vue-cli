@@ -56,9 +56,5 @@ export default {
 </script>
 
 <style scoped>
-.btn-save-info-edit-user{
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-}
+
 </style>
