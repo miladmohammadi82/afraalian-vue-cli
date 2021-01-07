@@ -14,6 +14,7 @@ import likes from "./components/auth/userEnterFace/page/likes.vue";
 import comments from "./components/auth/userEnterFace/page/comments.vue";
 import addresUser from "./components/auth/userEnterFace/page/addres-user.vue";
 import editPassword from "./components/auth/userEnterFace/page/edit-password.vue";
+import profileInfoEdit from "./components/auth/userEnterFace/page/edit-your-profile-info.vue";
 
 const routes = [
     { path: "/", component: main },
@@ -22,12 +23,13 @@ const routes = [
     { path: "/register", component: registerPage },
     { path: "/login", component: loginPage },
     { path: "/profile", component: profile, children:[
-        { path: "dashboard", component: dashboard },
+        { path: "dashboard", component: dashboard},
         { path: "my-order", component: myOrder },
         { path: "likes", component: likes },
         { path: "comments", component: comments },
         { path: "addres-user", component: addresUser },
         { path: "edit-password", component: editPassword },
+        { path: "edit-profile", component: profileInfoEdit },
     ] },
 ]
 

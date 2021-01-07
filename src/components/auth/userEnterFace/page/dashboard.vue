@@ -34,7 +34,7 @@
                   </div>
                 </div>
                 <div class="link-edit-info-user">
-                  <a href="#"><i class="fas fa-pencil"></i>  ویرایش اطلاعات شخصی </a>
+                  <router-link to="/profile/edit-profile"><i class="fas fa-pencil"></i>  ویرایش اطلاعات شخصی </router-link>
                 </div>
               </div>
             </div>
