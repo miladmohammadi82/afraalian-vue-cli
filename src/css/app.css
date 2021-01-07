@@ -2921,10 +2921,17 @@ ul.remember li{
     }
     
     .info-user-auth-patern{
-        margin: -38% 0;
+        margin: -22% 0;
     }
 
-    
+    .list-user-prodile-section{
+        padding: 0;
+    }
+
+
+    .my-order-section-box{
+        margin: -94px 0 !important;
+    }
 }
 
 .list-user-prodile-section{
