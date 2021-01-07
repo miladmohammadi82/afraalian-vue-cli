@@ -23,7 +23,7 @@ const routes = [
     { path: "/register", component: registerPage },
     { path: "/login", component: loginPage },
     { path: "/profile", component: profile, children:[
-        { path: "dashboard", component: dashboard},
+        { path: "dashboard", component: dashboard },
         { path: "my-order", component: myOrder },
         { path: "likes", component: likes },
         { path: "comments", component: comments },
