@@ -2892,16 +2892,39 @@ ul.remember li{
 }
 
 @media(max-width: 571px){
+    .sidebar-profile .user-profile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+
+
     .continer-profile-page{
         display: grid;
         grid-template-columns: 1fr;
         justify-content: center;
         width: 100%;
+        margin: -20px 0;
     }
+
+    .list-user-prodile-section{
+        margin: -50px 0;
+    }
+
     .list-user-prodile-section ul.list-user-prodile-ul li{
         width: 100%;
         border-bottom: 1px solid #c6c6c6;
     }
+    
+    .info-user-auth-patern{
+        margin: -38% 0;
+    }
+}
+
+.list-user-prodile-section{
+    padding: 80px 0;
 }
 
 .continer-profile-page .sidebar-profile{

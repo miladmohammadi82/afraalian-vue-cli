@@ -12,7 +12,7 @@
             <li><a href="#"><i class="far fa-pencil"></i>&nbsp;تغییر رمز</a></li>
           </ul>
         </div>
-        <div class="pt-5 list-user-prodile-section">
+        <div class="list-user-prodile-section">
           <ul class="list-user-prodile-ul">
             <li><router-link to="/profile/dashboard"><i class="far fa-user fa-lg"></i>&nbsp;&nbsp;پیشخوان</router-link></li>
             <li><router-link to="/profile/my-order"><i class="far fa-box-open fa-lg"></i>&nbsp;&nbsp;سفارش های من</router-link></li>
