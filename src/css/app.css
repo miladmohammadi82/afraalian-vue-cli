@@ -2896,10 +2896,12 @@ ul.remember li{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 10px 0;
+        margin: 50px 0;
     }
 
-
+    .header{
+        margin: 20px 0 !important;
+    }
 
     .continer-profile-page{
         display: grid;
@@ -2921,10 +2923,16 @@ ul.remember li{
     .info-user-auth-patern{
         margin: -38% 0;
     }
+
+    
 }
 
 .list-user-prodile-section{
     padding: 80px 0;
+}
+
+.content-profile-page{
+    margin: 110px 0;
 }
 
 .continer-profile-page .sidebar-profile{
@@ -3002,9 +3010,6 @@ ul.infos-user li a{
     padding: 20px;
 }
 
-.content-profile-page{
-    margin: 110px 0;
-}
 
 
 
