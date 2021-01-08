@@ -3268,7 +3268,14 @@ ul.infos-user li a{
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     color: #535353;
+    transition: all 0.5;
+    -webkit-transition: all 0.5;
+    -moz-transition: all 0.5;
+    -ms-transition: all 0.5;
+    -o-transition: all 0.5;
 }
+
+
 
 .router-contact-items ul li{
     display: flex;
@@ -3277,7 +3284,10 @@ ul.infos-user li a{
     text-align: center;
     align-items: center;
     color: #535353;
-    
+}
+
+.router-contact-items ul li:hover .icon-box-contact-page{
+    border: 2px solid #ffbf00;
 }
 
 .title-contact-page{
