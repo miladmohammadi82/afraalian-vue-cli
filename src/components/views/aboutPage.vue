@@ -18,11 +18,11 @@
             <div class="shabake-egtemaee-about-page">
                 <h5>شبکه های اجتماعی ما را دنبال کنید</h5>
                 <ul>
-                    <li><i class="fab fa-facebook-square fa-lg"></i></li>
-                    <li><i class="fab fa-twitter fa-lg"></i></li>
-                    <li><i class="fab fa-youtube fa-lg"></i></li>
-                    <li><i class="fab fa-instagram fa-lg"></i></li>
-                    <li><i class="fab fa-telegram-plane fa-lg"></i></li>
+                    <li><i class="fab fa-facebook-square fa-3x"></i></li>
+                    <li><i class="fab fa-twitter fa-3x"></i></li>
+                    <li><i class="fab fa-youtube fa-3x"></i></li>
+                    <li><i class="fab fa-instagram fa-3x"></i></li>
+                    <li><i class="fab fa-telegram-plane fa-3x"></i></li>
                 </ul>
             </div>
         </div>

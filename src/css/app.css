@@ -3341,6 +3341,24 @@ ul.infos-user li a{
     color: #535353;
 }
 
+.shabake-egtemaee-about-page{
+    width: 100%;
+    margin: 110px 0;
+}
+
+.shabake-egtemaee-about-page ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+
+.shabake-egtemaee-about-page ul li i{
+    cursor: pointer;
+}
+
 /* END About Page */
 
 /*!
