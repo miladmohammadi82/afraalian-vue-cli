@@ -220,4 +220,39 @@ export default {
 .active-drop{
     background: #000;
 }
+
+.telegram-plane:hover i{
+    color: #fff !important;
+}
+.telegram-plane:hover{
+    background: #0088cc;
+}
+
+.instagram:hover i{
+    color: #fff !important;
+}
+.instagram:hover{
+    background: #D11850;
+}
+
+.youtube:hover i{
+    color: #fff !important;
+}
+.youtube:hover{
+    background: #c40000;
+}
+
+.twitter:hover i{
+    color: #fff !important;
+}
+.twitter:hover{
+    background: #1C9DEB;
+}
+
+.facebook-square:hover i{
+    color: #fff !important;
+}
+.facebook-square:hover{
+    background: #395795;
+}
 </style>

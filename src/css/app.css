@@ -1399,52 +1399,28 @@ body {
     color: #0088cc !important;
     
 }
-.telegram-plane:hover i{
-    color: #fff !important;
-}
-.telegram-plane:hover{
-    background: #0088cc;
-}
+
 
 .instagram i{
     color: #D11850 !important;
 }
-.instagram:hover i{
-    color: #fff !important;
-}
-.instagram:hover{
-    background: #D11850;
-}
+
 
 .youtube i{
     color: #c40000 !important;
 }
-.youtube:hover i{
-    color: #fff !important;
-}
-.youtube:hover{
-    background: #c40000;
-}
+
 
 .twitter i{
     color: #1C9DEB !important;
 }
-.twitter:hover i{
-    color: #fff !important;
-}
-.twitter:hover{
-    background: #1C9DEB;
-}
+
+
 
 .facebook-square i{
     color: #395795 !important;
 }
-.facebook-square:hover i{
-    color: #fff !important;
-}
-.facebook-square:hover{
-    background: #395795;
-}
+
 /* End copy right */
 
 /* End Footer */
@@ -3353,6 +3329,7 @@ ul.infos-user li a{
     flex-wrap: wrap;
     flex: 1;
 }
+
 
 
 .shabake-egtemaee-about-page ul li i{
