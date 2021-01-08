@@ -2473,6 +2473,7 @@ input[type=number] {
     background: #fff;
 }
 
+
 .btn-pay-nahaeCart-page-box{
     display: none;
 }
@@ -3232,6 +3233,46 @@ ul.infos-user li a{
 
 .router-contact-this-web{
     margin: 100px 0;
+    box-shadow: 0 0 1px 0 #262626;
+}
+
+.contact-form-box{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.router-contact-items{
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.router-contact-items ul{
+    display: inline-flex;
+    justify-content: center;
+}
+
+.icon-box-contact-page{
+    width: 80px;
+    height: 80px;
+    border: 2px solid #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.router-contact-items ul li{
+    display: flex;
+    justify-content: center !important;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+
+.title-contact-page small{
+    font-size: 14px;
 }
 /* END contact Page */
 
