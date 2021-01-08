@@ -49,7 +49,7 @@
             <h5>راه های ارتباط باما</h5>
             <div class="router-contact-items">
                 <ul>
-                    <li>
+                    <li class="col-lg-4">
                         <div class="icon-box-contact-page">
                             <i class="fas fa-phone-alt fa-2x"></i>
                         </div>
@@ -59,6 +59,24 @@
                         </div>
                     </li>
                     
+                    <li class="col-lg-4">
+                        <div class="icon-box-contact-page">
+                            <i class="far fa-at fa-2x"></i>
+                        </div>
+                        <div class="title-contact-page">
+                            <h6>ایمیل</h6>
+                            <small>info@afraalian.com</small>
+                        </div>
+                    </li>
+                    <li class="col-lg-4">
+                        <div class="icon-box-contact-page">
+                            <i class="far fa-clock fa-2x"></i>
+                        </div>
+                        <div class="title-contact-page">
+                            <h6>ساعت کاری</h6>
+                            <small>۲۴ ساعت شبانه‌روز پاسخگوی شما هستیم</small>
+                        </div>
+                    </li>
                 </ul>
             </div>
                 
