@@ -43,9 +43,27 @@
             </div>
           
         </div>
+
         
+        <div class="addres-contact-page">
+            <h5><i class="far fa-map-signs fa-3x"></i>آدرس</h5>
+            <div class="addres-box-contact-page pt-4 row">
+
+                <div class="addres-section-cotact-page col-lg-6 col-md-6 d-flex justify-content-center">
+                    <p>
+                        گیلان، صومعه سرا، گوراب زرمیخ، سه راهی طتف، نرسیده به مسجد
+                    </p>
+                </div>
+                <div class="mt-sm-4 map-addres-section-cotact-page col-lg-6 col-md-6 d-flex justify-content-center">
+                    <div class="map-box-addres"></div>
+                </div>
+
+
+            </div>
+        </div>
+
+
         <div class="router-contact-this-web">
-         
             <h5>راه های ارتباط باما</h5>
             <div class="router-contact-items">
                 <ul>
