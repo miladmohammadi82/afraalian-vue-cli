@@ -4,6 +4,7 @@ import productPage from './components/views/productPage.vue';
 import main from './components/main.vue';
 import cartPage from "./components/views/cartPage.vue";
 import contactPage from "./components/views/contactPage.vue";
+import aboutPage from "./components/views/aboutPage.vue";
 
 
 
@@ -24,6 +25,7 @@ const routes = [
     { path: "/product", component: productPage },
     { path: "/shoping-cart", component: cartPage },
     { path: "/contact-page", component: contactPage },
+    { path: "/about-page", component: aboutPage },
 
     // Auth component
     { path: "/register", component: registerPage },

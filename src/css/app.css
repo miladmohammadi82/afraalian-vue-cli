@@ -3334,8 +3334,14 @@ ul.infos-user li a{
 }
 /* END contact Page */
 
+/* Srart About Page */
 
+.text-box-section-about p{
+    font-size: 16px;
+    color: #535353;
+}
 
+/* END About Page */
 
 /*!
  * Font Awesome Pro 5.15.1 by @fontawesome - https://fontawesome.com
