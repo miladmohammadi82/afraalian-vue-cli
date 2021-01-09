@@ -2744,8 +2744,8 @@ input[type=number] {
 
 /* Start login and register style */
 
-.input-fild-box i{
-
+.input-fild-box small{
+    font-size: 15px;
 }
 
 .input-fild-box label{
