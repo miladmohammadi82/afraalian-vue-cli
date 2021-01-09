@@ -12,20 +12,20 @@
                             <input type="text" class="mt-2 form-control" placeholder="نام" name="" id="">
                         </div>
                         <div class="input-fild-box form-group">
-                            <label for="">نام کاربری</label>
+                            <label for="">ایمیل</label>
+                            <input type="email" class="mt-2 form-control" placeholder="ایمیل" name="" id="">
+                        </div>
+                        <div class="input-fild-box form-group">
+                            <label for="">تلفن همراه</label>
                             <input type="text" class="mt-2 form-control" placeholder="نام کاربری" name="" id="">
                         </div>
                         <div class="input-fild-box form-group">
-                            <label for="">ایمیل</label>
-                            <input type="text" class="mt-2 form-control" placeholder="ایمیل" name="" id="">
-                        </div>
-                        <div class="input-fild-box form-group">
                             <label for="">رمز عبور</label>
-                            <input type="text" class="mt-2 form-control" placeholder="رمز عبور" name="" id="">
+                            <input type="password" class="mt-2 form-control" placeholder="رمز عبور" name="" id="">
                         </div>
                         <div class="input-fild-box form-group">
                             <label for="">تکرار رمز عبور</label>
-                            <input type="text" class="mt-2 form-control" placeholder="تکرار رمز عبور" name="" id="">
+                            <input type="password" class="mt-2 form-control" placeholder="تکرار رمز عبور" name="" id="">
                         </div>
                         <div class="input-fild-box form-group">
                             <button class="btn btn-success w-100">ورود</button>
