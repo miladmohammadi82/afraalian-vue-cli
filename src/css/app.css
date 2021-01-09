@@ -2748,6 +2748,10 @@ input[type=number] {
     font-size: 15px;
 }
 
+.input-fild-box ul li{
+    list-style: initial;
+}
+
 .input-fild-box label{
     font-size: 16px;
     color: #3d3d3d;

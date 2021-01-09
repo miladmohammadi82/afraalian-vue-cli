@@ -13,7 +13,7 @@
                         </div>
                         <div class="input-fild-box form-group">
                             <label for="">ایمیل</label>
-                            <input type="email" v-model="form.email" class="mt-2 form-control" placeholder="ایمیل" name="email" id="">                            <small class="text-danger" v-if="errors.name">{{ errors.name[0] }}</small>
+                            <input type="email" v-model="form.email" class="mt-2 form-control" placeholder="ایمیل" name="email" id="">                            
                             <small class="text-danger" v-if="errors.email">{{ errors.email[0] }}</small>
                         </div>
                         <div class="input-fild-box form-group">
@@ -24,7 +24,14 @@
                         <div class="input-fild-box form-group">
                             <label for="">رمز عبور</label>
                             <input type="password" v-model="form.password" class="mt-2 form-control" placeholder="رمز عبور" name="password" id="">
-                            <small class="text-danger" v-if="errors.name">{{ errors.password[0] }}</small>
+                            <ul>
+                                <li class="text-danger" v-if="errors.password">
+                                    <small class="text-danger">{{ errors.password[0] }}</small>
+                                </li>
+                                <li class="text-danger" v-if="errors.password">
+                                    <small class="text-danger">{{ errors.password[1] }}</small>
+                                </li>
+                            </ul>
                         </div>
                         <div class="input-fild-box form-group">
                             <label for="">تکرار رمز عبور</label>
@@ -67,6 +74,9 @@ export default {
         register(){
             Csrf.getCookie().then( ()=> {
                 User.register(this.form)
+                .then(()=> {
+                    this.$router.push("/login")
+                })
                 .catch(error => {
                     if (error.response.status === 422){
                         this.errors = error.response.data.errors
