@@ -28,9 +28,9 @@ const routes = [
     { path: "/about-page", component: aboutPage },
 
     // Auth component
-    { path: "/register", component: registerPage },
-    { path: "/login", component: loginPage },
-    { path: "/profile", component: profile, children:[
+    { path: "/register", component: registerPage, meta: {guestOnly: true} },
+    { path: "/login", component: loginPage, meta: {guestOnly: true} },
+    { path: "/profile", component: profile, meta: {authOnly: true}, children:[
         { path: "dashboard", component: dashboard },
         { path: "my-order", component: myOrder },
         { path: "likes", component: likes },
@@ -48,5 +48,29 @@ const router = createRouter({
     routes
 });
 
+function isLoggedIn(){
+    return localStorage.getItem("auth");
+}
+
+router.beforeEach((to) => {
+    // instead of having to check every route record with
+    // to.matched.some(record => record.meta.requiresAuth)
+    if (to.meta.authOnly && !isLoggedIn()) {
+      // this route requires auth, check if logged in
+      // if not, redirect to login page.
+      return {
+        path: '/login',
+        // save the location we were at to come back later
+        query: { redirect: to.fullPath },
+      }
+    }
+
+    else if (to.meta.guestOnly && isLoggedIn()) {
+        return {
+            path: '/',
+            query: { redirect: to.fullPath },
+        }
+    }
+  })
 
 export default router;

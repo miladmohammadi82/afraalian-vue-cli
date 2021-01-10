@@ -7,12 +7,22 @@
                         <div class="">
                             <form action="">
                                 <div class="input-fild-box form-group">
-                                    <label for="">نام کاربری</label>
-                                    <input type="text" class="mt-2 form-control" placeholder="نام کاربری" name="" id="">
+                                    <label for="">ایمیل</label>
+                                    <input v-model="form.email" type="email" class="mt-2 form-control" placeholder="ایمیل" name="email" id="">
+                                    <ul class="text-danger">
+                                        <li v-if="errors.email">
+                                            <small>{{ errors.email[0] }}</small>
+                                        </li>
+                                    </ul>
                                 </div>
                                 <div class="input-fild-box form-group">
                                     <label for="">رمز عبور</label>
-                                    <input type="text" class="mt-2 form-control" placeholder="رمز عبور" name="" id="">
+                                    <input v-model="form.password" type="password" class="mt-2 form-control" placeholder="رمز عبور" name="password" id="">
+                                    <ul class="text-danger">
+                                        <li v-if="errors.password">
+                                            <small>{{ errors.password[0] }}</small>
+                                        </li>
+                                    </ul>
                                 </div>
                                 <ul class="remember">
                                     <li>
@@ -21,7 +31,7 @@
                                     </li>
                                 </ul>
                                 <div class="input-fild-box form-group">
-                                    <button class="btn btn-success w-100">ورود</button>
+                                    <button @click.prevent="login" class="btn btn-success w-100">ورود</button>
                                 </div>
 
                                 <ul class="login-link">
@@ -39,8 +49,32 @@
 </template>
 
 <script>
+import User from '../../apis/user'
 export default {
+    data(){
+        return{
+            form: {
+                email: "",
+                password: ""
+            },
+            errors: []
+        }
+    },
+    methods: {
+        login(){
+            User.login(this.form)
+            .then(()=>{
+                localStorage.setItem("auth", "true");
+                this.$router.push('/')
 
+            })
+            .catch( error => {
+                if(error.response.status === 422){
+                    this.errors = error.response.data.errors
+                }
+            })
+        }
+    }
 }
 </script>
 

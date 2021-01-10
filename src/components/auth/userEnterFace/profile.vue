@@ -19,7 +19,7 @@
             <li><router-link to="/profile/likes"><i class="far fa-heart fa-lg"></i>&nbsp;&nbsp;علاقه مندی ها</router-link></li>
             <li><router-link to="/profile/comments"><i class="far fa-comments fa-lg"></i>&nbsp;&nbsp;نظرات</router-link></li>
             <li><router-link to="/profile/addres-user"><i class="far fa-route fa-lg"></i>&nbsp;&nbsp;نشانی</router-link></li>
-            <li><a><i class="far fa-sign-out-alt fa-lg"></i>&nbsp;&nbsp;خروج از حساب</a></li>
+            <li><a href="#" @click.prevent="logout"><i class="far fa-sign-out-alt fa-lg"></i>&nbsp;&nbsp;خروج از حساب</a></li>
           </ul>
         </div>
       </div>
@@ -31,7 +31,18 @@
 </template>
 
 <script>
+import User from '../../../apis/user'
 export default {
+
+  methods: {
+    logout(){
+      User.logout().then(()=> {
+        localStorage.removeItem("auth")
+        this.$router.push('/')
+      })
+    }
+  },
+
   mounted () {
     // let sideBarUserPanel = document.querySelector(".sidebar-profile");
     // let stickySideBarUserPanel = sideBarUserPanel.offsetTop;
