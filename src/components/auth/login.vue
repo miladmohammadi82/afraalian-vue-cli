@@ -65,14 +65,18 @@ export default {
             User.login(this.form)
             .then(()=>{
                 localStorage.setItem("auth", "true");
+                
                 this.$router.push('/')
 
+                
             })
+            
             .catch( error => {
                 if(error.response.status === 422){
                     this.errors = error.response.data.errors
                 }
             })
+            
         }
     }
 }

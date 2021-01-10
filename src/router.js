@@ -52,6 +52,7 @@ function isLoggedIn(){
     return localStorage.getItem("auth");
 }
 
+
 router.beforeEach((to) => {
     // instead of having to check every route record with
     // to.matched.some(record => record.meta.requiresAuth)

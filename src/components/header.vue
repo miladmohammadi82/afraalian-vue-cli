@@ -87,8 +87,8 @@
                     
 
                     <div class="buttons-register">
-                        <button class="btn-register-system ml-2"><i class="far fa-sign-in-alt fa-lg"></i>&nbsp;ورود</button>
-                        <button class="btn-register-system"><i class="far fa-user-plus fa-lg"></i>&nbsp;ثبت نام</button>
+                        <button v-if="!isLoggedIn" class="btn-register-system ml-2"><i class="far fa-sign-in-alt fa-lg"></i>&nbsp;ورود</button>
+                        <button v-if="!isLoggedIn" class="btn-register-system"><i class="far fa-user-plus fa-lg"></i>&nbsp;ثبت نام</button>
                     </div>
                 </div>
                 
@@ -176,6 +176,8 @@ export default {
             showMenuUser: false,
             showIgroneUser: false,
             openMenuUser:false,
+
+            isLoggedIn: false,
         }
     },
 
@@ -276,6 +278,8 @@ export default {
                 header.classList.remove("sticky");
             }
         }
+
+        this.isLoggedIn = !!localStorage.getItem("auth")
     }
 
 }
