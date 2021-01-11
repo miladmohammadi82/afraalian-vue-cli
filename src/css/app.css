@@ -2423,19 +2423,22 @@ input[type=number] {
     width: 100%;
 }
 
-.content-table thead tr{
-    text-align: right;
-}
+
 
 .content-table th,
 .content-table td{
     padding: 12px 15px;
 }
 
-.content-table tr th,
 .content-table tbody tr,
 .content-table tbody tr td{
-    border: 1px solid #c5c5c5;
+    border-bottom: 1px solid #c5c5c5;
+    text-align: center;
+    color: #777;
+}
+
+.content-table tr th{
+    border-bottom: 3px solid #c5c5c5;
     text-align: center;
     color: #777;
 }
@@ -2469,6 +2472,7 @@ input[type=number] {
     grid-template-columns: 3fr 1fr;
     height: auto;
     background: #fff;
+    margin: 30px 0;
 }
 
 
@@ -2476,6 +2480,12 @@ input[type=number] {
     display: none;
 }
 
+
+.table-box-cart-page{
+    padding: 32px;
+    background: #fff;
+    border-radius: 20px;
+}
 
 @media(max-width: 992px){
     .items-cart-page{
@@ -2526,13 +2536,13 @@ input[type=number] {
 
 .items-cart-page .faraiand-pay{
     height: 282px;
-    border: #bbbbbb solid 1px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     padding: 10px;
+    box-shadow: 0px 0px 6px -1px #b77600;
 }
 
 .items-cart-page .faraiand-pay ul li{
@@ -2718,7 +2728,7 @@ input[type=number] {
 .Radio-pay img{
     display: inline-flex;
     width: 10;
-    width: 50px;
+    width: 80px;
     align-items: center;
     margin: -17px 0;
     padding: -0 14px;

@@ -1,41 +1,47 @@
 <template>
   <div class="container container-cart-page">
     <div class="title-page-cart">
-      <h4 class="text-center">سبد خرید من</h4>
+      <div class="title-page-cart-child">
+        <h4>سبد خرید</h4>
+      </div>
+      
       <small style="font-size: 12px;">2 محصول اضافه شد</small>
     </div>
-    <table class="content-table">
-      <thead>
-        <tr>
-          <th>محصول</th>
-          <th>توضیحات</th>
-          <th>قسمت واحد</th>
-          <th>تعداد</th>
-          <th>حذف</th>
-          <th>مجموع</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="productCart in productCarts" :key="productCart.id">
-          <td><h4>محصول : </h4>&nbsp;{{ productCart.image }}</td>
-          <td><h4>توضیحات : </h4>&nbsp;{{ productCart.title }}</td>
-          <td><h4>قیمت واحد : </h4>&nbsp;{{ productCart.priceVahed }}</td>
-          <td>
-            <h4>تعداد : </h4>&nbsp;
-            <div class="number__container">
-              <button @click="delNumber" class="decrement"><i class="far fa-minus"></i></button>
-              <input v-model="numberProduct" type="text" inputmode="numeric" placeholder="تعداد" />
-              <button @click="addNumber" class="increment"><i class="far fa-plus"></i></button>
-            </div>
-          </td>
-          <td>
-            <h4>حذف : </h4>&nbsp;
-            <i class="far fa-times fa-2x text-danger" style="cursor: pointer;"></i>
-          </td>
-          <td><h4>مجموع : </h4>&nbsp;{{ productCart.priceMajmoh }}</td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="table-box-cart-page">
+      <table class="content-table">
+        <thead>
+          <tr>
+            <th>محصول</th>
+            <th>توضیحات</th>
+            <th>قسمت واحد</th>
+            <th>تعداد</th>
+            <th>حذف</th>
+            <th>مجموع</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="productCart in productCarts" :key="productCart.id">
+            <td><h4>محصول : </h4>&nbsp;{{ productCart.image }}</td>
+            <td><h4>توضیحات : </h4>&nbsp;{{ productCart.title }}</td>
+            <td><h4>قیمت واحد : </h4>&nbsp;{{ productCart.priceVahed }}</td>
+            <td>
+              <h4>تعداد : </h4>&nbsp;
+              <div class="number__container">
+                <button @click="delNumber" class="decrement"><i class="far fa-minus"></i></button>
+                <input v-model="numberProduct" type="text" inputmode="numeric" placeholder="تعداد" />
+                <button @click="addNumber" class="increment"><i class="far fa-plus"></i></button>
+              </div>
+            </td>
+            <td>
+              <h4>حذف : </h4>&nbsp;
+              <i class="far fa-times fa-2x text-danger" style="cursor: pointer;"></i>
+            </td>
+            <td><h4>مجموع : </h4>&nbsp;{{ productCart.priceMajmoh }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    
     <div class="items-cart-page">
       <div class="item-mored-niaz-forPay">
         <div class="addres-girande-box">
@@ -172,16 +178,31 @@ export default {
   top: 15%;
   left: 5%;
   height: 282px;
-  border: #bbbbbb solid 1px;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+  box-shadow: 0px 0px 6px -1px #b77600;
 }
+
 .sticky{
   background: #FFC736;
   position: fixed;
   border-bottom: 3px solid #ff6d00;
+}
+
+.title-page-cart-child{
+  border-bottom: 3px solid #c4c4c4;
+  color: #e99f00;
+  display: block;
+}
+.title-page-cart-child h4{
+  padding-bottom: 10px;
+    border-bottom: 3px solid #403c77;
+    display: inline-block;
+    color: #403c77;
+    font-weight: 700;
+    margin-bottom: -3px;
 }
 </style>
