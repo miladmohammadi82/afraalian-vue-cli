@@ -1866,8 +1866,8 @@ input[type=number] {
 .cart-product-page{
     width: 271px;
     height: 300px;
-    border: 1px solid #adadad;
-    border-radius: 15px;
+    border: 1px solid #c8c8c8;
+    border-radius: 7px;
     padding: 0 0 20px 0;
 }
 
@@ -1899,15 +1899,15 @@ input[type=number] {
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    margin-top: 21px;
+    margin-top: 13px;
     width: 204px;
-    height: 48px;
+    height: 45px;
     align-items: center;
     border: none;
     background: #E9A20A;
     border-radius: 15px;
     font-size: 14px;
-    cursor: pointer;    
+    cursor: pointer;
 }
 
 .btn-add-to-cart-productPage:hover{
@@ -2035,9 +2035,10 @@ input[type=number] {
     width: 100%;
     height: auto;
     background: #fff;
-    box-shadow: 0 0 80px -39px #262626;
-    border-radius: 30px;
+    box-shadow: 0 0 2px 0 #262626;
+    border-radius: 9px;
 }
+
 /* END Main in page */
 
 /* Start foo-product-page */
@@ -2375,11 +2376,32 @@ input[type=number] {
 		width: 320px;
     }
     
+    
+}
+@media (max-width: 303px){
     .reply-comment-message{
-        width: 247px;
+        width: 347px;
+        
+    }
+
+    .comments-list .comment-avatar {
+        width: 65px;
+        height: 65px;
+        position: relative;
+        z-index: 99;
+        float: right;
+        border: 3px solid #FFF;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+        -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+        box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+        overflow: hidden;
+        margin: 0 47px 0 0;
+        z-index: 0;
     }
 }
-
 /* END comment users */
 
 

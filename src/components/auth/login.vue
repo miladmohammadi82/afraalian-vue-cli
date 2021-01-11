@@ -65,10 +65,7 @@ export default {
             User.login(this.form)
             .then(()=>{
                 localStorage.setItem("auth", "true");
-                
                 this.$router.push('/')
-
-                
             })
             
             .catch( error => {
