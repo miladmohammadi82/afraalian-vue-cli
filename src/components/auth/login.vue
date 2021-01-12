@@ -35,7 +35,7 @@
                                 </div>
 
                                 <ul class="login-link">
-                                    <li><a href="#"><i class="fas fa-user-plus"></i>&nbsp;ثبت نام کنید</a></li>
+                                    <li><router-link to="/register"><i class="fas fa-user-plus"></i>&nbsp;ثبت نام کنید</router-link></li>
                                     <li ><a href="#"><i class="fas fa-lock"></i>&nbsp;رمز عبور خودم را فراموش کرده ام!</a></li>
                                 </ul>
                             </form>

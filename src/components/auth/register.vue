@@ -43,7 +43,7 @@
                         </div>
 
                         <ul class="login-link">
-                            <li><a href="#"><i class="fas fa-user"></i>&nbsp;وارد شوید</a></li>
+                            <li><router-link to="/login"><i class="fas fa-user"></i>&nbsp;وارد شوید</router-link></li>
                         </ul>
                     </form>
                 </div>
@@ -56,7 +56,6 @@
 
 <script>
 import User from '../../apis/user'
-import Csrf from '../../apis/Csrf'
 export default {
     data(){
         return{
@@ -72,18 +71,15 @@ export default {
     },
     methods: {
         register(){
-            Csrf.getCookie().then( ()=> {
-                User.register(this.form)
-                .then(()=> {
-                    this.$router.push("/login")
-                })
-                .catch(error => {
-                    if (error.response.status === 422){
-                        this.errors = error.response.data.errors
-                    }
-                })
+            User.register(this.form)
+            .then(()=> {
+                this.$router.push("/login")
             })
-
+            .catch(error => {
+                if (error.response.status === 422){
+                    this.errors = error.response.data.errors
+                }
+            })
         }
     }
 }

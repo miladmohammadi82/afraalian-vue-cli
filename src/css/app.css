@@ -338,6 +338,12 @@ opacity: 1;
 margin-right: 5px;
 }
 
+.right-menu{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
 .right-menu div{
     padding: 0 0 0 0;
 }
@@ -3104,9 +3110,6 @@ ul.infos-user li a{
     color: #cacaca;
 }
 
-.router-link-active{
-    color: #eb5600 !important;
-}
 
 .products-like h5{
     padding: 10px 0;

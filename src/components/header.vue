@@ -87,8 +87,11 @@
                     
 
                     <div class="buttons-register">
-                        <button v-if="!isLoggedIn" class="btn-register-system ml-2"><i class="far fa-sign-in-alt fa-lg"></i>&nbsp;ورود</button>
-                        <button v-if="!isLoggedIn" class="btn-register-system"><i class="far fa-user-plus fa-lg"></i>&nbsp;ثبت نام</button>
+                        <router-link to="/login" v-if="!isLoggedIn" class="btn-register-system ml-2"><i class="far fa-sign-in-alt fa-lg"></i>&nbsp;ورود</router-link>
+                        <router-link to="/register" v-if="!isLoggedIn" class="btn-register-system"><i class="far fa-user-plus fa-lg"></i>&nbsp;ثبت نام</router-link>
+
+                        <router-link to="/profile/dashboard" v-else class="btn btn-profile-header">پروفایل کاربری من</router-link>
+                        
                     </div>
                 </div>
                 
@@ -322,5 +325,13 @@ export default {
         background-color: #ff6d00;
         border-color: #ff6d00;
     }
-    
+    .btn-profile-header{
+        width: 137px;
+        height: 41px;
+        border: none;
+        background: #ffc107;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 15px;
+    }
 </style>
