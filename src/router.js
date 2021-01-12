@@ -49,7 +49,7 @@ const router = createRouter({
 });
 
 function isLoggedIn(){
-    return localStorage.getItem("auth");
+    return localStorage.getItem("token");
 }
 
 

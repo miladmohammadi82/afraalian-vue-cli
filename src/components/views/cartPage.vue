@@ -2,7 +2,8 @@
   <div class="container container-cart-page">
     <div class="title-page-cart">
       <div class="title-page-cart-child">
-        <h4>سبد خرید</h4>
+        <h4><i class="fal fa-shopping-bag fa-lg"></i>&nbsp;سبد خرید</h4>
+        
       </div>
       
       <small style="font-size: 12px;">2 محصول اضافه شد</small>
@@ -199,9 +200,9 @@ export default {
 }
 .title-page-cart-child h4{
   padding-bottom: 10px;
-    border-bottom: 3px solid #403c77;
+    border-bottom: 3px solid #e97c00;
     display: inline-block;
-    color: #403c77;
+    color: #e97c00;
     font-weight: 700;
     margin-bottom: -3px;
 }

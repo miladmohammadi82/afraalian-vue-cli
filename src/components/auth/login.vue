@@ -55,7 +55,8 @@ export default {
         return{
             form: {
                 email: "",
-                password: ""
+                password: "",
+                device_name: "browser",
             },
             errors: []
         }
@@ -63,8 +64,8 @@ export default {
     methods: {
         login(){
             User.login(this.form)
-            .then(()=>{
-                localStorage.setItem("auth", "true");
+            .then(response =>{
+                localStorage.setItem("token", response.data);
                 this.$router.push('/')
             })
             

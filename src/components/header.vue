@@ -279,7 +279,7 @@ export default {
             }
         }
 
-        this.isLoggedIn = !!localStorage.getItem("auth")
+        this.isLoggedIn = !!localStorage.getItem("token")
     }
 
 }
