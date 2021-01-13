@@ -1,9 +1,18 @@
 import { createApp } from 'vue';
 import App from './App.vue';
 
+// css Files
 import './css/app.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-grid.css';
+import './plugins/bootstrap/bootstrap-rtl.min.css';
+
+
+
+// JS Files
+
+
+
 
 import router from './router'
 import Store from "./store/store";

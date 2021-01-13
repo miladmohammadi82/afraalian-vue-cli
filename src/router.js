@@ -20,6 +20,11 @@ import addresUser from "./components/auth/userEnterFace/page/addres-user.vue";
 import editPassword from "./components/auth/userEnterFace/page/edit-password.vue";
 import profileInfoEdit from "./components/auth/userEnterFace/page/edit-your-profile-info.vue";
 
+
+// Admin Components
+import indexAdmin from "./components/admin/pages/index-page.vue"
+
+
 const routes = [
     { path: "/", component: main },
     { path: "/product", component: productPage },
@@ -39,7 +44,11 @@ const routes = [
         { path: "edit-password", component: editPassword },
         { path: "edit-profile", component: profileInfoEdit },
     ] },
+
     
+
+    // Admin Components
+    { path: "/admin",  component: indexAdmin}
 ]
 
 
