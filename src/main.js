@@ -10,7 +10,8 @@ import './plugins/bootstrap/bootstrap-rtl.min.css';
 
 
 // JS Files
-
+import 'jquery/src/jquery'
+import './plugins/admin-lte-style/adminlte.js'
 
 
 

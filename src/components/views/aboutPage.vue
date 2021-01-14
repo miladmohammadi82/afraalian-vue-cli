@@ -1,4 +1,6 @@
 <template>
+<header-section />
+
   <div class="container container-cart-page">
     
 
@@ -36,13 +38,33 @@
       </div>
     </div>
   </div>
+
+<footer-section />
+
 </template>
 
 <script>
+import headerSection from '../header';
+import footerSection from '../footer';
+
 export default {
+data(){
+  return{
+
+  }
+},
+
+  components: {
+    headerSection,
+    footerSection,
+  }
+
+
+
 
 }
 </script>
 
-<style>
+<style scoped>
+
 </style>

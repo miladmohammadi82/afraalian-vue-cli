@@ -1,4 +1,5 @@
 <template>
+<header-section />
 <br><br><br><br><br>
   <div class="container">
     <div class="bg-product">
@@ -203,9 +204,12 @@
         <button class="btn-add-to-cart-productPage btn-mobile-add-cart"><i class="far fa-plus"></i>&nbsp;&nbsp; افزودن به سبد خرید</button>
     </div>
   </div>
+<footer-section />
 </template>
 
 <script>
+import headerSection from '../header';
+import footerSection from '../footer';
 export default {
   data(){
     return {
@@ -262,6 +266,11 @@ export default {
         this.numberProduct = 1
       }
     }
+  },
+
+  components: {
+    headerSection,
+    footerSection,
   }
 }
 </script>

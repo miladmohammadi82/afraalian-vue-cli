@@ -1,4 +1,5 @@
 <template>
+<header-section />
     <main class="main-site">
 
         <section class="banner-arias" id="banner-aria">
@@ -568,6 +569,7 @@
 
         <!-- <back-to-top></back-to-top> -->
     </main>
+<footer-section />
 </template>
 
 <script>
@@ -575,7 +577,8 @@
 
 // Import Swiper Vue.js components
 import { Swiper, SwiperSlide } from 'swiper/vue';
-
+import headerSection from './header';
+import footerSection from './footer';
 export default{
     data(){
         return{
@@ -614,6 +617,8 @@ export default{
     components: {
         Swiper,
         SwiperSlide,
+        footerSection,
+        headerSection
     },
 
     

@@ -1055,14 +1055,15 @@
 <script>
 export default {
     name: "admin",
+    data(){
+        return{
+            isHeader: true
+        }
+    }
 }
 </script>
 
 <style scoped>
-
-.header{
-    display: block !important;
-}
 
 .table {
     width: 100%;

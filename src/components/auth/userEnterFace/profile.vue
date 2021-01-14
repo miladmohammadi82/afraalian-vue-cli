@@ -1,4 +1,5 @@
 <template>
+<header-section />
   <div class="content-page">
     <div class="continer-profile-page">
       <div class="sidebar-profile">
@@ -28,14 +29,23 @@
       </div>
     </div>
   </div>
+<footer-section />
+
 </template>
 
 <script>
 import User from '../../../apis/user'
+
+import headerSection from '../../../components/header';
+import footerSection from '../../../components/footer';
 export default {
 
   
+data() {
+  return{
 
+  }
+},
   
   methods: {
     logout(){
@@ -45,6 +55,12 @@ export default {
       })
     }
   },
+
+  
+  components: {
+    headerSection,
+    footerSection,
+  }
 }
 </script>
 
