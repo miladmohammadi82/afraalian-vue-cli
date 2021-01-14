@@ -23,6 +23,7 @@ import profileInfoEdit from "./components/auth/userEnterFace/page/edit-your-prof
 
 // Admin Components
 import indexAdmin from "./components/admin/pages/index-page.vue"
+import dashboardAdmin from "./components/admin/pages/routers/dashboard.vue"
 
 
 const routes = [
@@ -48,7 +49,9 @@ const routes = [
     
 
     // Admin Components
-    { path: "/admin",  component: indexAdmin}
+    { path: "/admin",  component: indexAdmin, children: [
+        { path: "dashboard", component: dashboardAdmin },
+    ]}
 ]
 
 

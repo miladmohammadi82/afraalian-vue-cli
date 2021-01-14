@@ -293,8 +293,8 @@ height: 40px;
 .main-nav ul.main-menu .nav-link a.a-nav-link::before{
     content: "";
 position: absolute;
-right: 9px;
-top: 28px;
+right: 3px;
+top: 35px;
 bottom: .5rem;
 background: #FF6D00;
 width: 86%;
